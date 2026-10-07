@@ -1,0 +1,32 @@
+{
+  "type": "FeatureCollection",
+  "test_only": true,
+  "description": "Synthetic WGS84 geometry near Surrey; not surveyed or downloaded.",
+  "features": [
+    {
+      "type": "Feature", "id": "b1",
+      "properties": {"id": "b1", "test_only": true, "source_dataset": "synthetic-test-footprints", "source_url": "test-only://footprints", "retrieved_at": "not-applicable-synthetic", "licence": "Apache-2.0 (synthetic fixture only)"},
+      "geometry": {"type": "Polygon", "coordinates": [[[-122.8500,49.1900],[-122.8497,49.1900],[-122.8497,49.1902],[-122.8500,49.1902],[-122.8500,49.1900]]]}
+    },
+    {
+      "type": "Feature", "id": "b2",
+      "properties": {"id": "b2", "test_only": true, "source_dataset": "synthetic-test-footprints", "source_url": "test-only://footprints", "retrieved_at": "not-applicable-synthetic", "licence": "Apache-2.0 (synthetic fixture only)"},
+      "geometry": {"type": "Polygon", "coordinates": [[[-122.8495,49.1900],[-122.8492,49.1900],[-122.8492,49.1902],[-122.8495,49.1902],[-122.8495,49.1900]]]}
+    },
+    {
+      "type": "Feature", "id": "b3",
+      "properties": {"id": "b3", "test_only": true, "use_class": "commercial", "source_dataset": "synthetic-test-footprints", "source_url": "test-only://footprints", "retrieved_at": "not-applicable-synthetic", "licence": "Apache-2.0 (synthetic fixture only)"},
+      "geometry": {"type": "Polygon", "coordinates": [[[-122.8500,49.1908],[-122.8495,49.1908],[-122.8495,49.1912],[-122.8500,49.1912],[-122.8500,49.1908]],[[-122.84985,49.1909],[-122.84985,49.1911],[-122.84965,49.1911],[-122.84965,49.1909],[-122.84985,49.1909]]]}
+    },
+    {
+      "type": "Feature", "id": "b4",
+      "properties": {"id": "b4", "test_only": true, "source_dataset": "synthetic-test-footprints", "source_url": "test-only://footprints", "retrieved_at": "not-applicable-synthetic", "licence": "Apache-2.0 (synthetic fixture only)"},
+      "geometry": {"type": "MultiPolygon", "coordinates": [[[[-122.8488,49.1908],[-122.8486,49.1908],[-122.8486,49.1910],[-122.8488,49.1910],[-122.8488,49.1908]]],[[[-122.8484,49.1908],[-122.8482,49.1908],[-122.8482,49.1910],[-122.8484,49.1910],[-122.8484,49.1908]]]]}
+    },
+    {
+      "type": "Feature", "id": "b5",
+      "properties": {"id": "b5", "test_only": true, "source_dataset": "synthetic-test-footprints", "source_url": "test-only://footprints", "retrieved_at": "not-applicable-synthetic", "licence": "Apache-2.0 (synthetic fixture only)"},
+      "geometry": {"type": "Polygon", "coordinates": [[[-122.8470,49.1920],[-122.8467,49.1920],[-122.8467,49.1922],[-122.8470,49.1922],[-122.8470,49.1920]]]}
+    }
+  ]
+}

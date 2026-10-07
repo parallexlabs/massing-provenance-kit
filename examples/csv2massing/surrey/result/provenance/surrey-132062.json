@@ -1,0 +1,75 @@
+{
+  "building_count": 1,
+  "detailed": false,
+  "extras": {
+    "evidence_quote": "35-storey apartment tower",
+    "footprint_geometry_sha256": "15a5426815a18c3b1dd6b0f174d7c9cf5696c33ba26df03e14ac24b4ee70115d",
+    "footprint_response_sha256": "eb300ddd633ba65b1a74a3518f91958031849db1fe188ca28c7d5d3a8dd08398",
+    "footprint_retrieved_at": "2026-10-06T22:47:39.151366+00:00",
+    "map_pdf_page": 21,
+    "map_source_url": "https://www.surrey.ca/sites/default/files/planning-reports/PLR_7917-0011-00.pdf",
+    "osm_identity_url": "https://www.openstreetmap.org/way/390951278",
+    "pdf_sha256": "76590343d79f5896f410564e66b303ff4003a22201e5fb823e64855c18a590d3"
+  },
+  "footprint_area_m2": 833.991,
+  "footprint_method": "Unmodified Surrey official footprint OBJECTID 132062; identity cross-check with PLR_7917-0011-00 master plan PDF page 21 and OSM way 390951278.",
+  "footprint_properties": {
+    "id": "surrey-132062",
+    "location": "13325 102A Avenue, Surrey",
+    "name": "Ultra Tower (West Village Phase 3)",
+    "original_status": "In Service",
+    "physical_building_id": "surrey-132062",
+    "surrey_objectid": 132062
+  },
+  "footprint_source_url": "https://services5.arcgis.com/YRpe0VKTJytZSSIB/arcgis/rest/services/Building%20Footprnts/FeatureServer/0",
+  "geometry_sha256": "15a5426815a18c3b1dd6b0f174d7c9cf5696c33ba26df03e14ac24b4ee70115d",
+  "group_floor_area_m2": null,
+  "group_floor_area_raw": "",
+  "height_method": "schematic storey rule 4.0 + 3.0 * (n - 1) + 1.5 m roof with n = 35",
+  "height_unit": "storeys",
+  "id": "surrey-132062",
+  "input_unit": "storeys",
+  "location": "13325 102A Avenue, Surrey",
+  "location_point": [
+    -122.85325266702802,
+    49.18981556358875
+  ],
+  "method": "Explicit existing-building storey count transcribed from public planning report; schematic conversion 4.0 + 3.0*(n-1) + 1.5 m roof.",
+  "model": {
+    "building_id": "surrey-132062",
+    "cap_triangles_per_cap": 20,
+    "expected_cap_triangles_per_cap": 20,
+    "hole_count": 0,
+    "origin_epsg26910": [
+      510679.0,
+      5448548.0
+    ],
+    "part_count": 1,
+    "sha256": "f750e46287a721d5a7f98ed9bd1807e399e9a71711579a2bcd8b9abb758c6c20",
+    "triangle_count": 84,
+    "vertex_count": 44,
+    "wall_triangles": 44,
+    "wgs84_anchor": [
+      -122.85344012914516,
+      49.189641388990985
+    ]
+  },
+  "model_file": "models/surrey-132062.gltf",
+  "name": "Ultra Tower (West Village Phase 3)",
+  "page": 5,
+  "physical_building_id": "surrey-132062",
+  "provenance_file": "provenance/surrey-132062.json",
+  "raw_height": "35 storeys",
+  "resolved_height_m": 107.5,
+  "reviewer": "unreviewed: automated evidence transcription; human sign-off required",
+  "row_number": 3,
+  "schematic": true,
+  "source_method": "Explicit existing-building storey count transcribed from public planning report; schematic conversion 4.0 + 3.0*(n-1) + 1.5 m roof.",
+  "source_pdf": "https://www.surrey.ca/sites/default/files/planning-reports/PLR_7917-0011-00.pdf",
+  "source_url": "https://www.surrey.ca/sites/default/files/planning-reports/PLR_7917-0011-00.pdf",
+  "status": "In Service",
+  "test_only": false,
+  "uncertainty": "Schematic prism only. Storeys are not measured metres. Official footprint may include lower attached portions; uniform extrusion does not reproduce setbacks or podium heights. No separate podium/townhouse count. Planning report is historical evidence, not a current certified survey.",
+  "uniform_height_assumption": null,
+  "unit": "storeys"
+}

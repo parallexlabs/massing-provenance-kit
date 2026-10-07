@@ -1,0 +1,261 @@
+{
+  "type": "FeatureCollection",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "EPSG:4326"
+    }
+  },
+  "test_only": true,
+  "description": "Explicitly authored SYNTHETIC WGS84 test geometry near Surrey. Fictional buildings; not surveyed, geocoded, downloaded or City-supplied footprints.",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "synthetic-01",
+      "properties": {
+        "id": "synthetic-01",
+        "physical_building_id": "synthetic-01",
+        "name": "SYNTHETIC Test Building 01",
+        "location": "SYNTHETIC Site 01 Test Precinct",
+        "fixture_note": "SYNTHETIC test-only rectangle; not a real building."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-122.8500, 49.1900],
+            [-122.8496, 49.1900],
+            [-122.8496, 49.1903],
+            [-122.8500, 49.1903],
+            [-122.8500, 49.1900]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "synthetic-02",
+      "properties": {
+        "id": "synthetic-02",
+        "physical_building_id": "synthetic-02",
+        "name": "SYNTHETIC Test Building 02",
+        "location": "SYNTHETIC Site 02 Test Precinct",
+        "fixture_note": "SYNTHETIC test-only rectangle; not a real building."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-122.8490, 49.1900],
+            [-122.8486, 49.1900],
+            [-122.8486, 49.1903],
+            [-122.8490, 49.1903],
+            [-122.8490, 49.1900]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "synthetic-03",
+      "properties": {
+        "id": "synthetic-03",
+        "physical_building_id": "synthetic-03",
+        "name": "SYNTHETIC Test Building 03",
+        "location": "SYNTHETIC Site 03, Test Precinct",
+        "fixture_note": "SYNTHETIC test-only courtyard polygon; the inner ring is an empty hole."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-122.8480, 49.1900],
+            [-122.8476, 49.1900],
+            [-122.8476, 49.1903],
+            [-122.8480, 49.1903],
+            [-122.8480, 49.1900]
+          ],
+          [
+            [-122.8479, 49.1901],
+            [-122.8479, 49.1902],
+            [-122.8477, 49.1902],
+            [-122.8477, 49.1901],
+            [-122.8479, 49.1901]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "synthetic-04",
+      "properties": {
+        "id": "synthetic-04",
+        "physical_building_id": "synthetic-04",
+        "name": "SYNTHETIC Test Building 04",
+        "location": "SYNTHETIC Site 04 Test Precinct",
+        "fixture_note": "SYNTHETIC test-only multipart footprint: two disjoint parts of one fictional physical building."
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [-122.8470, 49.1900],
+              [-122.8468, 49.1900],
+              [-122.8468, 49.1902],
+              [-122.8470, 49.1902],
+              [-122.8470, 49.1900]
+            ]
+          ],
+          [
+            [
+              [-122.8466, 49.1900],
+              [-122.8464, 49.1900],
+              [-122.8464, 49.1902],
+              [-122.8466, 49.1902],
+              [-122.8466, 49.1900]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "synthetic-05",
+      "properties": {
+        "id": "synthetic-05",
+        "physical_building_id": "synthetic-05",
+        "name": "SYNTHETIC Test Building 05",
+        "location": "SYNTHETIC Site 05 Test Precinct",
+        "fixture_note": "SYNTHETIC test-only rectangle; not a real building."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-122.8460, 49.1900],
+            [-122.8456, 49.1900],
+            [-122.8456, 49.1903],
+            [-122.8460, 49.1903],
+            [-122.8460, 49.1900]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "synthetic-06",
+      "properties": {
+        "id": "synthetic-06",
+        "physical_building_id": "synthetic-06",
+        "name": "SYNTHETIC Test Building 06",
+        "location": "SYNTHETIC Site 06 Test Precinct",
+        "fixture_note": "SYNTHETIC test-only rectangle; not a real building."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-122.8500, 49.1910],
+            [-122.8496, 49.1910],
+            [-122.8496, 49.1913],
+            [-122.8500, 49.1913],
+            [-122.8500, 49.1910]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "synthetic-07",
+      "properties": {
+        "id": "synthetic-07",
+        "physical_building_id": "synthetic-07",
+        "name": "SYNTHETIC Test Building 07",
+        "location": "SYNTHETIC Site 07 Test Precinct",
+        "fixture_note": "SYNTHETIC test-only rectangle; not a real building."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-122.8490, 49.1910],
+            [-122.8486, 49.1910],
+            [-122.8486, 49.1913],
+            [-122.8490, 49.1913],
+            [-122.8490, 49.1910]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "synthetic-08",
+      "properties": {
+        "id": "synthetic-08",
+        "physical_building_id": "synthetic-08",
+        "name": "SYNTHETIC Test Building 08",
+        "location": "SYNTHETIC Site 08 Test Precinct",
+        "fixture_note": "SYNTHETIC test-only rectangle; not a real building."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-122.8480, 49.1910],
+            [-122.8476, 49.1910],
+            [-122.8476, 49.1913],
+            [-122.8480, 49.1913],
+            [-122.8480, 49.1910]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "synthetic-09",
+      "properties": {
+        "id": "synthetic-09",
+        "physical_building_id": "synthetic-09",
+        "name": "SYNTHETIC Test Building 09",
+        "location": "SYNTHETIC Site 09 Test Precinct",
+        "fixture_note": "SYNTHETIC test-only rectangle; not a real building."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-122.8470, 49.1910],
+            [-122.8466, 49.1910],
+            [-122.8466, 49.1913],
+            [-122.8470, 49.1913],
+            [-122.8470, 49.1910]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "synthetic-10",
+      "properties": {
+        "id": "synthetic-10",
+        "physical_building_id": "synthetic-10",
+        "name": "SYNTHETIC Test Building 10",
+        "location": "SYNTHETIC Site 10 Test Precinct",
+        "fixture_note": "SYNTHETIC test-only rectangle; not a real building."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-122.8460, 49.1910],
+            [-122.8456, 49.1910],
+            [-122.8456, 49.1913],
+            [-122.8460, 49.1913],
+            [-122.8460, 49.1910]
+          ]
+        ]
+      }
+    }
+  ]
+}

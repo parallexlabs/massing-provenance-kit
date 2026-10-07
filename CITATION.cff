@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: >-
+  If you use this software, cite this metadata together with the exact local
+  commit identifier. This development checkout is not a published release;
+  no public repository, DOI or release date is asserted.
+type: software
+title: "csv2massing: explicit-input schematic building massing with provenance"
+authors:
+  - name: "ParalleX Labs Inc."
+abstract: >-
+  A Python command-line workflow specified to convert a seven-column CSV,
+  explicitly supplied WGS84 building footprints and per-building evidence
+  into schematic GeoJSON and self-contained glTF prisms. It preserves
+  source references, units, uncertainty and validation findings. Unknown
+  height remains null and produces no model. It does not extract PDFs,
+  generate detailed facades, export SLPK or I3S, or publish to ArcGIS Online.
+keywords:
+  - building massing
+  - provenance
+  - GeoJSON
+  - glTF
+  - reproducibility
+  - schematic geometry
+license: Apache-2.0

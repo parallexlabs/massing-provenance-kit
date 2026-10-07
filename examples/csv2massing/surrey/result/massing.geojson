@@ -1,0 +1,231 @@
+{
+  "crs": {
+    "properties": {
+      "name": "EPSG:4326"
+    },
+    "type": "name"
+  },
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -122.853434274381,
+              49.1897604080957
+            ],
+            [
+              -122.85342681606,
+              49.1898707190818
+            ],
+            [
+              -122.85342245954,
+              49.1898968908446
+            ],
+            [
+              -122.853399641815,
+              49.1898949917557
+            ],
+            [
+              -122.853398083277,
+              49.189939866548
+            ],
+            [
+              -122.853365279821,
+              49.1899388893906
+            ],
+            [
+              -122.853363784805,
+              49.189962260042
+            ],
+            [
+              -122.853151246926,
+              49.1899629255125
+            ],
+            [
+              -122.853148443481,
+              49.1899460934963
+            ],
+            [
+              -122.853102798308,
+              49.189946035449
+            ],
+            [
+              -122.853105784424,
+              49.1899011624765
+            ],
+            [
+              -122.853075824568,
+              49.1899029944951
+            ],
+            [
+              -122.853073543014,
+              49.1897103981092
+            ],
+            [
+              -122.853102058837,
+              49.1897141746382
+            ],
+            [
+              -122.853103639777,
+              49.189661821164
+            ],
+            [
+              -122.853146438361,
+              49.1896600054637
+            ],
+            [
+              -122.853142203468,
+              49.1896450417543
+            ],
+            [
+              -122.853370421055,
+              49.1896472018503
+            ],
+            [
+              -122.85336752914,
+              49.1896602863754
+            ],
+            [
+              -122.853414594458,
+              49.1896622162485
+            ],
+            [
+              -122.853411603113,
+              49.1897089584526
+            ],
+            [
+              -122.853434423517,
+              49.1897099220289
+            ],
+            [
+              -122.853434274381,
+              49.1897604080957
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "id": "surrey-132062",
+      "properties": {
+        "base_height_m": 0.0,
+        "csv_building_count": "1",
+        "csv_floor_area": "",
+        "csv_height": "35 storeys",
+        "csv_location": "13325 102A Avenue, Surrey",
+        "csv_name": "Ultra Tower (West Village Phase 3)",
+        "csv_source_pdf": "https://www.surrey.ca/sites/default/files/planning-reports/PLR_7917-0011-00.pdf",
+        "csv_status": "In Service",
+        "detailed": false,
+        "evidence_method": "Explicit existing-building storey count transcribed from public planning report; schematic conversion 4.0 + 3.0*(n-1) + 1.5 m roof.",
+        "evidence_page": 5,
+        "evidence_reviewer": "unreviewed: automated evidence transcription; human sign-off required",
+        "evidence_source_url": "https://www.surrey.ca/sites/default/files/planning-reports/PLR_7917-0011-00.pdf",
+        "evidence_test_only": false,
+        "evidence_uncertainty": "Schematic prism only. Storeys are not measured metres. Official footprint may include lower attached portions; uniform extrusion does not reproduce setbacks or podium heights. No separate podium/townhouse count. Planning report is historical evidence, not a current certified survey.",
+        "evidence_unit": "storeys",
+        "extrusion_height_m": 107.5,
+        "group_building_count": 1,
+        "group_floor_area_m2": null,
+        "height_m": 107.5,
+        "height_method": "schematic storey rule 4.0 + 3.0 * (n - 1) + 1.5 m roof with n = 35",
+        "height_raw": "35 storeys",
+        "height_unit": "storeys",
+        "id": "surrey-132062",
+        "location": "13325 102A Avenue, Surrey",
+        "model_file": "models/surrey-132062.gltf",
+        "name": "Ultra Tower (West Village Phase 3)",
+        "original_status": "In Service",
+        "physical_building_id": "surrey-132062",
+        "provenance_file": "provenance/surrey-132062.json",
+        "row_number": 3,
+        "schematic": true,
+        "surrey_objectid": 132062
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -122.854069956528,
+              49.1910100778136
+            ],
+            [
+              -122.853666521338,
+              49.1910075173251
+            ],
+            [
+              -122.853665052635,
+              49.1908209857654
+            ],
+            [
+              -122.853444735485,
+              49.190817240509
+            ],
+            [
+              -122.853446467252,
+              49.1907360185434
+            ],
+            [
+              -122.853665356667,
+              49.1907351222005
+            ],
+            [
+              -122.853664246003,
+              49.1907184920401
+            ],
+            [
+              -122.854077053153,
+              49.1907241389801
+            ],
+            [
+              -122.854069956528,
+              49.1910100778136
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "id": "surrey-2354",
+      "properties": {
+        "base_height_m": 0.0,
+        "csv_building_count": "1",
+        "csv_floor_area": "",
+        "csv_height": "28 storeys",
+        "csv_location": "13303 Central Avenue, Surrey",
+        "csv_name": "Wave Tower 1",
+        "csv_source_pdf": "https://www.surrey.ca/sites/default/files/planning-reports/PLR_7915-0375-00.pdf",
+        "csv_status": "In Service",
+        "detailed": false,
+        "evidence_method": "Explicit existing-building storey count transcribed from public planning report; schematic conversion 4.0 + 3.0*(n-1) + 1.5 m roof.",
+        "evidence_page": 3,
+        "evidence_reviewer": "unreviewed: automated evidence transcription; human sign-off required",
+        "evidence_source_url": "https://www.surrey.ca/sites/default/files/planning-reports/PLR_7915-0375-00.pdf",
+        "evidence_test_only": false,
+        "evidence_uncertainty": "Schematic prism only. Storeys are not measured metres. Official footprint may include lower attached portions; uniform extrusion does not reproduce setbacks or podium heights. No separate podium/townhouse count. Planning report is historical evidence, not a current certified survey. OSM lists 27 levels plus 2 roof levels; public planning report explicitly states 28 storeys. This discrepancy is retained; report count is selected for the demonstration, not silently reconciled.",
+        "evidence_unit": "storeys",
+        "extrusion_height_m": 86.5,
+        "group_building_count": 1,
+        "group_floor_area_m2": null,
+        "height_m": 86.5,
+        "height_method": "schematic storey rule 4.0 + 3.0 * (n - 1) + 1.5 m roof with n = 28",
+        "height_raw": "28 storeys",
+        "height_unit": "storeys",
+        "id": "surrey-2354",
+        "location": "13303 Central Avenue, Surrey",
+        "model_file": "models/surrey-2354.gltf",
+        "name": "Wave Tower 1",
+        "original_status": "In Service",
+        "physical_building_id": "surrey-2354",
+        "provenance_file": "provenance/surrey-2354.json",
+        "row_number": 2,
+        "schematic": true,
+        "surrey_objectid": 2354
+      },
+      "type": "Feature"
+    }
+  ],
+  "type": "FeatureCollection"
+}

@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+
+# Tooling
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+
+# Build outputs and caches (live public data is never committed implicitly)
+out/
+output/
+.massing-cache/
+
+# Coordinator-only, must stay untracked per SPEC
+STATUS.md
+
+# Editors / OS
+.idea/
+.vscode/
+.DS_Store

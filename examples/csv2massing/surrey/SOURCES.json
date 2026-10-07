@@ -1,0 +1,24 @@
+{
+  "retrieved_at": "2026-10-06T22:47:39.151366+00:00",
+  "source_url": "https://services5.arcgis.com/YRpe0VKTJytZSSIB/arcgis/rest/services/Building%20Footprnts/FeatureServer/0/query",
+  "query_params": {
+    "f": "geojson",
+    "objectIds": "2354,132062",
+    "outSR": "4326",
+    "outFields": "OBJECTID,FACILITY_TYPE,BUILDING_HEIGHT,STATUS",
+    "returnGeometry": "true"
+  },
+  "request_url": "https://services5.arcgis.com/YRpe0VKTJytZSSIB/arcgis/rest/services/Building%20Footprnts/FeatureServer/0/query?f=geojson&objectIds=2354%2C132062&outSR=4326&outFields=OBJECTID%2CFACILITY_TYPE%2CBUILDING_HEIGHT%2CSTATUS&returnGeometry=true",
+  "response_sha256": "eb300ddd633ba65b1a74a3518f91958031849db1fe188ca28c7d5d3a8dd08398",
+  "selected_objectids": [
+    2354,
+    132062
+  ],
+  "input_crs": "EPSG:4326",
+  "selected_count": 2,
+  "exceeded_transfer_limit": false,
+  "licence": "City of Surrey Open Government Licence",
+  "licence_url": "https://opendata-surrey.hub.arcgis.com/pages/55089a19491a4fe59a41e059fd8af708",
+  "unchanged_geometry_verified": true,
+  "not_height_evidence": "Raw BUILDING_HEIGHT not used; storeys from specific public PDF pages."
+}

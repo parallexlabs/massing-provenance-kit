@@ -1,0 +1,24 @@
+{
+  "version": 0.6,
+  "generator": "synthetic-test-fixture-not-Overpass",
+  "test_only": true,
+  "fixture_provenance": {
+    "source_dataset": "synthetic-native-osm-shape",
+    "source_url": "test-only://osm",
+    "retrieved_at": "not-applicable-synthetic",
+    "licence": "Apache-2.0 (synthetic fixture only)",
+    "description": "Invented way IDs and tags, not actual OpenStreetMap records."
+  },
+  "elements": [
+    {
+      "type": "way", "id": 990000001,
+      "tags": {"building": "yes", "height": "24 m", "building:levels": "10", "test_only": "true"},
+      "geometry": [{"lon": -122.8500, "lat": 49.1900}, {"lon": -122.8497, "lat": 49.1900}, {"lon": -122.8497, "lat": 49.1902}, {"lon": -122.8500, "lat": 49.1902}, {"lon": -122.8500, "lat": 49.1900}]
+    },
+    {
+      "type": "way", "id": 990000002,
+      "tags": {"building": "yes", "building:levels": "10", "test_only": "true"},
+      "geometry": [{"lon": -122.8495, "lat": 49.1900}, {"lon": -122.8492, "lat": 49.1900}, {"lon": -122.8492, "lat": 49.1902}, {"lon": -122.8495, "lat": 49.1902}, {"lon": -122.8495, "lat": 49.1900}]
+    }
+  ]
+}

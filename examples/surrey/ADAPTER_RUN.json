@@ -1,0 +1,257 @@
+{
+  "footprints": {
+    "state": "success",
+    "count": 90,
+    "manifest": {
+      "name": "footprints",
+      "dataset": "Building Footprints",
+      "endpoint": "https://services5.arcgis.com/YRpe0VKTJytZSSIB/arcgis/rest/services/Building%20Footprnts/FeatureServer/0",
+      "licence": "Open Government License – City of Surrey",
+      "licence_url": "https://opendata-surrey.hub.arcgis.com/pages/55089a19491a4fe59a41e059fd8af708",
+      "service_licence_info": "",
+      "bbox": [
+        -122.857,
+        49.178,
+        -122.843,
+        49.191
+      ],
+      "service_name": "Building_Footprints",
+      "max_record_count": 2000,
+      "editing_info": {
+        "lastEditDate": 1790867227608,
+        "schemaLastEditDate": 1790866923951,
+        "dataLastEditDate": 1790867227608
+      },
+      "total_bbox_count": 692,
+      "selected_count": 90,
+      "truncated": true,
+      "selection": "first 90 of 692 OBJECTIDs (ascending) intersecting the bbox; bounded subset, not an inventory",
+      "fields": [
+        "OBJECTID",
+        "FACILITY_TYPE",
+        "BUILDING_HEIGHT",
+        "STATUS"
+      ],
+      "not_evidence_fields": [
+        "BUILDING_HEIGHT"
+      ],
+      "features_sha256": "7c742334946284a87e6720a996c60a553cec1c8bca9079b6be084f32749fad79",
+      "requests": [
+        {
+          "method": "GET",
+          "url": "https://services5.arcgis.com/YRpe0VKTJytZSSIB/arcgis/rest/services/Building%20Footprnts/FeatureServer/0",
+          "params": {
+            "f": "json"
+          },
+          "retrieved_at": "2026-10-06T22:14:39.803647+00:00",
+          "status": 200,
+          "sha256": "c1d5dd5489000508a8e8f6d2ba83ee236ec30a1df1dbf3019c394a98794466e4",
+          "bytes": 12654,
+          "record_count": null
+        },
+        {
+          "method": "GET",
+          "url": "https://services5.arcgis.com/YRpe0VKTJytZSSIB/arcgis/rest/services/Building%20Footprnts/FeatureServer/0/query",
+          "params": {
+            "f": "json",
+            "geometry": "-122.8570000,49.1780000,-122.8430000,49.1910000",
+            "geometryType": "esriGeometryEnvelope",
+            "inSR": "4326",
+            "returnIdsOnly": "true",
+            "spatialRel": "esriSpatialRelIntersects",
+            "where": "1=1"
+          },
+          "retrieved_at": "2026-10-06T22:14:40.276846+00:00",
+          "status": 200,
+          "sha256": "52ca3c86860ad424b5230d87da1d7224a0623357960f64d79681d837cb7eef07",
+          "bytes": 4331,
+          "record_count": 692
+        },
+        {
+          "method": "GET",
+          "url": "https://services5.arcgis.com/YRpe0VKTJytZSSIB/arcgis/rest/services/Building%20Footprnts/FeatureServer/0/query",
+          "params": {
+            "f": "json",
+            "geometry": "-122.8570000,49.1780000,-122.8430000,49.1910000",
+            "geometryType": "esriGeometryEnvelope",
+            "inSR": "4326",
+            "returnCountOnly": "true",
+            "spatialRel": "esriSpatialRelIntersects",
+            "where": "1=1"
+          },
+          "retrieved_at": "2026-10-06T22:14:40.471151+00:00",
+          "status": 200,
+          "sha256": "67d017bc06e598be02ac75176fb5d7dee9253acfe2df818ba1551a19c7b58bdb",
+          "bytes": 13,
+          "record_count": null
+        },
+        {
+          "method": "GET",
+          "url": "https://services5.arcgis.com/YRpe0VKTJytZSSIB/arcgis/rest/services/Building%20Footprnts/FeatureServer/0/query",
+          "params": {
+            "f": "geojson",
+            "objectIds": "1665,1857,2354,2355,2356,2361,2362,2363,2364,2365,2366,2367,2368,2861,3833,3836,4341,5414,5463,5465,6011,6373,6425,6652,6759,6954,7426,8585,8625,8869,9091,9206,9483,9485,9867,9868,9869,9870,9897,9898,9899,9954,9955,9956,9958,9979,11034,11036,11037,11038,11095,11592,11658,11659,11660,11661,11662,12361,12362,12588,12589,12590,12641,12642,14123,14536,16078,16699,16762,17095,17096,17301,17302,17320,18234,18292,18293,18294,18295,18296,18570,18623,18624,18625,18626,19101,19102,19120,19121,19122",
+            "outFields": "OBJECTID,FACILITY_TYPE,BUILDING_HEIGHT,STATUS",
+            "outSR": "4326",
+            "returnGeometry": "true"
+          },
+          "retrieved_at": "2026-10-06T22:14:40.664456+00:00",
+          "status": 200,
+          "sha256": "b9ccb4e85d016aec3dc26155879bfa156d550fa1df91df6e17c13f1018e17e76",
+          "bytes": 57927,
+          "record_count": 90
+        }
+      ],
+      "client": "massing-provenance-kit/0.1.0 (read-only)"
+    }
+  },
+  "development_applications": {
+    "state": "success",
+    "count": 200,
+    "manifest": {
+      "name": "development_applications",
+      "dataset": "Development Applications",
+      "endpoint": "https://services5.arcgis.com/YRpe0VKTJytZSSIB/arcgis/rest/services/Development%20Applications/FeatureServer/0",
+      "licence": "Open Government License – City of Surrey",
+      "licence_url": "https://opendata-surrey.hub.arcgis.com/pages/55089a19491a4fe59a41e059fd8af708",
+      "service_licence_info": "",
+      "bbox": [
+        -122.857,
+        49.178,
+        -122.843,
+        49.191
+      ],
+      "service_name": "Development_Applications",
+      "max_record_count": 2000,
+      "editing_info": {
+        "lastEditDate": 1790884909000,
+        "schemaLastEditDate": 1790884850499,
+        "dataLastEditDate": 1790884909000
+      },
+      "total_bbox_count": 335,
+      "selected_count": 200,
+      "truncated": true,
+      "selection": "first 200 of 335 OBJECTIDs (ascending) intersecting the bbox; bounded subset, not an inventory",
+      "fields": [
+        "OBJECTID",
+        "PROJECT_NO",
+        "DESCRIPTION",
+        "STATUS",
+        "WEBLINK"
+      ],
+      "not_evidence_fields": [
+        "BUILDING_HEIGHT"
+      ],
+      "features_sha256": "9eb431a44f52d1d07e578d502acbc4078cd99aefef095327102d0e07aef53e46",
+      "requests": [
+        {
+          "method": "GET",
+          "url": "https://services5.arcgis.com/YRpe0VKTJytZSSIB/arcgis/rest/services/Development%20Applications/FeatureServer/0",
+          "params": {
+            "f": "json"
+          },
+          "retrieved_at": "2026-10-06T22:14:40.901859+00:00",
+          "status": 200,
+          "sha256": "44aea6ce367c2b8befaf83a6c89c1490941043f26d09c35c35e27cdfa69f3983",
+          "bytes": 10864,
+          "record_count": null
+        },
+        {
+          "method": "GET",
+          "url": "https://services5.arcgis.com/YRpe0VKTJytZSSIB/arcgis/rest/services/Development%20Applications/FeatureServer/0/query",
+          "params": {
+            "f": "json",
+            "geometry": "-122.8570000,49.1780000,-122.8430000,49.1910000",
+            "geometryType": "esriGeometryEnvelope",
+            "inSR": "4326",
+            "returnIdsOnly": "true",
+            "spatialRel": "esriSpatialRelIntersects",
+            "where": "1=1"
+          },
+          "retrieved_at": "2026-10-06T22:14:41.170933+00:00",
+          "status": 200,
+          "sha256": "09785d46811180b28819f22c968a3e7117ac9360c20a689fb3e2f45924e9f5ce",
+          "bytes": 1783,
+          "record_count": 335
+        },
+        {
+          "method": "GET",
+          "url": "https://services5.arcgis.com/YRpe0VKTJytZSSIB/arcgis/rest/services/Development%20Applications/FeatureServer/0/query",
+          "params": {
+            "f": "json",
+            "geometry": "-122.8570000,49.1780000,-122.8430000,49.1910000",
+            "geometryType": "esriGeometryEnvelope",
+            "inSR": "4326",
+            "returnCountOnly": "true",
+            "spatialRel": "esriSpatialRelIntersects",
+            "where": "1=1"
+          },
+          "retrieved_at": "2026-10-06T22:14:41.372265+00:00",
+          "status": 200,
+          "sha256": "c0839041104f9c1260fac6d94af404cfb1294807f8929afc063241d5eaae2d5a",
+          "bytes": 13,
+          "record_count": null
+        },
+        {
+          "method": "GET",
+          "url": "https://services5.arcgis.com/YRpe0VKTJytZSSIB/arcgis/rest/services/Development%20Applications/FeatureServer/0/query",
+          "params": {
+            "f": "geojson",
+            "objectIds": "4,54,63,107,124,141,173,207,222,371,433,436,610,705,727,737,738,745,760,789,827,836,859,889,974,979,1029,1061,1062,1071,1093,1109,1119,1142,1189,1218,1254,1291,1331,1332,1333,1363,1399,1419,1434,1494,1501,1553,1586,1601,1623,1771,1772,1775,1777,1823,1852,1895,1935,1972,2020,2029,2037,2051,2064,2084,2112,2119,2125,2135,2167,2208,2212,2225,2252,2258,2365,2374,2402,2406,2417,2421,2476,2506,2513,2514,2529,2541,2575,2599,2668,2703,2736,2755,2807,2811,2855,2953,2985,3168",
+            "outFields": "OBJECTID,PROJECT_NO,DESCRIPTION,STATUS,WEBLINK",
+            "outSR": "4326",
+            "returnGeometry": "true"
+          },
+          "retrieved_at": "2026-10-06T22:14:41.595339+00:00",
+          "status": 200,
+          "sha256": "9d5dfc97831b09168978337ca0922aedd96383e890cebf9234ebfd86406ab2b8",
+          "bytes": 124489,
+          "record_count": 100
+        },
+        {
+          "method": "GET",
+          "url": "https://services5.arcgis.com/YRpe0VKTJytZSSIB/arcgis/rest/services/Development%20Applications/FeatureServer/0/query",
+          "params": {
+            "f": "geojson",
+            "objectIds": "3211,3233,3356,3379,3460,3492,3514,3690,3720,3729,3738,3739,3744,3807,3840,3851,3914,3923,4051,4052,4110,4120,4135,4142,4145,4190,4275,4289,4313,4443,4448,4449,4456,4468,4571,4655,4757,4785,4802,4841,4929,5018,5022,5109,5237,5293,5294,5310,5327,5427,5463,5477,5528,5640,5645,5702,5709,5722,5767,5786,5796,5838,5843,5929,5965,5975,6059,6143,6155,6179,6181,6229,6262,6454,6514,6522,6638,6646,6693,6704,6805,6818,6822,6877,6920,7015,7021,7109,7160,7187,7200,7207,7257,7264,7346,7381,7406,7499,7503,7655",
+            "outFields": "OBJECTID,PROJECT_NO,DESCRIPTION,STATUS,WEBLINK",
+            "outSR": "4326",
+            "returnGeometry": "true"
+          },
+          "retrieved_at": "2026-10-06T22:14:41.835706+00:00",
+          "status": 200,
+          "sha256": "cd1c0944ac62c664e276265c2f0571611ea02fcf24308d68f40c00241632532d",
+          "bytes": 120092,
+          "record_count": 100
+        }
+      ],
+      "client": "massing-provenance-kit/0.1.0 (read-only)"
+    }
+  },
+  "osm": {
+    "state": "failure",
+    "error": "GET https://overpass-api.de/api/interpreter returned HTTP 504",
+    "type": "SourceError"
+  },
+  "osm_retry": {
+    "started_at": "2026-10-06T22:16:19.382150+00:00",
+    "endpoint": "https://overpass-api.de/api/interpreter",
+    "query": "[out:json][timeout:25];(way[\"building\"][\"height\"](49.1780000,-122.8570000,49.1910000,-122.8430000);way[\"building\"][\"building:levels\"](49.1780000,-122.8570000,49.1910000,-122.8430000););out tags geom 5001;",
+    "method": "GET",
+    "attempt": 2,
+    "state": "success",
+    "count": 89,
+    "provenance": {
+      "source_url": "https://overpass-api.de/api/interpreter",
+      "query": "[out:json][timeout:25];(way[\"building\"][\"height\"](49.1780000,-122.8570000,49.1910000,-122.8430000);way[\"building\"][\"building:levels\"](49.1780000,-122.8570000,49.1910000,-122.8430000););out tags geom 5001;",
+      "retrieved_at": "2026-10-06T22:16:23.362359+00:00",
+      "payload_sha256": "be418231363c2241449a2e1a68e781f989585fd5954e86ba67b79e7667c9579d",
+      "licence": "© OpenStreetMap contributors, ODbL",
+      "test_only": false,
+      "osm_base": "2026-10-06T22:14:54Z",
+      "from_cache": false
+    },
+    "finished_at": "2026-10-06T22:16:23.369189+00:00"
+  },
+  "scope": "Live returned-adapter source acquisition only; application CLI smoke recorded separately."
+}

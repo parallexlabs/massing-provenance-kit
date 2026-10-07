@@ -1,0 +1,8 @@
+# Byte-exact fixtures and records: recorded SHA-256 hashes, round-trip checks and
+# deterministic artefact comparisons depend on these bytes, so Git must never
+# convert their line endings (for example under core.autocrlf).
+*.csv -text
+*.geojson -text
+*.gltf -text
+*.json -text
+requirements.lock -text

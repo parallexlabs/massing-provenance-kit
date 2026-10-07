@@ -1,0 +1,6653 @@
+{
+  "type": "FeatureCollection",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "EPSG:4326"
+    }
+  },
+  "properties": {
+    "exceededTransferLimit": true
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "1665",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.848466875937,
+              49.1872861683992
+            ],
+            [
+              -122.849821211164,
+              49.1872929847097
+            ],
+            [
+              -122.8498430718,
+              49.1872950829588
+            ],
+            [
+              -122.84992815878,
+              49.1873059537644
+            ],
+            [
+              -122.850002731089,
+              49.1873998296328
+            ],
+            [
+              -122.850036552751,
+              49.1874020720123
+            ],
+            [
+              -122.850244536492,
+              49.187509872034
+            ],
+            [
+              -122.850414932045,
+              49.1875608498907
+            ],
+            [
+              -122.850484496339,
+              49.1875846579492
+            ],
+            [
+              -122.850564227362,
+              49.187621598806
+            ],
+            [
+              -122.850934717123,
+              49.1877462634802
+            ],
+            [
+              -122.850717808106,
+              49.1879152564807
+            ],
+            [
+              -122.850297803185,
+              49.1881957673209
+            ],
+            [
+              -122.850292022988,
+              49.1881925053193
+            ],
+            [
+              -122.850175879147,
+              49.1882688500665
+            ],
+            [
+              -122.850103701074,
+              49.1883240767686
+            ],
+            [
+              -122.850087946406,
+              49.1883335463892
+            ],
+            [
+              -122.850073449876,
+              49.1883394905733
+            ],
+            [
+              -122.850048574923,
+              49.1883465106152
+            ],
+            [
+              -122.850029952726,
+              49.1883502815636
+            ],
+            [
+              -122.850001405767,
+              49.1883507851103
+            ],
+            [
+              -122.849974934764,
+              49.1883473522933
+            ],
+            [
+              -122.849973678162,
+              49.1883471887451
+            ],
+            [
+              -122.849959153133,
+              49.1883453051449
+            ],
+            [
+              -122.849797633041,
+              49.1882907697206
+            ],
+            [
+              -122.849588781805,
+              49.1882207445535
+            ],
+            [
+              -122.849620137875,
+              49.188184942607
+            ],
+            [
+              -122.849557654763,
+              49.1881814466067
+            ],
+            [
+              -122.849549751514,
+              49.1881791038233
+            ],
+            [
+              -122.849521475891,
+              49.1881707175235
+            ],
+            [
+              -122.849505622784,
+              49.1881660174981
+            ],
+            [
+              -122.84948226592,
+              49.1881403854609
+            ],
+            [
+              -122.84946928122,
+              49.1881134734101
+            ],
+            [
+              -122.849428276892,
+              49.1881616259148
+            ],
+            [
+              -122.849280927166,
+              49.1881122364751
+            ],
+            [
+              -122.849293487576,
+              49.1880578581244
+            ],
+            [
+              -122.849257535852,
+              49.1880469448505
+            ],
+            [
+              -122.849257559736,
+              49.188039082966
+            ],
+            [
+              -122.849198881234,
+              49.1880201692491
+            ],
+            [
+              -122.849203984161,
+              49.1879721498612
+            ],
+            [
+              -122.849207287398,
+              49.1879062346182
+            ],
+            [
+              -122.849202526218,
+              49.1878431621629
+            ],
+            [
+              -122.849190913697,
+              49.1877865843821
+            ],
+            [
+              -122.849177980168,
+              49.1877524014405
+            ],
+            [
+              -122.849153920425,
+              49.1877080050636
+            ],
+            [
+              -122.849130994186,
+              49.1876794410389
+            ],
+            [
+              -122.849106874103,
+              49.187655814784
+            ],
+            [
+              -122.849073420496,
+              49.1876358464209
+            ],
+            [
+              -122.849034860609,
+              49.1876176065722
+            ],
+            [
+              -122.848990229566,
+              49.1876047388779
+            ],
+            [
+              -122.848942784601,
+              49.1875961303717
+            ],
+            [
+              -122.848896193279,
+              49.1875920215262
+            ],
+            [
+              -122.848889838025,
+              49.1876271300706
+            ],
+            [
+              -122.848851954135,
+              49.1876424418181
+            ],
+            [
+              -122.848836854721,
+              49.1876494420098
+            ],
+            [
+              -122.848797871363,
+              49.1876697653964
+            ],
+            [
+              -122.848765132317,
+              49.1876900519702
+            ],
+            [
+              -122.848732761782,
+              49.187711444543
+            ],
+            [
+              -122.848693798685,
+              49.1877390451408
+            ],
+            [
+              -122.848660962476,
+              49.1877637122819
+            ],
+            [
+              -122.84862944076,
+              49.1877902431693
+            ],
+            [
+              -122.848590009377,
+              49.1878233032816
+            ],
+            [
+              -122.848528534088,
+              49.1878782560837
+            ],
+            [
+              -122.848491744067,
+              49.1878687177566
+            ],
+            [
+              -122.848409078019,
+              49.1878490714313
+            ],
+            [
+              -122.84832252882,
+              49.1878296880078
+            ],
+            [
+              -122.848250140309,
+              49.1878154963392
+            ],
+            [
+              -122.848182711244,
+              49.1878032001634
+            ],
+            [
+              -122.848115321171,
+              49.1877925231583
+            ],
+            [
+              -122.848028065345,
+              49.1877794371128
+            ],
+            [
+              -122.847927394577,
+              49.1877686433384
+            ],
+            [
+              -122.847791476131,
+              49.1877556180633
+            ],
+            [
+              -122.848069234062,
+              49.1876739032243
+            ],
+            [
+              -122.84807692441,
+              49.1876856702338
+            ],
+            [
+              -122.848466289072,
+              49.1876019180308
+            ],
+            [
+              -122.848466875937,
+              49.1872861683992
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "OBJECTID": 1665,
+        "FACILITY_TYPE": "School",
+        "BUILDING_HEIGHT": 111.27,
+        "STATUS": "In Service",
+        "source_dataset": "Building Footprints",
+        "source_url": "https://services5.arcgis.com/YRpe0VKTJytZSSIB/arcgis/rest/services/Building%20Footprnts/FeatureServer/0",
+        "retrieved_at": "2026-10-06T20:03:04.251193+00:00",
+        "licence": "Contains information licensed under the Open Government License – City of Surrey.",
+        "licence_url": "https://opendata-surrey.hub.arcgis.com/pages/55089a19491a4fe59a41e059fd8af708",
+        "source_sha256": "8e1b16910ddb0a38b1cd9784aee5a4d3784f42f9a7a61fde6c6d3b18041dbc90"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1857",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.855056158567,
+              49.1871622831196
+            ],
+            [
+              -122.854828158326,
+              49.1870822099914
+            ],
+            [
+              -122.854854531396,
+              49.1870505094204
+            ],
+            [
+              -122.854792350044,
+              49.1870286706585
+            ],
+            [
+              -122.854859008911,
+              49.1869389936668
+            ],
+            [
+              -122.855099433164,
+              49.1870272428862
+            ],
+            [
+              -122.855046703124,
+              49.1870842970507
+            ],
+            [
+              -122.855121314601,
+              49.1871124974729
+            ],
+            [
+              -122.855092172386,
+              49.1871451013591
+            ],
+            [
+              -122.855081117814,
+              49.1871414605721
+            ],
+            [
+              -122.855056158567,
+              49.1871622831196
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "OBJECTID": 1857,
+        "FACILITY_TYPE": null,
+        "BUILDING_HEIGHT": 4.05,
+        "STATUS": "In Service",
+        "source_dataset": "Building Footprints",
+        "source_url": "https://services5.arcgis.com/YRpe0VKTJytZSSIB/arcgis/rest/services/Building%20Footprnts/FeatureServer/0",
+        "retrieved_at": "2026-10-06T20:03:04.251193+00:00",
+        "licence": "Contains information licensed under the Open Government License – City of Surrey.",
+        "licence_url": "https://opendata-surrey.hub.arcgis.com/pages/55089a19491a4fe59a41e059fd8af708",
+        "source_sha256": "8e1b16910ddb0a38b1cd9784aee5a4d3784f42f9a7a61fde6c6d3b18041dbc90"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "2354",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.854069956528,
+              49.1910100778136
+            ],
+            [
+              -122.853666521338,
+              49.1910075173251
+            ],
+            [
+              -122.853665052635,
+              49.1908209857654
+            ],
+            [
+              -122.853444735485,
+              49.190817240509
+            ],
+            [
+              -122.853446467252,
+              49.1907360185434
+            ],
+            [
+              -122.853665356667,
+              49.1907351222005
+            ],
+            [
+              -122.853664246003,
+              49.1907184920401
+            ],
+            [
+              -122.854077053153,
+              49.1907241389801
+            ],
+            [
+              -122.854069956528,
+              49.1910100778136
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2354,
+        "FACILITY_TYPE": null,
+        "BUILDING_HEIGHT": 82.86,
+        "STATUS": "In Service",
+        "source_dataset": "Building Footprints",
+        "source_url": "https://services5.arcgis.com/YRpe0VKTJytZSSIB/arcgis/rest/services/Building%20Footprnts/FeatureServer/0",
+        "retrieved_at": "2026-10-06T20:03:04.251193+00:00",
+        "licence": "Contains information licensed under the Open Government License – City of Surrey.",
+        "licence_url": "https://opendata-surrey.hub.arcgis.com/pages/55089a19491a4fe59a41e059fd8af708",
+        "source_sha256": "8e1b16910ddb0a38b1cd9784aee5a4d3784f42f9a7a61fde6c6d3b18041dbc90"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "2355",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.856283490784,
+              49.1870713683292
+            ],
+            [
+              -122.856278357628,
+              49.1874297726795
+            ],
+            [
+              -122.856227151725,
+              49.1874323940514
+            ],
+            [
+              -122.85619839897,
+              49.1874605478115
+            ],
+            [
+              -122.855328645792,
+              49.1872460258542
+            ],
+            [
+              -122.855323438608,
+              49.1869251946596
+            ],
+            [
+              -122.855577242348,
+              49.1869724949195
+            ],
+            [
+              -122.85558702171,
+              49.1871309058805
+            ],
+            [
+              -122.856014764805,
+              49.1872254051392
+            ],
+            [
+              -122.856037311248,
+              49.1872187218318
+            ],
+            [
+              -122.856037381349,
+              49.1871945595692
+            ],
+            [
+              -122.856021002254,
+              49.1871931961488
+            ],
+            [
+              -122.856017078578,
+              49.1871341270348
+            ],
+            [
+              -122.855965869068,
+              49.1871380912889
+            ],
+            [
+              -122.855962099953,
+              49.1870253274529
+            ],
+            [
+              -122.856074735728,
+              49.1870254678736
+            ],
+            [
+              -122.856283490784,
+              49.1870713683292
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2355,
+        "FACILITY_TYPE": null,
+        "BUILDING_HEIGHT": 14.84,
+        "STATUS": "In Service",
+        "source_dataset": "Building Footprints",
+        "source_url": "https://services5.arcgis.com/YRpe0VKTJytZSSIB/arcgis/rest/services/Building%20Footprnts/FeatureServer/0",
+        "retrieved_at": "2026-10-06T20:03:04.251193+00:00",
+        "licence": "Contains information licensed under the Open Government License – City of Surrey.",
+        "licence_url": "https://opendata-surrey.hub.arcgis.com/pages/55089a19491a4fe59a41e059fd8af708",
+        "source_sha256": "8e1b16910ddb0a38b1cd9784aee5a4d3784f42f9a7a61fde6c6d3b18041dbc90"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "2356",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.854621956327,
+              49.1851029583025
+            ],
+            [
+              -122.854395097795,
+              49.1850997850126
+            ],
+            [
+              -122.854403343139,
+              49.1849171541997
+            ],
+            [
+              -122.854622493502,
+              49.184919595446
+            ],
+            [
+              -122.854621956327,
+              49.1851029583025
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2356,
+        "FACILITY_TYPE": null,
+        "BUILDING_HEIGHT": 9.87,
+        "STATUS": "In Service",
+        "source_dataset": "Building Footprints",
+        "source_url": "https://services5.arcgis.com/YRpe0VKTJytZSSIB/arcgis/rest/services/Building%20Footprnts/FeatureServer/0",
+        "retrieved_at": "2026-10-06T20:03:04.251193+00:00",
+        "licence": "Contains information licensed under the Open Government License – City of Surrey.",
+        "licence_url": "https://opendata-surrey.hub.arcgis.com/pages/55089a19491a4fe59a41e059fd8af708",
+        "source_sha256": "8e1b16910ddb0a38b1cd9784aee5a4d3784f42f9a7a61fde6c6d3b18041dbc90"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "2361",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.85013583771,
+              49.1818939416178
+            ],
+            [
+              -122.850027993744,
+              49.1818944501876
+            ],
+            [
+              -122.850025917043,
+              49.1819268774778
+            ],
+            [
+              -122.84989927395,
+              49.1819273615134
+            ],
+            [
+              -122.849904799353,
+              49.1817360360863
+            ],
+            [
+              -122.850038371313,
+              49.1817342639146
+            ],
+            [
+              -122.850033630355,
+              49.1816661558626
+            ],
+            [
+              -122.850141479698,
+              49.1816637025028
+            ],
+            [
+              -122.85014022401,
+              49.1817519073467
+            ],
+            [
+              -122.85013583771,
+              49.1818939416178
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2361,
+        "FACILITY_TYPE": null,
+        "BUILDING_HEIGHT": 9.89,
+        "STATUS": "In Service",
+        "source_dataset": "Building Footprints",
+        "source_url": "https://services5.arcgis.com/YRpe0VKTJytZSSIB/arcgis/rest/services/Building%20Footprnts/FeatureServer/0",
+        "retrieved_at": "2026-10-06T20:03:04.251193+00:00",
+        "licence": "Contains information licensed under the Open Government License – City of Surrey.",
+        "licence_url": "https://opendata-surrey.hub.arcgis.com/pages/55089a19491a4fe59a41e059fd8af708",
+        "source_sha256": "8e1b16910ddb0a38b1cd9784aee5a4d3784f42f9a7a61fde6c6d3b18041dbc90"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "2362",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.849847118131,
+              49.1818338978344
+            ],
+            [
+              -122.849790723228,
+              49.1818344730626
+            ],
+            [
+              -122.849791671947,
+              49.1818474455719
+            ],
+            [
+              -122.849770850439,
+              49.1818623363551
+            ],
+            [
+              -122.849745123405,
+              49.1818635991143
+            ],
+            [
+              -122.849742919478,
+              49.1819375352143
+            ],
+            [
+              -122.849618253094,
+              49.1819386700772
+            ],
+            [
+              -122.849611199098,
+              49.1816545809637
+            ],
+            [
+              -122.849725971307,
+              49.1816534332347
+            ],
+            [
+              -122.849726679828,
+              49.1817461814763
+            ],
+            [
+              -122.849789025238,
+              49.1817417235359
+            ],
+            [
+              -122.849803883716,
+              49.1817352563234
+            ],
+            [
+              -122.849833566896,
+              49.1817352949233
+            ],
+            [
+              -122.849859250697,
+              49.1817483004913
+            ],
+            [
+              -122.849860187071,
+              49.1817658129306
+            ],
+            [
+              -122.849845297786,
+              49.1817820085669
+            ],
+            [
+              -122.849847118131,
+              49.1818338978344
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2362,
+        "FACILITY_TYPE": null,
+        "BUILDING_HEIGHT": 10.19,
+        "STATUS": "In Service",
+        "source_dataset": "Building Footprints",
+        "source_url": "https://services5.arcgis.com/YRpe0VKTJytZSSIB/arcgis/rest/services/Building%20Footprnts/FeatureServer/0",
+        "retrieved_at": "2026-10-06T20:03:04.251193+00:00",
+        "licence": "Contains information licensed under the Open Government License – City of Surrey.",
+        "licence_url": "https://opendata-surrey.hub.arcgis.com/pages/55089a19491a4fe59a41e059fd8af708",
+        "source_sha256": "8e1b16910ddb0a38b1cd9784aee5a4d3784f42f9a7a61fde6c6d3b18041dbc90"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "2363",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.850159111583,
+              49.182050281078
+            ],
+            [
+              -122.850097766923,
+              49.1820508500341
+            ],
+            [
+              -122.85009695192,
+              49.1819931250038
+            ],
+            [
+              -122.850155326492,
+              49.1819932007583
+            ],
+            [
+              -122.850159111583,
+              49.182050281078
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2363,
+        "FACILITY_TYPE": null,
+        "BUILDING_HEIGHT": 3.27,
+        "STATUS": "In Service",
+        "source_dataset": "Building Footprints",
+        "source_url": "https://services5.arcgis.com/YRpe0VKTJytZSSIB/arcgis/rest/services/Building%20Footprnts/FeatureServer/0",
+        "retrieved_at": "2026-10-06T20:03:04.251193+00:00",
+        "licence": "Contains information licensed under the Open Government License – City of Surrey.",
+        "licence_url": "https://opendata-surrey.hub.arcgis.com/pages/55089a19491a4fe59a41e059fd8af708",
+        "source_sha256": "8e1b16910ddb0a38b1cd9784aee5a4d3784f42f9a7a61fde6c6d3b18041dbc90"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "2364",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.848776195811,
+              49.18129881076
+            ],
+            [
+              -122.848630009638,
+              49.1812986192476
+            ],
+            [
+              -122.848629814781,
+              49.1813625083764
+            ],
+            [
+              -122.84851409138,
+              49.1813603596757
+            ],
+            [
+              -122.848513864107,
+              49.1811021437138
+            ],
+            [
+              -122.848602177134,
+              49.1811049221401
+            ],
+            [
+              -122.848601953825,
+              49.1811781268055
+            ],
+            [
+              -122.8486425646,
+              49.1811768487264
+            ],
+            [
+              -122.848641640521,
+              49.181146900237
+            ],
+            [
+              -122.84877057112,
+              49.18114573873
+            ],
+            [
+              -122.848776195811,
+              49.18129881076
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2364,
+        "FACILITY_TYPE": null,
+        "BUILDING_HEIGHT": 11.13,
+        "STATUS": "In Service",
+        "source_dataset": "Building Footprints",
+        "source_url": "https://services5.arcgis.com/YRpe0VKTJytZSSIB/arcgis/rest/services/Building%20Footprnts/FeatureServer/0",
+        "retrieved_at": "2026-10-06T20:03:04.251193+00:00",
+        "licence": "Contains information licensed under the Open Government License – City of Surrey.",
+        "licence_url": "https://opendata-surrey.hub.arcgis.com/pages/55089a19491a4fe59a41e059fd8af708",
+        "source_sha256": "8e1b16910ddb0a38b1cd9784aee5a4d3784f42f9a7a61fde6c6d3b18041dbc90"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "2365",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.848487748328,
+              49.1813436873426
+            ],
+            [
+              -122.848399422684,
+              49.1813449027423
+            ],
+            [
+              -122.848399363732,
+              49.1813642021614
+            ],
+            [
+              -122.848335407884,
+              49.1813641181896
+            ],
+            [
+              -122.848335466861,
+              49.1813448187706
+            ],
+            [
+              -122.848261358296,
+              49.1813447214243
+            ],
+            [
+              -122.84825480321,
+              49.1811643607905
+            ],
+            [
+              -122.848439562839,
+              49.181165269061
+            ],
+            [
+              -122.848442462742,
+              49.1812131892314
+            ],
+            [
+              -122.848464798276,
+              49.1812125528855
+            ],
+            [
+              -122.848466808773,
+              49.1812192111738
+            ],
+            [
+              -122.848488128242,
+              49.1812192391453
+            ],
+            [
+              -122.848487748328,
+              49.1813436873426
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2365,
+        "FACILITY_TYPE": null,
+        "BUILDING_HEIGHT": 9.34,
+        "STATUS": "In Service",
+        "source_dataset": "Building Footprints",
+        "source_url": "https://services5.arcgis.com/YRpe0VKTJytZSSIB/arcgis/rest/services/Building%20Footprnts/FeatureServer/0",
+        "retrieved_at": "2026-10-06T20:03:04.251193+00:00",
+        "licence": "Contains information licensed under the Open Government License – City of Surrey.",
+        "licence_url": "https://opendata-surrey.hub.arcgis.com/pages/55089a19491a4fe59a41e059fd8af708",
+        "source_sha256": "8e1b16910ddb0a38b1cd9784aee5a4d3784f42f9a7a61fde6c6d3b18041dbc90"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "2366",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.850144265566,
+              49.1803706721781
+            ],
+            [
+              -122.850016661473,
+              49.1803717244992
+            ],
+            [
+              -122.85001793611,
+              49.1803599503564
+            ],
+            [
+              -122.84995599558,
+              49.1803590576197
+            ],
+            [
+              -122.849952567059,
+              49.1802640327012
+            ],
+            [
+              -122.849920359718,
+              49.1802631785723
+            ],
+            [
+              -122.849918101413,
+              49.1801904888
+            ],
+            [
+              -122.849962078973,
+              49.1801913582216
+            ],
+            [
+              -122.84996149559,
+              49.1801791750758
+            ],
+            [
+              -122.850144843034,
+              49.1801794131298
+            ],
+            [
+              -122.850144265566,
+              49.1803706721781
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2366,
+        "FACILITY_TYPE": null,
+        "BUILDING_HEIGHT": 9.42,
+        "STATUS": "In Service",
+        "source_dataset": "Building Footprints",
+        "source_url": "https://services5.arcgis.com/YRpe0VKTJytZSSIB/arcgis/rest/services/Building%20Footprnts/FeatureServer/0",
+        "retrieved_at": "2026-10-06T20:03:04.251193+00:00",
+        "licence": "Contains information licensed under the Open Government License – City of Surrey.",
+        "licence_url": "https://opendata-surrey.hub.arcgis.com/pages/55089a19491a4fe59a41e059fd8af708",
+        "source_sha256": "8e1b16910ddb0a38b1cd9784aee5a4d3784f42f9a7a61fde6c6d3b18041dbc90"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "2367",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.847628363502,
+              49.1804284342383
+            ],
+            [
+              -122.847555606292,
+              49.1804293016225
+            ],
+            [
+              -122.847555640328,
+              49.1804182203094
+            ],
+            [
+              -122.847501260793,
+              49.1804171851148
+            ],
+            [
+              -122.847502381129,
+              49.1802919273975
+            ],
+            [
+              -122.847583964228,
+              49.1802891439941
+            ],
+            [
+              -122.847586052503,
+              49.1803267247792
+            ],
+            [
+              -122.847633821243,
+              49.1803263065609
+            ],
+            [
+              -122.847628363502,
+              49.1804284342383
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2367,
+        "FACILITY_TYPE": null,
+        "BUILDING_HEIGHT": 5.45,
+        "STATUS": "In Service",
+        "source_dataset": "Building Footprints",
+        "source_url": "https://services5.arcgis.com/YRpe0VKTJytZSSIB/arcgis/rest/services/Building%20Footprnts/FeatureServer/0",
+        "retrieved_at": "2026-10-06T20:03:04.251193+00:00",
+        "licence": "Contains information licensed under the Open Government License – City of Surrey.",
+        "licence_url": "https://opendata-surrey.hub.arcgis.com/pages/55089a19491a4fe59a41e059fd8af708",
+        "source_sha256": "8e1b16910ddb0a38b1cd9784aee5a4d3784f42f9a7a61fde6c6d3b18041dbc90"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "2368",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.854213502125,
+              49.1793188914084
+            ],
+            [
+              -122.854069279442,
+              49.1793141522182
+            ],
+            [
+              -122.85406587755,
+              49.1792890842028
+            ],
+            [
+              -122.854017224114,
+              49.1792878839022
+            ],
+            [
+              -122.854019386756,
+              49.1791432010826
+            ],
+            [
+              -122.854125394376,
+              49.1791421962217
+            ],
+            [
+              -122.854125585224,
+              49.179077259099
+            ],
+            [
+              -122.854224618149,
+              49.1790842188069
+            ],
+            [
+              -122.854213502125,
+              49.1793188914084
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2368,
+        "FACILITY_TYPE": null,
+        "BUILDING_HEIGHT": 10.98,
+        "STATUS": "In Service",
+        "source_dataset": "Building Footprints",
+        "source_url": "https://services5.arcgis.com/YRpe0VKTJytZSSIB/arcgis/rest/services/Building%20Footprnts/FeatureServer/0",
+        "retrieved_at": "2026-10-06T20:03:04.251193+00:00",
+        "licence": "Contains information licensed under the Open Government License – City of Surrey.",
+        "licence_url": "https://opendata-surrey.hub.arcgis.com/pages/55089a19491a4fe59a41e059fd8af708",
+        "source_sha256": "8e1b16910ddb0a38b1cd9784aee5a4d3784f42f9a7a61fde6c6d3b18041dbc90"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "2861",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.842940159047,
+              49.178827435357
+            ],
+            [
+              -122.842733952087,
+              49.1787894066842
+            ],
+            [
+              -122.842590085571,
+              49.1787640453144
+            ],
+            [
+              -122.842230356506,
+              49.1787195141462
+            ],
+            [
+              -122.842221709931,
+              49.1784206644735
+            ],
+            [
+              -122.842298531433,
+              49.1784050419449
+            ],
+            [
+              -122.842293863143,
+              49.1783641418438
+            ],
+            [
+              -122.84312872144,
+              49.1783747159023
+            ],
+            [
+              -122.843122511453,
+              49.1788213909665
+            ],
+            [
+              -122.843031404207,
+              49.1788023931447
+            ],
+            [
+              -122.842940159047,
+              49.178827435357
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2861,
+        "FACILITY_TYPE": null,
+        "BUILDING_HEIGHT": 110.12,
+        "STATUS": "In Service",
+        "source_dataset": "Building Footprints",
+        "source_url": "https://services5.arcgis.com/YRpe0VKTJytZSSIB/arcgis/rest/services/Building%20Footprnts/FeatureServer/0",
+        "retrieved_at": "2026-10-06T20:03:04.251193+00:00",
+        "licence": "Contains information licensed under the Open Government License – City of Surrey.",
+        "licence_url": "https://opendata-surrey.hub.arcgis.com/pages/55089a19491a4fe59a41e059fd8af708",
+        "source_sha256": "8e1b16910ddb0a38b1cd9784aee5a4d3784f42f9a7a61fde6c6d3b18041dbc90"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "3833",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.85394024531,
+              49.1899633152347
+            ],
+            [
+              -122.853945995807,
+              49.1896229556424
+            ],
+            [
+              -122.854113813408,
+              49.1896242049045
+            ],
+            [
+              -122.854109637304,
+              49.1899676797751
+            ],
+            [
+              -122.85394024531,
+              49.1899633152347
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "OBJECTID": 3833,
+        "FACILITY_TYPE": null,
+        "BUILDING_HEIGHT": 8.35,
+        "STATUS": "In Service",
+        "source_dataset": "Building Footprints",
+        "source_url": "https://services5.arcgis.com/YRpe0VKTJytZSSIB/arcgis/rest/services/Building%20Footprnts/FeatureServer/0",
+        "retrieved_at": "2026-10-06T20:03:04.251193+00:00",
+        "licence": "Contains information licensed under the Open Government License – City of Surrey.",
+        "licence_url": "https://opendata-surrey.hub.arcgis.com/pages/55089a19491a4fe59a41e059fd8af708",
+        "source_sha256": "8e1b16910ddb0a38b1cd9784aee5a4d3784f42f9a7a61fde6c6d3b18041dbc90"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "3836",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.851583687929,
+              49.178801181813
+            ],
+            [
+              -122.851584106027,
+              49.1786613560659
+            ],
+            [
+              -122.851840060085,
+              49.1786569252815
+            ],
+            [
+              -122.851839775916,
+              49.1787521253132
+            ],
+            [
+              -122.851873358617,
+              49.1787515729005
+            ],
+            [
+              -122.851869516711,
+              49.1788223748013
+            ],
+            [
+              -122.851766965201,
+              49.178820457642
+            ],
+            [
+              -122.851768832436,
+              49.1788026096836
+            ],
+            [
+              -122.851583687929,
+              49.178801181813
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "OBJECTID": 3836,
+        "FACILITY_TYPE": null,
+        "BUILDING_HEIGHT": 10.34,
+        "STATUS": "In Service",
+        "source_dataset": "Building Footprints",
+        "source_url": "https://services5.arcgis.com/YRpe0VKTJytZSSIB/arcgis/rest/services/Building%20Footprnts/FeatureServer/0",
+        "retrieved_at": "2026-10-06T20:03:04.251193+00:00",
+        "licence": "Contains information licensed under the Open Government License – City of Surrey.",
+        "licence_url": "https://opendata-surrey.hub.arcgis.com/pages/55089a19491a4fe59a41e059fd8af708",
+        "source_sha256": "8e1b16910ddb0a38b1cd9784aee5a4d3784f42f9a7a61fde6c6d3b18041dbc90"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "4341",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.852389818769,
+              49.1784442246821
+            ],
+            [
+              -122.852298879634,
+              49.1784433950814
+            ],
+            [
+              -122.852298389401,
+              49.1784255440982
+            ],
+            [
+              -122.85206151633,
+              49.1784223848861
+            ],
+            [
+              -122.852064614475,
+              49.1782967239285
+            ],
+            [
+              -122.852192041554,
+              49.1782961728586
+            ],
+            [
+              -122.852191529789,
+              49.1782851052343
+            ],
+            [
+              -122.852302617508,
+              49.1782856044742
+            ],
+            [
+              -122.852302060041,
+              49.1782898873431
+            ],
+            [
+              -122.852318936655,
+              49.178291337386
+            ],
+            [
+              -122.852333072984,
+              49.1782988521802
+            ],
+            [
+              -122.852333535924,
+              49.1783263425372
+            ],
+            [
+              -122.852319362412,
+              49.1783313222254
+            ],
+            [
+              -122.852321464513,
+              49.1783566719879
+            ],
+            [
+              -122.852307850585,
+              49.1783566545783
+            ],
+            [
+              -122.852306705151,
+              49.1783759310306
+            ],
+            [
+              -122.852394924485,
+              49.1783749733728
+            ],
+            [
+              -122.852389818769,
+              49.1784442246821
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "OBJECTID": 4341,
+        "FACILITY_TYPE": null,
+        "BUILDING_HEIGHT": 10.11,
+        "STATUS": "In Service",
+        "source_dataset": "Building Footprints",
+        "source_url": "https://services5.arcgis.com/YRpe0VKTJytZSSIB/arcgis/rest/services/Building%20Footprnts/FeatureServer/0",
+        "retrieved_at": "2026-10-06T20:03:04.251193+00:00",
+        "licence": "Contains information licensed under the Open Government License – City of Surrey.",
+        "licence_url": "https://opendata-surrey.hub.arcgis.com/pages/55089a19491a4fe59a41e059fd8af708",
+        "source_sha256": "8e1b16910ddb0a38b1cd9784aee5a4d3784f42f9a7a61fde6c6d3b18041dbc90"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "5414",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.843156675395,
+              49.1782252971535
+            ],
+            [
+              -122.842308617803,
+              49.1782279509159
+            ],
+            [
+              -122.842295355245,
+              49.1778318966386
+            ],
+            [
+              -122.843166591373,
+              49.1778445071693
+            ],
+            [
+              -122.843172160132,
+              49.1779206756037
+            ],
+            [
+              -122.843212825067,
+              49.1779188274039
+            ],
+            [
+              -122.843203306394,
+              49.1781739520905
+            ],
+            [
+              -122.843156837838,
+              49.1781738889907
+            ],
+            [
+              -122.843156675395,
+              49.1782252971535
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "OBJECTID": 5414,
+        "FACILITY_TYPE": null,
+        "BUILDING_HEIGHT": 54.84,
+        "STATUS": "In Service",
+        "source_dataset": "Building Footprints",
+        "source_url": "https://services5.arcgis.com/YRpe0VKTJytZSSIB/arcgis/rest/services/Building%20Footprnts/FeatureServer/0",
+        "retrieved_at": "2026-10-06T20:03:04.251193+00:00",
+        "licence": "Contains information licensed under the Open Government License – City of Surrey.",
+        "licence_url": "https://opendata-surrey.hub.arcgis.com/pages/55089a19491a4fe59a41e059fd8af708",
+        "source_sha256": "8e1b16910ddb0a38b1cd9784aee5a4d3784f42f9a7a61fde6c6d3b18041dbc90"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "5463",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.852240536715,
+              49.1782686174169
+            ],
+            [
+              -122.852149396399,
+              49.1782663409899
+            ],
+            [
+              -122.852149383533,
+              49.1782706605367
+            ],
+            [
+              -122.852050543879,
+              49.1782726937376
+            ],
+            [
+              -122.852051000953,
+              49.1781193480269
+            ],
+            [
+              -122.852228891902,
+              49.1781224551935
+            ],
+            [
+              -122.852230017434,
+              49.1781130978796
+            ],
+            [
+              -122.852355211837,
+              49.1781110982215
+            ],
+            [
+              -122.852350610682,
+              49.1781809258792
+            ],
+            [
+              -122.852263854613,
+              49.1781822550836
+            ],
+            [
+              -122.852265910678,
+              49.1782290532825
+            ],
+            [
+              -122.852241745831,
+              49.1782311821493
+            ],
+            [
+              -122.852240536715,
+              49.1782686174169
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "OBJECTID": 5463,
+        "FACILITY_TYPE": null,
+        "BUILDING_HEIGHT": 9.46,
+        "STATUS": "In Service",
+        "source_dataset": "Building Footprints",
+        "source_url": "https://services5.arcgis.com/YRpe0VKTJytZSSIB/arcgis/rest/services/Building%20Footprnts/FeatureServer/0",
+        "retrieved_at": "2026-10-06T20:03:04.251193+00:00",
+        "licence": "Contains information licensed under the Open Government License – City of Surrey.",
+        "licence_url": "https://opendata-surrey.hub.arcgis.com/pages/55089a19491a4fe59a41e059fd8af708",
+        "source_sha256": "8e1b16910ddb0a38b1cd9784aee5a4d3784f42f9a7a61fde6c6d3b18041dbc90"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "5465",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.852384759206,
+              49.1788153740993
+            ],
+            [
+              -122.852047961164,
+              49.1788141731128
+            ],
+            [
+              -122.852050720241,
+              49.1786756960669
+            ],
+            [
+              -122.852287786445,
+              49.1786706131163
+            ],
+            [
+              -122.852286376554,
+              49.1787506239746
+            ],
+            [
+              -122.852382602812,
+              49.1787515152147
+            ],
+            [
+              -122.852384759206,
+              49.1788153740993
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "OBJECTID": 5465,
+        "FACILITY_TYPE": null,
+        "BUILDING_HEIGHT": 10.41,
+        "STATUS": "In Service",
+        "source_dataset": "Building Footprints",
+        "source_url": "https://services5.arcgis.com/YRpe0VKTJytZSSIB/arcgis/rest/services/Building%20Footprnts/FeatureServer/0",
+        "retrieved_at": "2026-10-06T20:03:04.251193+00:00",
+        "licence": "Contains information licensed under the Open Government License – City of Surrey.",
+        "licence_url": "https://opendata-surrey.hub.arcgis.com/pages/55089a19491a4fe59a41e059fd8af708",
+        "source_sha256": "8e1b16910ddb0a38b1cd9784aee5a4d3784f42f9a7a61fde6c6d3b18041dbc90"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "6011",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.851583225686,
+              49.1887258819563
+            ],
+            [
+              -122.851259749121,
+              49.1887252337339
+            ],
+            [
+              -122.851260506715,
+              49.1885631560289
+            ],
+            [
+              -122.85158529833,
+              49.188563806839
+            ],
+            [
+              -122.851585220035,
+              49.1885808061054
+            ],
+            [
+              -122.851744548645,
+              49.1885811249819
+            ],
+            [
+              -122.851743840562,
+              49.1887331324856
+            ],
+            [
+              -122.851583193981,
+              49.188732811015
+            ],
+            [
+              -122.851583225686,
+              49.1887258819563
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "OBJECTID": 6011,
+        "FACILITY_TYPE": null,
+        "BUILDING_HEIGHT": 6.22,
+        "STATUS": "In Service",
+        "source_dataset": "Building Footprints",
+        "source_url": "https://services5.arcgis.com/YRpe0VKTJytZSSIB/arcgis/rest/services/Building%20Footprnts/FeatureServer/0",
+        "retrieved_at": "2026-10-06T20:03:04.251193+00:00",
+        "licence": "Contains information licensed under the Open Government License – City of Surrey.",
+        "licence_url": "https://opendata-surrey.hub.arcgis.com/pages/55089a19491a4fe59a41e059fd8af708",
+        "source_sha256": "8e1b16910ddb0a38b1cd9784aee5a4d3784f42f9a7a61fde6c6d3b18041dbc90"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "6373",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.854605660657,
+              49.1854199638353
+            ],
+            [
+              -122.854604636098,
+              49.1855026782088
+            ],
+            [
+              -122.854505544007,
+              49.1855021513249
+            ],
+            [
+              -122.854505301075,
+              49.1855218211083
+            ],
+            [
+              -122.8545135416,
+              49.185521864772
+            ],
+            [
+              -122.854512130029,
+              49.1856358940994
+            ],
+            [
+              -122.854488720301,
+              49.1856357692566
+            ],
+            [
+              -122.854488436203,
+              49.1856587114887
+            ],
+            [
+              -122.854512850453,
+              49.1856588411951
+            ],
+            [
+              -122.854511122722,
+              49.1857983242072
+            ],
+            [
+              -122.854549163827,
+              49.1857985268425
+            ],
+            [
+              -122.854548248854,
+              49.1858723782494
+            ],
+            [
+              -122.854446600828,
+              49.1858718373018
+            ],
+            [
+              -122.854446460625,
+              49.1858831433554
+            ],
+            [
+              -122.854394460553,
+              49.1858828664179
+            ],
+            [
+              -122.854395240919,
+              49.1858198910961
+            ],
+            [
+              -122.854363051222,
+              49.1858197200765
+            ],
+            [
+              -122.854362367829,
+              49.1858748893729
+            ],
+            [
+              -122.854240913585,
+              49.185874243208
+            ],
+            [
+              -122.854241187391,
+              49.18585204128
+            ],
+            [
+              -122.8541959637,
+              49.1858518006907
+            ],
+            [
+              -122.854196235669,
+              49.1858297633749
+            ],
+            [
+              -122.854209944802,
+              49.1858298364525
+            ],
+            [
+              -122.854210599612,
+              49.1857769798198
+            ],
+            [
+              -122.854197180047,
+              49.1857769080074
+            ],
+            [
+              -122.854197942564,
+              49.1857154213904
+            ],
+            [
+              -122.854223725007,
+              49.1857155582824
+            ],
+            [
+              -122.854224257456,
+              49.1856725828644
+            ],
+            [
+              -122.854203892803,
+              49.1856724744008
+            ],
+            [
+              -122.854204544186,
+              49.185619851641
+            ],
+            [
+              -122.854227813933,
+              49.1856199754652
+            ],
+            [
+              -122.854228382377,
+              49.1855740883035
+            ],
+            [
+              -122.854193208136,
+              49.1855739008759
+            ],
+            [
+              -122.854194384788,
+              49.1854788891824
+            ],
+            [
+              -122.85422776677,
+              49.1854790671512
+            ],
+            [
+              -122.854228157021,
+              49.1854475911827
+            ],
+            [
+              -122.854201176723,
+              49.1854474473823
+            ],
+            [
+              -122.854202059772,
+              49.1853762270664
+            ],
+            [
+              -122.854311937673,
+              49.1853768118943
+            ],
+            [
+              -122.854311716557,
+              49.1853946340642
+            ],
+            [
+              -122.854405286399,
+              49.1853951325642
+            ],
+            [
+              -122.85440540683,
+              49.185385423156
+            ],
+            [
+              -122.854593548246,
+              49.1853864247875
+            ],
+            [
+              -122.854593133163,
+              49.1854198976897
+            ],
+            [
+              -122.854605660657,
+              49.1854199638353
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "OBJECTID": 6373,
+        "FACILITY_TYPE": null,
+        "BUILDING_HEIGHT": 20.77,
+        "STATUS": "In Service",
+        "source_dataset": "Building Footprints",
+        "source_url": "https://services5.arcgis.com/YRpe0VKTJytZSSIB/arcgis/rest/services/Building%20Footprnts/FeatureServer/0",
+        "retrieved_at": "2026-10-06T20:03:04.251193+00:00",
+        "licence": "Contains information licensed under the Open Government License – City of Surrey.",
+        "licence_url": "https://opendata-surrey.hub.arcgis.com/pages/55089a19491a4fe59a41e059fd8af708",
+        "source_sha256": "8e1b16910ddb0a38b1cd9784aee5a4d3784f42f9a7a61fde6c6d3b18041dbc90"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "6425",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.850766460988,
+              49.1821670335582
+            ],
+            [
+              -122.850706454666,
+              49.1821669551037
+            ],
+            [
+              -122.850706571907,
+              49.1821284372263
+            ],
+            [
+              -122.850766578185,
+              49.1821285147812
+            ],
+            [
+              -122.850766460988,
+              49.1821670335582
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "OBJECTID": 6425,
+        "FACILITY_TYPE": null,
+        "BUILDING_HEIGHT": 2.61,
+        "STATUS": "In Service",
+        "source_dataset": "Building Footprints",
+        "source_url": "https://services5.arcgis.com/YRpe0VKTJytZSSIB/arcgis/rest/services/Building%20Footprnts/FeatureServer/0",
+        "retrieved_at": "2026-10-06T20:03:04.251193+00:00",
+        "licence": "Contains information licensed under the Open Government License – City of Surrey.",
+        "licence_url": "https://opendata-surrey.hub.arcgis.com/pages/55089a19491a4fe59a41e059fd8af708",
+        "source_sha256": "8e1b16910ddb0a38b1cd9784aee5a4d3784f42f9a7a61fde6c6d3b18041dbc90"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "6652",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.844297849518,
+              49.1827300888831
+            ],
+            [
+              -122.844502634164,
+              49.1828129212808
+            ],
+            [
+              -122.844469353554,
+              49.1828470965211
+            ],
+            [
+              -122.844248583034,
+              49.1827579511695
+            ],
+            [
+              -122.844252003396,
+              49.1827117899213
+            ],
+            [
+              -122.844297849518,
+              49.1827300888831
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "OBJECTID": 6652,
+        "FACILITY_TYPE": null,
+        "BUILDING_HEIGHT": 10.88,
+        "STATUS": "In Service",
+        "source_dataset": "Building Footprints",
+        "source_url": "https://services5.arcgis.com/YRpe0VKTJytZSSIB/arcgis/rest/services/Building%20Footprnts/FeatureServer/0",
+        "retrieved_at": "2026-10-06T20:03:04.251193+00:00",
+        "licence": "Contains information licensed under the Open Government License – City of Surrey.",
+        "licence_url": "https://opendata-surrey.hub.arcgis.com/pages/55089a19491a4fe59a41e059fd8af708",
+        "source_sha256": "8e1b16910ddb0a38b1cd9784aee5a4d3784f42f9a7a61fde6c6d3b18041dbc90"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "6759",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.843955570525,
+              49.1815583927321
+            ],
+            [
+              -122.843938121346,
+              49.1815655096529
+            ],
+            [
+              -122.843909802226,
+              49.1815654713813
+            ],
+            [
+              -122.843772652833,
+              49.181538153298
+            ],
+            [
+              -122.843581111947,
+              49.1814893416985
+            ],
+            [
+              -122.84355067374,
+              49.1814707358912
+            ],
+            [
+              -122.843500714026,
+              49.1814249718865
+            ],
+            [
+              -122.843452894256,
+              49.181392063299
+            ],
+            [
+              -122.843398531231,
+              49.1813620009393
+            ],
+            [
+              -122.843304916368,
+              49.1813447378423
+            ],
+            [
+              -122.843250530932,
+              49.1813218158814
+            ],
+            [
+              -122.843233230586,
+              49.1812818081222
+            ],
+            [
+              -122.843196441942,
+              49.1812046456443
+            ],
+            [
+              -122.84319215297,
+              49.1811832192226
+            ],
+            [
+              -122.843205263516,
+              49.1811703853836
+            ],
+            [
+              -122.843238033777,
+              49.181140441212
+            ],
+            [
+              -122.843262021695,
+              49.1811319057107
+            ],
+            [
+              -122.843305588135,
+              49.1811319648297
+            ],
+            [
+              -122.843660656682,
+              49.1811324460393
+            ],
+            [
+              -122.843712927418,
+              49.1811353728073
+            ],
+            [
+              -122.843998049046,
+              49.1812114432762
+            ],
+            [
+              -122.844026327573,
+              49.1812243340101
+            ],
+            [
+              -122.844102340911,
+              49.1812972646994
+            ],
+            [
+              -122.84411752711,
+              49.1813172773364
+            ],
+            [
+              -122.844117455348,
+              49.1813401253973
+            ],
+            [
+              -122.844102121116,
+              49.1813672373358
+            ],
+            [
+              -122.843955570525,
+              49.1815583927321
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "OBJECTID": 6759,
+        "FACILITY_TYPE": null,
+        "BUILDING_HEIGHT": 11.75,
+        "STATUS": "In Service",
+        "source_dataset": "Building Footprints",
+        "source_url": "https://services5.arcgis.com/YRpe0VKTJytZSSIB/arcgis/rest/services/Building%20Footprnts/FeatureServer/0",
+        "retrieved_at": "2026-10-06T20:03:04.251193+00:00",
+        "licence": "Contains information licensed under the Open Government License – City of Surrey.",
+        "licence_url": "https://opendata-surrey.hub.arcgis.com/pages/55089a19491a4fe59a41e059fd8af708",
+        "source_sha256": "8e1b16910ddb0a38b1cd9784aee5a4d3784f42f9a7a61fde6c6d3b18041dbc90"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "6954",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.846221621433,
+              49.1803648166541
+            ],
+            [
+              -122.846050986759,
+              49.1803648870649
+            ],
+            [
+              -122.846051420642,
+              49.1803714317524
+            ],
+            [
+              -122.846005584401,
+              49.1803716692877
+            ],
+            [
+              -122.846001242394,
+              49.1803085926774
+            ],
+            [
+              -122.846012590088,
+              49.1803077154709
+            ],
+            [
+              -122.846011294452,
+              49.1802865908878
+            ],
+            [
+              -122.845980437612,
+              49.1802856565028
+            ],
+            [
+              -122.84597844412,
+              49.1801967007328
+            ],
+            [
+              -122.84629202743,
+              49.1801971185201
+            ],
+            [
+              -122.846291312509,
+              49.1802813112458
+            ],
+            [
+              -122.846212342133,
+              49.18028358628
+            ],
+            [
+              -122.846211909154,
+              49.1802767429489
+            ],
+            [
+              -122.846182864427,
+              49.1802772997597
+            ],
+            [
+              -122.846183239789,
+              49.1803022902115
+            ],
+            [
+              -122.846209109379,
+              49.1803017291725
+            ],
+            [
+              -122.846204444466,
+              49.1803427785878
+            ],
+            [
+              -122.846221687799,
+              49.1803433970409
+            ],
+            [
+              -122.846221621433,
+              49.1803648166541
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "OBJECTID": 6954,
+        "FACILITY_TYPE": null,
+        "BUILDING_HEIGHT": 5.04,
+        "STATUS": "In Service",
+        "source_dataset": "Building Footprints",
+        "source_url": "https://services5.arcgis.com/YRpe0VKTJytZSSIB/arcgis/rest/services/Building%20Footprnts/FeatureServer/0",
+        "retrieved_at": "2026-10-06T20:03:04.251193+00:00",
+        "licence": "Contains information licensed under the Open Government License – City of Surrey.",
+        "licence_url": "https://opendata-surrey.hub.arcgis.com/pages/55089a19491a4fe59a41e059fd8af708",
+        "source_sha256": "8e1b16910ddb0a38b1cd9784aee5a4d3784f42f9a7a61fde6c6d3b18041dbc90"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "7426",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.843507196356,
+              49.1879992805748
+            ],
+            [
+              -122.844211664628,
+              49.1879859528995
+            ],
+            [
+              -122.844223840761,
+              49.1887332947704
+            ],
+            [
+              -122.843359654776,
+              49.188727366504
+            ],
+            [
+              -122.843374901291,
+              49.188498904992
+            ],
+            [
+              -122.843476570952,
+              49.1884990428258
+            ],
+            [
+              -122.843507196356,
+              49.1879992805748
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "OBJECTID": 7426,
+        "FACILITY_TYPE": null,
+        "BUILDING_HEIGHT": 96.13,
+        "STATUS": "In Service",
+        "source_dataset": "Building Footprints",
+        "source_url": "https://services5.arcgis.com/YRpe0VKTJytZSSIB/arcgis/rest/services/Building%20Footprnts/FeatureServer/0",
+        "retrieved_at": "2026-10-06T20:03:04.251193+00:00",
+        "licence": "Contains information licensed under the Open Government License – City of Surrey.",
+        "licence_url": "https://opendata-surrey.hub.arcgis.com/pages/55089a19491a4fe59a41e059fd8af708",
+        "source_sha256": "8e1b16910ddb0a38b1cd9784aee5a4d3784f42f9a7a61fde6c6d3b18041dbc90"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "8585",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.844802498562,
+              49.1838096811756
+            ],
+            [
+              -122.844915588813,
+              49.1839000481941
+            ],
+            [
+              -122.844997969679,
+              49.1839856063619
+            ],
+            [
+              -122.844944855323,
+              49.1840061883495
+            ],
+            [
+              -122.844952160631,
+              49.1840134034193
+            ],
+            [
+              -122.844909998241,
+              49.1840326588893
+            ],
+            [
+              -122.844899760954,
+              49.1840239565488
+            ],
+            [
+              -122.844853559918,
+              49.1840493773729
+            ],
+            [
+              -122.844861039923,
+              49.1840538221205
+            ],
+            [
+              -122.844851164466,
+              49.1840601874452
+            ],
+            [
+              -122.844850270789,
+              49.1840607340605
+            ],
+            [
+              -122.844843629817,
+              49.1840565414093
+            ],
+            [
+              -122.844835704328,
+              49.1840629093523
+            ],
+            [
+              -122.844843541232,
+              49.1840673185992
+            ],
+            [
+              -122.844814442154,
+              49.1840867355087
+            ],
+            [
+              -122.844809170035,
+              49.1840831932584
+            ],
+            [
+              -122.844774303258,
+              49.1841127230567
+            ],
+            [
+              -122.844634775783,
+              49.184050556693
+            ],
+            [
+              -122.844514978531,
+              49.1839548011628
+            ],
+            [
+              -122.844443076399,
+              49.1838580755645
+            ],
+            [
+              -122.844490260338,
+              49.1838434947048
+            ],
+            [
+              -122.844479136308,
+              49.1838331620777
+            ],
+            [
+              -122.84451521044,
+              49.1838163992707
+            ],
+            [
+              -122.844532130622,
+              49.1838294373976
+            ],
+            [
+              -122.844609878547,
+              49.1837829012265
+            ],
+            [
+              -122.844596037375,
+              49.1837725928402
+            ],
+            [
+              -122.844625880565,
+              49.1837560995697
+            ],
+            [
+              -122.84463186243,
+              49.1837608481582
+            ],
+            [
+              -122.844670113826,
+              49.1837367570345
+            ],
+            [
+              -122.844802498562,
+              49.1838096811756
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "OBJECTID": 8585,
+        "FACILITY_TYPE": null,
+        "BUILDING_HEIGHT": 105.65,
+        "STATUS": "In Service",
+        "source_dataset": "Building Footprints",
+        "source_url": "https://services5.arcgis.com/YRpe0VKTJytZSSIB/arcgis/rest/services/Building%20Footprnts/FeatureServer/0",
+        "retrieved_at": "2026-10-06T20:03:04.251193+00:00",
+        "licence": "Contains information licensed under the Open Government License – City of Surrey.",
+        "licence_url": "https://opendata-surrey.hub.arcgis.com/pages/55089a19491a4fe59a41e059fd8af708",
+        "source_sha256": "8e1b16910ddb0a38b1cd9784aee5a4d3784f42f9a7a61fde6c6d3b18041dbc90"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "8625",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.843601536144,
+              49.1790149421799
+            ],
+            [
+              -122.843754745005,
+              49.1790116260859
+            ],
+            [
+              -122.843755271697,
+              49.1790221513479
+            ],
+            [
+              -122.843774182146,
+              49.1790217451542
+            ],
+            [
+              -122.843775833794,
+              49.1790545623936
+            ],
+            [
+              -122.843756253685,
+              49.1790549856722
+            ],
+            [
+              -122.843757942367,
+              49.17908867551
+            ],
+            [
+              -122.843760096729,
+              49.1790886334479
+            ],
+            [
+              -122.843761761271,
+              49.1791217115695
+            ],
+            [
+              -122.843757836736,
+              49.1791217962135
+            ],
+            [
+              -122.84375805738,
+              49.1791262402105
+            ],
+            [
+              -122.843638551166,
+              49.1791288211492
+            ],
+            [
+              -122.843636021971,
+              49.1790784159284
+            ],
+            [
+              -122.843604749238,
+              49.1790790851139
+            ],
+            [
+              -122.843601536144,
+              49.1790149421799
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "OBJECTID": 8625,
+        "FACILITY_TYPE": null,
+        "BUILDING_HEIGHT": 7.51,
+        "STATUS": "In Service",
+        "source_dataset": "Building Footprints",
+        "source_url": "https://services5.arcgis.com/YRpe0VKTJytZSSIB/arcgis/rest/services/Building%20Footprnts/FeatureServer/0",
+        "retrieved_at": "2026-10-06T20:03:04.251193+00:00",
+        "licence": "Contains information licensed under the Open Government License – City of Surrey.",
+        "licence_url": "https://opendata-surrey.hub.arcgis.com/pages/55089a19491a4fe59a41e059fd8af708",
+        "source_sha256": "8e1b16910ddb0a38b1cd9784aee5a4d3784f42f9a7a61fde6c6d3b18041dbc90"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "8869",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.843769755005,
+              49.1828030753859
+            ],
+            [
+              -122.843862551792,
+              49.1827101162494
+            ],
+            [
+              -122.843883520445,
+              49.1827097604955
+            ],
+            [
+              -122.845054075869,
+              49.1831821437429
+            ],
+            [
+              -122.845061430655,
+              49.1832670974553
+            ],
+            [
+              -122.845075360741,
+              49.183288910939
+            ],
+            [
+              -122.845085780907,
+              49.1833141604283
+            ],
+            [
+              -122.845085715081,
+              49.1833348082309
+            ],
+            [
+              -122.845076912017,
+              49.1833520017988
+            ],
+            [
+              -122.845062858777,
+              49.1833691901217
+            ],
+            [
+              -122.845052295356,
+              49.1833898229409
+            ],
+            [
+              -122.845053941092,
+              49.1834230907951
+            ],
+            [
+              -122.844945458849,
+              49.1834195026854
+            ],
+            [
+              -122.84492793861,
+              49.1834263605926
+            ],
+            [
+              -122.844896441702,
+              49.1834263182964
+            ],
+            [
+              -122.844877229216,
+              49.1834148225414
+            ],
+            [
+              -122.844872030618,
+              49.1833987561882
+            ],
+            [
+              -122.844873881984,
+              49.1833666408332
+            ],
+            [
+              -122.844884449062,
+              49.1833448602304
+            ],
+            [
+              -122.844896737045,
+              49.1833322589782
+            ],
+            [
+              -122.844881064601,
+              49.1833081493225
+            ],
+            [
+              -122.844868905704,
+              49.1832794558641
+            ],
+            [
+              -122.84487071404,
+              49.1832611051118
+            ],
+            [
+              -122.844876016604,
+              49.1832439059581
+            ],
+            [
+              -122.844879542262,
+              49.1832358805584
+            ],
+            [
+              -122.844856819912,
+              49.1832278208008
+            ],
+            [
+              -122.844821836925,
+              49.1832231843814
+            ],
+            [
+              -122.844788619253,
+              49.1832139636027
+            ],
+            [
+              -122.844758897192,
+              49.1832058935189
+            ],
+            [
+              -122.844734444072,
+              49.18319094908
+            ],
+            [
+              -122.844708226177,
+              49.1831817367889
+            ],
+            [
+              -122.844676681383,
+              49.1831966059348
+            ],
+            [
+              -122.844636428113,
+              49.1831988456012
+            ],
+            [
+              -122.844541920711,
+              49.1832033060465
+            ],
+            [
+              -122.844496436625,
+              49.1831998031974
+            ],
+            [
+              -122.844400278095,
+              49.1831732903658
+            ],
+            [
+              -122.844326903058,
+              49.183135337316
+            ],
+            [
+              -122.844311133795,
+              49.1831421974901
+            ],
+            [
+              -122.844211614502,
+              49.1830720912759
+            ],
+            [
+              -122.844220459653,
+              49.1830411322686
+            ],
+            [
+              -122.844229246328,
+              49.1830296741686
+            ],
+            [
+              -122.844192582379,
+              49.1830032404937
+            ],
+            [
+              -122.844185640291,
+              49.1829848779456
+            ],
+            [
+              -122.84414895255,
+              49.1829664752598
+            ],
+            [
+              -122.844042322396,
+              49.182931918761
+            ],
+            [
+              -122.844059895281,
+              49.1829078529823
+            ],
+            [
+              -122.843989947074,
+              49.1828939938515
+            ],
+            [
+              -122.843977705849,
+              49.1828916835042
+            ],
+            [
+              -122.843769755005,
+              49.1828030753859
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "OBJECTID": 8869,
+        "FACILITY_TYPE": null,
+        "BUILDING_HEIGHT": 6.63,
+        "STATUS": "In Service",
+        "source_dataset": "Building Footprints",
+        "source_url": "https://services5.arcgis.com/YRpe0VKTJytZSSIB/arcgis/rest/services/Building%20Footprnts/FeatureServer/0",
+        "retrieved_at": "2026-10-06T20:03:04.251193+00:00",
+        "licence": "Contains information licensed under the Open Government License – City of Surrey.",
+        "licence_url": "https://opendata-surrey.hub.arcgis.com/pages/55089a19491a4fe59a41e059fd8af708",
+        "source_sha256": "8e1b16910ddb0a38b1cd9784aee5a4d3784f42f9a7a61fde6c6d3b18041dbc90"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "9091",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.845056145313,
+              49.1835829453399
+            ],
+            [
+              -122.845001500476,
+              49.183583159865
+            ],
+            [
+              -122.845001254829,
+              49.1835568032063
+            ],
+            [
+              -122.844980754621,
+              49.1835568836352
+            ],
+            [
+              -122.84498042779,
+              49.1835209369415
+            ],
+            [
+              -122.845000531406,
+              49.1835208559803
+            ],
+            [
+              -122.845000491126,
+              49.1835161783524
+            ],
+            [
+              -122.845055518769,
+              49.1835159562456
+            ],
+            [
+              -122.845056145313,
+              49.1835829453399
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "OBJECTID": 9091,
+        "FACILITY_TYPE": null,
+        "BUILDING_HEIGHT": 3.78,
+        "STATUS": "In Service",
+        "source_dataset": "Building Footprints",
+        "source_url": "https://services5.arcgis.com/YRpe0VKTJytZSSIB/arcgis/rest/services/Building%20Footprnts/FeatureServer/0",
+        "retrieved_at": "2026-10-06T20:03:04.251193+00:00",
+        "licence": "Contains information licensed under the Open Government License – City of Surrey.",
+        "licence_url": "https://opendata-surrey.hub.arcgis.com/pages/55089a19491a4fe59a41e059fd8af708",
+        "source_sha256": "8e1b16910ddb0a38b1cd9784aee5a4d3784f42f9a7a61fde6c6d3b18041dbc90"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "9206",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.843456141139,
+              49.1838590178371
+            ],
+            [
+              -122.843966614396,
+              49.1838692454944
+            ],
+            [
+              -122.843963906548,
+              49.1841172656707
+            ],
+            [
+              -122.843451080644,
+              49.1841116377258
+            ],
+            [
+              -122.843456141139,
+              49.1838590178371
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "OBJECTID": 9206,
+        "FACILITY_TYPE": null,
+        "BUILDING_HEIGHT": 107.93,
+        "STATUS": "In Service",
+        "source_dataset": "Building Footprints",
+        "source_url": "https://services5.arcgis.com/YRpe0VKTJytZSSIB/arcgis/rest/services/Building%20Footprnts/FeatureServer/0",
+        "retrieved_at": "2026-10-06T20:03:04.251193+00:00",
+        "licence": "Contains information licensed under the Open Government License – City of Surrey.",
+        "licence_url": "https://opendata-surrey.hub.arcgis.com/pages/55089a19491a4fe59a41e059fd8af708",
+        "source_sha256": "8e1b16910ddb0a38b1cd9784aee5a4d3784f42f9a7a61fde6c6d3b18041dbc90"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "9483",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.852122650989,
+              49.1821018860288
+            ],
+            [
+              -122.852120988461,
+              49.181970901911
+            ],
+            [
+              -122.852244679272,
+              49.1819702146642
+            ],
+            [
+              -122.852246358563,
+              49.1821012086965
+            ],
+            [
+              -122.852122650989,
+              49.1821018860288
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "OBJECTID": 9483,
+        "FACILITY_TYPE": null,
+        "BUILDING_HEIGHT": 6.51,
+        "STATUS": "In Service",
+        "source_dataset": "Building Footprints",
+        "source_url": "https://services5.arcgis.com/YRpe0VKTJytZSSIB/arcgis/rest/services/Building%20Footprnts/FeatureServer/0",
+        "retrieved_at": "2026-10-06T20:03:04.251193+00:00",
+        "licence": "Contains information licensed under the Open Government License – City of Surrey.",
+        "licence_url": "https://opendata-surrey.hub.arcgis.com/pages/55089a19491a4fe59a41e059fd8af708",
+        "source_sha256": "8e1b16910ddb0a38b1cd9784aee5a4d3784f42f9a7a61fde6c6d3b18041dbc90"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "9485",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.851560312271,
+              49.1812320063947
+            ],
+            [
+              -122.851748822663,
+              49.1812314407555
+            ],
+            [
+              -122.851749194977,
+              49.1812854951152
+            ],
+            [
+              -122.851789743291,
+              49.1812853762479
+            ],
+            [
+              -122.851790213085,
+              49.1813527528266
+            ],
+            [
+              -122.851745987227,
+              49.1813528840644
+            ],
+            [
+              -122.851746025698,
+              49.181358839027
+            ],
+            [
+              -122.851659768082,
+              49.1813591051697
+            ],
+            [
+              -122.851659727768,
+              49.1813546884073
+            ],
+            [
+              -122.85158683536,
+              49.1813549086944
+            ],
+            [
+              -122.851586441022,
+              49.1812991011151
+            ],
+            [
+              -122.851560780975,
+              49.1812991841766
+            ],
+            [
+              -122.851560312271,
+              49.1812320063947
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "OBJECTID": 9485,
+        "FACILITY_TYPE": null,
+        "BUILDING_HEIGHT": 7.43,
+        "STATUS": "In Service",
+        "source_dataset": "Building Footprints",
+        "source_url": "https://services5.arcgis.com/YRpe0VKTJytZSSIB/arcgis/rest/services/Building%20Footprnts/FeatureServer/0",
+        "retrieved_at": "2026-10-06T20:03:04.251193+00:00",
+        "licence": "Contains information licensed under the Open Government License – City of Surrey.",
+        "licence_url": "https://opendata-surrey.hub.arcgis.com/pages/55089a19491a4fe59a41e059fd8af708",
+        "source_sha256": "8e1b16910ddb0a38b1cd9784aee5a4d3784f42f9a7a61fde6c6d3b18041dbc90"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "9867",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.848511721447,
+              49.1915177818496
+            ],
+            [
+              -122.848507533944,
+              49.1914620845221
+            ],
+            [
+              -122.848517691763,
+              49.1911437624004
+            ],
+            [
+              -122.848870656942,
+              49.1911427972512
+            ],
+            [
+              -122.8490710132,
+              49.1911730469567
+            ],
+            [
+              -122.849223831249,
+              49.1909831421191
+            ],
+            [
+              -122.849505598523,
+              49.1910915245474
+            ],
+            [
+              -122.849914005273,
+              49.1912369778303
+            ],
+            [
+              -122.850149264799,
+              49.1915178365993
+            ],
+            [
+              -122.848511721447,
+              49.1915177818496
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "OBJECTID": 9867,
+        "FACILITY_TYPE": "Municipal",
+        "BUILDING_HEIGHT": 34.48,
+        "STATUS": "In Service",
+        "source_dataset": "Building Footprints",
+        "source_url": "https://services5.arcgis.com/YRpe0VKTJytZSSIB/arcgis/rest/services/Building%20Footprnts/FeatureServer/0",
+        "retrieved_at": "2026-10-06T20:03:04.251193+00:00",
+        "licence": "Contains information licensed under the Open Government License – City of Surrey.",
+        "licence_url": "https://opendata-surrey.hub.arcgis.com/pages/55089a19491a4fe59a41e059fd8af708",
+        "source_sha256": "8e1b16910ddb0a38b1cd9784aee5a4d3784f42f9a7a61fde6c6d3b18041dbc90"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "9868",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.843857322858,
+              49.1835708718778
+            ],
+            [
+              -122.843384307639,
+              49.1836855848589
+            ],
+            [
+              -122.843219548547,
+              49.1834423901369
+            ],
+            [
+              -122.843195044683,
+              49.1834479582646
+            ],
+            [
+              -122.843160883988,
+              49.1833937212846
+            ],
+            [
+              -122.843553091754,
+              49.1832884780093
+            ],
+            [
+              -122.843623622102,
+              49.1832962789345
+            ],
+            [
+              -122.84369671649,
+              49.183342205515
+            ],
+            [
+              -122.843839196214,
+              49.1835518950994
+            ],
+            [
+              -122.843857322858,
+              49.1835708718778
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "OBJECTID": 9868,
+        "FACILITY_TYPE": null,
+        "BUILDING_HEIGHT": 108.12,
+        "STATUS": "In Service",
+        "source_dataset": "Building Footprints",
+        "source_url": "https://services5.arcgis.com/YRpe0VKTJytZSSIB/arcgis/rest/services/Building%20Footprnts/FeatureServer/0",
+        "retrieved_at": "2026-10-06T20:03:04.251193+00:00",
+        "licence": "Contains information licensed under the Open Government License – City of Surrey.",
+        "licence_url": "https://opendata-surrey.hub.arcgis.com/pages/55089a19491a4fe59a41e059fd8af708",
+        "source_sha256": "8e1b16910ddb0a38b1cd9784aee5a4d3784f42f9a7a61fde6c6d3b18041dbc90"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "9869",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.843456141139,
+              49.1838590178371
+            ],
+            [
+              -122.843457356111,
+              49.1837983819384
+            ],
+            [
+              -122.843434914415,
+              49.1837983515174
+            ],
+            [
+              -122.843441565425,
+              49.1837827842135
+            ],
+            [
+              -122.843413840611,
+              49.183783611078
+            ],
+            [
+              -122.843418017985,
+              49.1837152522035
+            ],
+            [
+              -122.843400873101,
+              49.1837100368503
+            ],
+            [
+              -122.843384307639,
+              49.1836855848589
+            ],
+            [
+              -122.843857322858,
+              49.1835708718778
+            ],
+            [
+              -122.843968598284,
+              49.1836873697194
+            ],
+            [
+              -122.843966614396,
+              49.1838692454944
+            ],
+            [
+              -122.843456141139,
+              49.1838590178371
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "OBJECTID": 9869,
+        "FACILITY_TYPE": null,
+        "BUILDING_HEIGHT": 99.19,
+        "STATUS": "In Service",
+        "source_dataset": "Building Footprints",
+        "source_url": "https://services5.arcgis.com/YRpe0VKTJytZSSIB/arcgis/rest/services/Building%20Footprnts/FeatureServer/0",
+        "retrieved_at": "2026-10-06T20:03:04.251193+00:00",
+        "licence": "Contains information licensed under the Open Government License – City of Surrey.",
+        "licence_url": "https://opendata-surrey.hub.arcgis.com/pages/55089a19491a4fe59a41e059fd8af708",
+        "source_sha256": "8e1b16910ddb0a38b1cd9784aee5a4d3784f42f9a7a61fde6c6d3b18041dbc90"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "9870",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.844174792316,
+              49.1907405991479
+            ],
+            [
+              -122.843903890991,
+              49.1907389514962
+            ],
+            [
+              -122.843559894182,
+              49.1907374839772
+            ],
+            [
+              -122.843563329194,
+              49.1903906379583
+            ],
+            [
+              -122.843601358788,
+              49.1903908064023
+            ],
+            [
+              -122.843602168653,
+              49.190308913173
+            ],
+            [
+              -122.843640292908,
+              49.1903090736366
+            ],
+            [
+              -122.843640512634,
+              49.19028769115
+            ],
+            [
+              -122.844187350214,
+              49.1902900196545
+            ],
+            [
+              -122.844182889585,
+              49.1907406451542
+            ],
+            [
+              -122.844174792316,
+              49.1907405991479
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "OBJECTID": 9870,
+        "FACILITY_TYPE": null,
+        "BUILDING_HEIGHT": 9.96,
+        "STATUS": "In Service",
+        "source_dataset": "Building Footprints",
+        "source_url": "https://services5.arcgis.com/YRpe0VKTJytZSSIB/arcgis/rest/services/Building%20Footprnts/FeatureServer/0",
+        "retrieved_at": "2026-10-06T20:03:04.251193+00:00",
+        "licence": "Contains information licensed under the Open Government License – City of Surrey.",
+        "licence_url": "https://opendata-surrey.hub.arcgis.com/pages/55089a19491a4fe59a41e059fd8af708",
+        "source_sha256": "8e1b16910ddb0a38b1cd9784aee5a4d3784f42f9a7a61fde6c6d3b18041dbc90"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "9897",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.848895041994,
+              49.1820901799581
+            ],
+            [
+              -122.849002991697,
+              49.1820902410896
+            ],
+            [
+              -122.849002902482,
+              49.1821461739734
+            ],
+            [
+              -122.849042601702,
+              49.1821461898902
+            ],
+            [
+              -122.84904259903,
+              49.1821511283263
+            ],
+            [
+              -122.849115517891,
+              49.1821511714435
+            ],
+            [
+              -122.849115423622,
+              49.18223092397
+            ],
+            [
+              -122.849111156046,
+              49.1822309273897
+            ],
+            [
+              -122.849111075913,
+              49.182293390898
+            ],
+            [
+              -122.849099878703,
+              49.1822933852634
+            ],
+            [
+              -122.849099880938,
+              49.1822971633074
+            ],
+            [
+              -122.849051867416,
+              49.182297135644
+            ],
+            [
+              -122.84905186393,
+              49.182303244372
+            ],
+            [
+              -122.849000815087,
+              49.1823032127201
+            ],
+            [
+              -122.849000828388,
+              49.1822988410042
+            ],
+            [
+              -122.848962051197,
+              49.182298816384
+            ],
+            [
+              -122.848962047922,
+              49.1823048522502
+            ],
+            [
+              -122.848943837344,
+              49.182304847323
+            ],
+            [
+              -122.848943840418,
+              49.1823083456131
+            ],
+            [
+              -122.848911688222,
+              49.1823083296411
+            ],
+            [
+              -122.848911683866,
+              49.1823052532305
+            ],
+            [
+              -122.848894752209,
+              49.1823052409734
+            ],
+            [
+              -122.848895041994,
+              49.1820901799581
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "OBJECTID": 9897,
+        "FACILITY_TYPE": null,
+        "BUILDING_HEIGHT": 10.1,
+        "STATUS": "In Service",
+        "source_dataset": "Building Footprints",
+        "source_url": "https://services5.arcgis.com/YRpe0VKTJytZSSIB/arcgis/rest/services/Building%20Footprnts/FeatureServer/0",
+        "retrieved_at": "2026-10-06T20:03:04.251193+00:00",
+        "licence": "Contains information licensed under the Open Government License – City of Surrey.",
+        "licence_url": "https://opendata-surrey.hub.arcgis.com/pages/55089a19491a4fe59a41e059fd8af708",
+        "source_sha256": "8e1b16910ddb0a38b1cd9784aee5a4d3784f42f9a7a61fde6c6d3b18041dbc90"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "9898",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.851586657629,
+              49.1825486579578
+            ],
+            [
+              -122.851805769753,
+              49.1825488691634
+            ],
+            [
+              -122.851803858848,
+              49.1826552824272
+            ],
+            [
+              -122.851699447898,
+              49.1826548767407
+            ],
+            [
+              -122.851699597659,
+              49.182637822677
+            ],
+            [
+              -122.851586799668,
+              49.1826379017614
+            ],
+            [
+              -122.851586657629,
+              49.1825486579578
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "OBJECTID": 9898,
+        "FACILITY_TYPE": null,
+        "BUILDING_HEIGHT": 6.24,
+        "STATUS": "In Service",
+        "source_dataset": "Building Footprints",
+        "source_url": "https://services5.arcgis.com/YRpe0VKTJytZSSIB/arcgis/rest/services/Building%20Footprnts/FeatureServer/0",
+        "retrieved_at": "2026-10-06T20:03:04.251193+00:00",
+        "licence": "Contains information licensed under the Open Government License – City of Surrey.",
+        "licence_url": "https://opendata-surrey.hub.arcgis.com/pages/55089a19491a4fe59a41e059fd8af708",
+        "source_sha256": "8e1b16910ddb0a38b1cd9784aee5a4d3784f42f9a7a61fde6c6d3b18041dbc90"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "9899",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.852077669324,
+              49.1840951477684
+            ],
+            [
+              -122.851933514913,
+              49.1840215494315
+            ],
+            [
+              -122.851964385869,
+              49.183995566407
+            ],
+            [
+              -122.851949122183,
+              49.1839877730742
+            ],
+            [
+              -122.85201925713,
+              49.1839287645221
+            ],
+            [
+              -122.852049044583,
+              49.1839439787123
+            ],
+            [
+              -122.852042867654,
+              49.1839491790969
+            ],
+            [
+              -122.852096974307,
+              49.1839768020064
+            ],
+            [
+              -122.852116868388,
+              49.1839600601812
+            ],
+            [
+              -122.8521536835,
+              49.1839788625859
+            ],
+            [
+              -122.852139417425,
+              49.183990871982
+            ],
+            [
+              -122.852189975409,
+              49.1840166894387
+            ],
+            [
+              -122.852165886797,
+              49.1840369628721
+            ],
+            [
+              -122.852198757297,
+              49.1840537362629
+            ],
+            [
+              -122.852143548787,
+              49.1841001975532
+            ],
+            [
+              -122.852098812628,
+              49.1840773460974
+            ],
+            [
+              -122.852077669324,
+              49.1840951477684
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "OBJECTID": 9899,
+        "FACILITY_TYPE": null,
+        "BUILDING_HEIGHT": 7.73,
+        "STATUS": "In Service",
+        "source_dataset": "Building Footprints",
+        "source_url": "https://services5.arcgis.com/YRpe0VKTJytZSSIB/arcgis/rest/services/Building%20Footprnts/FeatureServer/0",
+        "retrieved_at": "2026-10-06T20:03:04.251193+00:00",
+        "licence": "Contains information licensed under the Open Government License – City of Surrey.",
+        "licence_url": "https://opendata-surrey.hub.arcgis.com/pages/55089a19491a4fe59a41e059fd8af708",
+        "source_sha256": "8e1b16910ddb0a38b1cd9784aee5a4d3784f42f9a7a61fde6c6d3b18041dbc90"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "9954",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.856125058276,
+              49.1829870496188
+            ],
+            [
+              -122.856131404558,
+              49.1828475048043
+            ],
+            [
+              -122.856350224033,
+              49.1828497246766
+            ],
+            [
+              -122.856349135593,
+              49.1828834756172
+            ],
+            [
+              -122.856367950617,
+              49.1828828495555
+            ],
+            [
+              -122.856363768713,
+              49.1829594360297
+            ],
+            [
+              -122.856346933777,
+              49.1829600645537
+            ],
+            [
+              -122.856344870991,
+              49.1829886212752
+            ],
+            [
+              -122.856125058276,
+              49.1829870496188
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "OBJECTID": 9954,
+        "FACILITY_TYPE": null,
+        "BUILDING_HEIGHT": 9.26,
+        "STATUS": "In Service",
+        "source_dataset": "Building Footprints",
+        "source_url": "https://services5.arcgis.com/YRpe0VKTJytZSSIB/arcgis/rest/services/Building%20Footprnts/FeatureServer/0",
+        "retrieved_at": "2026-10-06T20:03:04.251193+00:00",
+        "licence": "Contains information licensed under the Open Government License – City of Surrey.",
+        "licence_url": "https://opendata-surrey.hub.arcgis.com/pages/55089a19491a4fe59a41e059fd8af708",
+        "source_sha256": "8e1b16910ddb0a38b1cd9784aee5a4d3784f42f9a7a61fde6c6d3b18041dbc90"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "9955",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.856137378764,
+              49.1828358291058
+            ],
+            [
+              -122.856139749725,
+              49.182701472342
+            ],
+            [
+              -122.856381351239,
+              49.1827004750151
+            ],
+            [
+              -122.856383197986,
+              49.1827465613115
+            ],
+            [
+              -122.856372307206,
+              49.1827458992041
+            ],
+            [
+              -122.85637017118,
+              49.1827997705069
+            ],
+            [
+              -122.856386016692,
+              49.1827991407491
+            ],
+            [
+              -122.856384915129,
+              49.1828374352176
+            ],
+            [
+              -122.856137378764,
+              49.1828358291058
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "OBJECTID": 9955,
+        "FACILITY_TYPE": null,
+        "BUILDING_HEIGHT": 9.36,
+        "STATUS": "In Service",
+        "source_dataset": "Building Footprints",
+        "source_url": "https://services5.arcgis.com/YRpe0VKTJytZSSIB/arcgis/rest/services/Building%20Footprnts/FeatureServer/0",
+        "retrieved_at": "2026-10-06T20:03:04.251193+00:00",
+        "licence": "Contains information licensed under the Open Government License – City of Surrey.",
+        "licence_url": "https://opendata-surrey.hub.arcgis.com/pages/55089a19491a4fe59a41e059fd8af708",
+        "source_sha256": "8e1b16910ddb0a38b1cd9784aee5a4d3784f42f9a7a61fde6c6d3b18041dbc90"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "9956",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.856139785474,
+              49.1826891397824
+            ],
+            [
+              -122.856145140936,
+              49.1825495946253
+            ],
+            [
+              -122.856361978999,
+              49.1825518111083
+            ],
+            [
+              -122.856360890574,
+              49.1825855620508
+            ],
+            [
+              -122.856385643913,
+              49.1825855928349
+            ],
+            [
+              -122.856381458306,
+              49.1826634773359
+            ],
+            [
+              -122.856360663262,
+              49.1826641000377
+            ],
+            [
+              -122.856360588114,
+              49.1826900640789
+            ],
+            [
+              -122.856139785474,
+              49.1826891397824
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "OBJECTID": 9956,
+        "FACILITY_TYPE": null,
+        "BUILDING_HEIGHT": 9.12,
+        "STATUS": "In Service",
+        "source_dataset": "Building Footprints",
+        "source_url": "https://services5.arcgis.com/YRpe0VKTJytZSSIB/arcgis/rest/services/Building%20Footprnts/FeatureServer/0",
+        "retrieved_at": "2026-10-06T20:03:04.251193+00:00",
+        "licence": "Contains information licensed under the Open Government License – City of Surrey.",
+        "licence_url": "https://opendata-surrey.hub.arcgis.com/pages/55089a19491a4fe59a41e059fd8af708",
+        "source_sha256": "8e1b16910ddb0a38b1cd9784aee5a4d3784f42f9a7a61fde6c6d3b18041dbc90"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "9958",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.843903890991,
+              49.1907389514962
+            ],
+            [
+              -122.844174792316,
+              49.1907405991479
+            ],
+            [
+              -122.844173967306,
+              49.1908236797369
+            ],
+            [
+              -122.844157347263,
+              49.1908235943446
+            ],
+            [
+              -122.844158115445,
+              49.1909447479864
+            ],
+            [
+              -122.844291378339,
+              49.1909453415118
+            ],
+            [
+              -122.844291880629,
+              49.1909383528233
+            ],
+            [
+              -122.844430797991,
+              49.1909389475143
+            ],
+            [
+              -122.844430736456,
+              49.1909454411549
+            ],
+            [
+              -122.844671944333,
+              49.1909458674532
+            ],
+            [
+              -122.844671915298,
+              49.1909551415919
+            ],
+            [
+              -122.844697207798,
+              49.1909552565627
+            ],
+            [
+              -122.844696340471,
+              49.1910429265087
+            ],
+            [
+              -122.844709819117,
+              49.1910429896091
+            ],
+            [
+              -122.84470901171,
+              49.1911246768455
+            ],
+            [
+              -122.84457601579,
+              49.1911241372337
+            ],
+            [
+              -122.844576122576,
+              49.1911145834455
+            ],
+            [
+              -122.844057203876,
+              49.191109656157
+            ],
+            [
+              -122.844056190481,
+              49.1911098230012
+            ],
+            [
+              -122.844056219235,
+              49.1911067880183
+            ],
+            [
+              -122.843902082449,
+              49.1911061381257
+            ],
+            [
+              -122.843903415004,
+              49.1909713774015
+            ],
+            [
+              -122.843873277772,
+              49.1909712557077
+            ],
+            [
+              -122.843874025313,
+              49.1908950726316
+            ],
+            [
+              -122.84389728799,
+              49.1908951688421
+            ],
+            [
+              -122.843898077401,
+              49.1908152626573
+            ],
+            [
+              -122.843903127923,
+              49.1908152865746
+            ],
+            [
+              -122.843903890991,
+              49.1907389514962
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "OBJECTID": 9958,
+        "FACILITY_TYPE": null,
+        "BUILDING_HEIGHT": 11.51,
+        "STATUS": "In Service",
+        "source_dataset": "Building Footprints",
+        "source_url": "https://services5.arcgis.com/YRpe0VKTJytZSSIB/arcgis/rest/services/Building%20Footprnts/FeatureServer/0",
+        "retrieved_at": "2026-10-06T20:03:04.251193+00:00",
+        "licence": "Contains information licensed under the Open Government License – City of Surrey.",
+        "licence_url": "https://opendata-surrey.hub.arcgis.com/pages/55089a19491a4fe59a41e059fd8af708",
+        "source_sha256": "8e1b16910ddb0a38b1cd9784aee5a4d3784f42f9a7a61fde6c6d3b18041dbc90"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "9979",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.844439572218,
+              49.1852806386238
+            ],
+            [
+              -122.844380028623,
+              49.1852801527169
+            ],
+            [
+              -122.844381028966,
+              49.1852280971815
+            ],
+            [
+              -122.844440572495,
+              49.1852285839874
+            ],
+            [
+              -122.844439572218,
+              49.1852806386238
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "OBJECTID": 9979,
+        "FACILITY_TYPE": null,
+        "BUILDING_HEIGHT": 3.66,
+        "STATUS": "In Service",
+        "source_dataset": "Building Footprints",
+        "source_url": "https://services5.arcgis.com/YRpe0VKTJytZSSIB/arcgis/rest/services/Building%20Footprnts/FeatureServer/0",
+        "retrieved_at": "2026-10-06T20:03:04.251193+00:00",
+        "licence": "Contains information licensed under the Open Government License – City of Surrey.",
+        "licence_url": "https://opendata-surrey.hub.arcgis.com/pages/55089a19491a4fe59a41e059fd8af708",
+        "source_sha256": "8e1b16910ddb0a38b1cd9784aee5a4d3784f42f9a7a61fde6c6d3b18041dbc90"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "11034",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.857076009231,
+              49.1856154656055
+            ],
+            [
+              -122.856792359734,
+              49.185615114232
+            ],
+            [
+              -122.856792489002,
+              49.1855703212455
+            ],
+            [
+              -122.856827304881,
+              49.1855686750885
+            ],
+            [
+              -122.856823615761,
+              49.185506975142
+            ],
+            [
+              -122.85684231051,
+              49.1855069983167
+            ],
+            [
+              -122.856843040823,
+              49.1854774189773
+            ],
+            [
+              -122.857044171005,
+              49.1854780908935
+            ],
+            [
+              -122.85704847023,
+              49.1855524678079
+            ],
+            [
+              -122.857076832966,
+              49.1855529256914
+            ],
+            [
+              -122.857076009231,
+              49.1856154656055
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "OBJECTID": 11034,
+        "FACILITY_TYPE": null,
+        "BUILDING_HEIGHT": 8.75,
+        "STATUS": "In Service",
+        "source_dataset": "Building Footprints",
+        "source_url": "https://services5.arcgis.com/YRpe0VKTJytZSSIB/arcgis/rest/services/Building%20Footprnts/FeatureServer/0",
+        "retrieved_at": "2026-10-06T20:03:04.251193+00:00",
+        "licence": "Contains information licensed under the Open Government License – City of Surrey.",
+        "licence_url": "https://opendata-surrey.hub.arcgis.com/pages/55089a19491a4fe59a41e059fd8af708",
+        "source_sha256": "8e1b16910ddb0a38b1cd9784aee5a4d3784f42f9a7a61fde6c6d3b18041dbc90"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "11036",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.850664584416,
+              49.1822800955789
+            ],
+            [
+              -122.850575630484,
+              49.1822793472496
+            ],
+            [
+              -122.850575720181,
+              49.1822495557128
+            ],
+            [
+              -122.850532207096,
+              49.1822501335769
+            ],
+            [
+              -122.850532178463,
+              49.1822596407103
+            ],
+            [
+              -122.850449990903,
+              49.1822589010411
+            ],
+            [
+              -122.850444685314,
+              49.1820947256902
+            ],
+            [
+              -122.850523981855,
+              49.1820916592929
+            ],
+            [
+              -122.850524909701,
+              49.182104337621
+            ],
+            [
+              -122.850562621003,
+              49.1821037522526
+            ],
+            [
+              -122.850564843993,
+              49.1820080429528
+            ],
+            [
+              -122.85066540454,
+              49.182007539756
+            ],
+            [
+              -122.850664584416,
+              49.1822800955789
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "OBJECTID": 11036,
+        "FACILITY_TYPE": null,
+        "BUILDING_HEIGHT": 8.9,
+        "STATUS": "In Service",
+        "source_dataset": "Building Footprints",
+        "source_url": "https://services5.arcgis.com/YRpe0VKTJytZSSIB/arcgis/rest/services/Building%20Footprnts/FeatureServer/0",
+        "retrieved_at": "2026-10-06T20:03:04.251193+00:00",
+        "licence": "Contains information licensed under the Open Government License – City of Surrey.",
+        "licence_url": "https://opendata-surrey.hub.arcgis.com/pages/55089a19491a4fe59a41e059fd8af708",
+        "source_sha256": "8e1b16910ddb0a38b1cd9784aee5a4d3784f42f9a7a61fde6c6d3b18041dbc90"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "11037",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.849878908528,
+              49.181252082982
+            ],
+            [
+              -122.849819855693,
+              49.1812515222563
+            ],
+            [
+              -122.849820567565,
+              49.1812602342668
+            ],
+            [
+              -122.849771108788,
+              49.1812606529905
+            ],
+            [
+              -122.849768916068,
+              49.1812533918003
+            ],
+            [
+              -122.849718719065,
+              49.1812538104408
+            ],
+            [
+              -122.849719237505,
+              49.1813263980914
+            ],
+            [
+              -122.849618106588,
+              49.1813267494991
+            ],
+            [
+              -122.849618349986,
+              49.181246420553
+            ],
+            [
+              -122.849636805829,
+              49.1812459615339
+            ],
+            [
+              -122.849637736114,
+              49.1811825699026
+            ],
+            [
+              -122.849621494976,
+              49.1811830336048
+            ],
+            [
+              -122.849619425446,
+              49.1811351235407
+            ],
+            [
+              -122.849630494571,
+              49.1811361049524
+            ],
+            [
+              -122.849628372252,
+              49.18110561609
+            ],
+            [
+              -122.849721382119,
+              49.1811057371559
+            ],
+            [
+              -122.849722811687,
+              49.1811212244899
+            ],
+            [
+              -122.849747913006,
+              49.1811202892515
+            ],
+            [
+              -122.849747943772,
+              49.181110126359
+            ],
+            [
+              -122.849877871181,
+              49.1811069085784
+            ],
+            [
+              -122.849878908528,
+              49.181252082982
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "OBJECTID": 11037,
+        "FACILITY_TYPE": null,
+        "BUILDING_HEIGHT": 10.96,
+        "STATUS": "In Service",
+        "source_dataset": "Building Footprints",
+        "source_url": "https://services5.arcgis.com/YRpe0VKTJytZSSIB/arcgis/rest/services/Building%20Footprnts/FeatureServer/0",
+        "retrieved_at": "2026-10-06T20:03:04.251193+00:00",
+        "licence": "Contains information licensed under the Open Government License – City of Surrey.",
+        "licence_url": "https://opendata-surrey.hub.arcgis.com/pages/55089a19491a4fe59a41e059fd8af708",
+        "source_sha256": "8e1b16910ddb0a38b1cd9784aee5a4d3784f42f9a7a61fde6c6d3b18041dbc90"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "11038",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.853115233013,
+              49.1784720618591
+            ],
+            [
+              -122.852976980797,
+              49.1784731335909
+            ],
+            [
+              -122.852977646725,
+              49.1784623247366
+            ],
+            [
+              -122.852910432285,
+              49.1784597447404
+            ],
+            [
+              -122.852905603588,
+              49.1783774195192
+            ],
+            [
+              -122.852814934922,
+              49.1783714831142
+            ],
+            [
+              -122.852812596265,
+              49.1783041284108
+            ],
+            [
+              -122.853122705784,
+              49.1783041067432
+            ],
+            [
+              -122.853121393537,
+              49.1783186568389
+            ],
+            [
+              -122.853149935412,
+              49.1783174463812
+            ],
+            [
+              -122.853147900704,
+              49.1783619293575
+            ],
+            [
+              -122.853114291088,
+              49.1783614701306
+            ],
+            [
+              -122.85311099837,
+              49.1784026259281
+            ],
+            [
+              -122.853146514803,
+              49.1784018399268
+            ],
+            [
+              -122.85314703063,
+              49.1784417520145
+            ],
+            [
+              -122.853115322827,
+              49.1784417116905
+            ],
+            [
+              -122.853115233013,
+              49.1784720618591
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "OBJECTID": 11038,
+        "FACILITY_TYPE": null,
+        "BUILDING_HEIGHT": 9.82,
+        "STATUS": "In Service",
+        "source_dataset": "Building Footprints",
+        "source_url": "https://services5.arcgis.com/YRpe0VKTJytZSSIB/arcgis/rest/services/Building%20Footprnts/FeatureServer/0",
+        "retrieved_at": "2026-10-06T20:03:04.251193+00:00",
+        "licence": "Contains information licensed under the Open Government License – City of Surrey.",
+        "licence_url": "https://opendata-surrey.hub.arcgis.com/pages/55089a19491a4fe59a41e059fd8af708",
+        "source_sha256": "8e1b16910ddb0a38b1cd9784aee5a4d3784f42f9a7a61fde6c6d3b18041dbc90"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "11095",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.853058273759,
+              49.1786400088868
+            ],
+            [
+              -122.85288210146,
+              49.1786387762191
+            ],
+            [
+              -122.852879845904,
+              49.1786211208877
+            ],
+            [
+              -122.852838295281,
+              49.1786235893427
+            ],
+            [
+              -122.852833760278,
+              49.1785963483684
+            ],
+            [
+              -122.8528145365,
+              49.1785932978368
+            ],
+            [
+              -122.852814633713,
+              49.1785605144386
+            ],
+            [
+              -122.852828485441,
+              49.178559019075
+            ],
+            [
+              -122.852825614069,
+              49.1784899185989
+            ],
+            [
+              -122.853016404422,
+              49.178490161581
+            ],
+            [
+              -122.85301932821,
+              49.1785421142994
+            ],
+            [
+              -122.853049326076,
+              49.1785436654904
+            ],
+            [
+              -122.853058273759,
+              49.1786400088868
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "OBJECTID": 11095,
+        "FACILITY_TYPE": null,
+        "BUILDING_HEIGHT": 10.22,
+        "STATUS": "In Service",
+        "source_dataset": "Building Footprints",
+        "source_url": "https://services5.arcgis.com/YRpe0VKTJytZSSIB/arcgis/rest/services/Building%20Footprnts/FeatureServer/0",
+        "retrieved_at": "2026-10-06T20:03:04.251193+00:00",
+        "licence": "Contains information licensed under the Open Government License – City of Surrey.",
+        "licence_url": "https://opendata-surrey.hub.arcgis.com/pages/55089a19491a4fe59a41e059fd8af708",
+        "source_sha256": "8e1b16910ddb0a38b1cd9784aee5a4d3784f42f9a7a61fde6c6d3b18041dbc90"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "11592",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.857101461409,
+              49.1840466150405
+            ],
+            [
+              -122.857053129294,
+              49.1840465552281
+            ],
+            [
+              -122.857053085489,
+              49.1840617626833
+            ],
+            [
+              -122.856799825645,
+              49.1840627163782
+            ],
+            [
+              -122.85679613417,
+              49.1840018817627
+            ],
+            [
+              -122.856825132589,
+              49.1840019177162
+            ],
+            [
+              -122.85682714287,
+              49.1839753075162
+            ],
+            [
+              -122.857109383799,
+              49.1839807259346
+            ],
+            [
+              -122.857111131207,
+              49.1840453595624
+            ],
+            [
+              -122.857101461409,
+              49.1840466150405
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "OBJECTID": 11592,
+        "FACILITY_TYPE": null,
+        "BUILDING_HEIGHT": 9.7,
+        "STATUS": "In Service",
+        "source_dataset": "Building Footprints",
+        "source_url": "https://services5.arcgis.com/YRpe0VKTJytZSSIB/arcgis/rest/services/Building%20Footprnts/FeatureServer/0",
+        "retrieved_at": "2026-10-06T20:03:04.251193+00:00",
+        "licence": "Contains information licensed under the Open Government License – City of Surrey.",
+        "licence_url": "https://opendata-surrey.hub.arcgis.com/pages/55089a19491a4fe59a41e059fd8af708",
+        "source_sha256": "8e1b16910ddb0a38b1cd9784aee5a4d3784f42f9a7a61fde6c6d3b18041dbc90"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "11658",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.845077636289,
+              49.1826127157596
+            ],
+            [
+              -122.843910491839,
+              49.1821734275545
+            ],
+            [
+              -122.843883470262,
+              49.1821250374988
+            ],
+            [
+              -122.844128856626,
+              49.1818657923161
+            ],
+            [
+              -122.84516423374,
+              49.1822311013184
+            ],
+            [
+              -122.845190986725,
+              49.1823660159517
+            ],
+            [
+              -122.845089703261,
+              49.1824778540826
+            ],
+            [
+              -122.845077636289,
+              49.1826127157596
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "OBJECTID": 11658,
+        "FACILITY_TYPE": null,
+        "BUILDING_HEIGHT": 44.78,
+        "STATUS": "In Service",
+        "source_dataset": "Building Footprints",
+        "source_url": "https://services5.arcgis.com/YRpe0VKTJytZSSIB/arcgis/rest/services/Building%20Footprnts/FeatureServer/0",
+        "retrieved_at": "2026-10-06T20:03:04.251193+00:00",
+        "licence": "Contains information licensed under the Open Government License – City of Surrey.",
+        "licence_url": "https://opendata-surrey.hub.arcgis.com/pages/55089a19491a4fe59a41e059fd8af708",
+        "source_sha256": "8e1b16910ddb0a38b1cd9784aee5a4d3784f42f9a7a61fde6c6d3b18041dbc90"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "11659",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.843634864306,
+              49.1821379513001
+            ],
+            [
+              -122.843025673892,
+              49.1819041096855
+            ],
+            [
+              -122.843232284891,
+              49.1817110931299
+            ],
+            [
+              -122.843438352712,
+              49.1816901895484
+            ],
+            [
+              -122.843632075962,
+              49.1817407620265
+            ],
+            [
+              -122.843769253043,
+              49.1817912585981
+            ],
+            [
+              -122.843764796538,
+              49.1819236477372
+            ],
+            [
+              -122.843667553563,
+              49.1820188397282
+            ],
+            [
+              -122.843711894912,
+              49.1820480275422
+            ],
+            [
+              -122.843634864306,
+              49.1821379513001
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "OBJECTID": 11659,
+        "FACILITY_TYPE": null,
+        "BUILDING_HEIGHT": 108.9,
+        "STATUS": "In Service",
+        "source_dataset": "Building Footprints",
+        "source_url": "https://services5.arcgis.com/YRpe0VKTJytZSSIB/arcgis/rest/services/Building%20Footprnts/FeatureServer/0",
+        "retrieved_at": "2026-10-06T20:03:04.251193+00:00",
+        "licence": "Contains information licensed under the Open Government License – City of Surrey.",
+        "licence_url": "https://opendata-surrey.hub.arcgis.com/pages/55089a19491a4fe59a41e059fd8af708",
+        "source_sha256": "8e1b16910ddb0a38b1cd9784aee5a4d3784f42f9a7a61fde6c6d3b18041dbc90"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "11660",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.843169632287,
+              49.1810861028579
+            ],
+            [
+              -122.843162441276,
+              49.1808054151469
+            ],
+            [
+              -122.843853177302,
+              49.1807931117874
+            ],
+            [
+              -122.843856292271,
+              49.1810870332824
+            ],
+            [
+              -122.843169632287,
+              49.1810861028579
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "OBJECTID": 11660,
+        "FACILITY_TYPE": null,
+        "BUILDING_HEIGHT": 92.68,
+        "STATUS": "In Service",
+        "source_dataset": "Building Footprints",
+        "source_url": "https://services5.arcgis.com/YRpe0VKTJytZSSIB/arcgis/rest/services/Building%20Footprnts/FeatureServer/0",
+        "retrieved_at": "2026-10-06T20:03:04.251193+00:00",
+        "licence": "Contains information licensed under the Open Government License – City of Surrey.",
+        "licence_url": "https://opendata-surrey.hub.arcgis.com/pages/55089a19491a4fe59a41e059fd8af708",
+        "source_sha256": "8e1b16910ddb0a38b1cd9784aee5a4d3784f42f9a7a61fde6c6d3b18041dbc90"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "11661",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.845175640087,
+              49.1815574891219
+            ],
+            [
+              -122.844642290523,
+              49.1816123793583
+            ],
+            [
+              -122.844642365122,
+              49.1815885481116
+            ],
+            [
+              -122.844387935105,
+              49.1815749662301
+            ],
+            [
+              -122.844392481239,
+              49.1814134493778
+            ],
+            [
+              -122.844259179444,
+              49.1814159179197
+            ],
+            [
+              -122.843945145679,
+              49.1810898025075
+            ],
+            [
+              -122.843941465398,
+              49.1809759372421
+            ],
+            [
+              -122.844167640905,
+              49.1809815391047
+            ],
+            [
+              -122.844167566083,
+              49.1810053694538
+            ],
+            [
+              -122.845068317554,
+              49.1810012857992
+            ],
+            [
+              -122.845067490971,
+              49.1812660741575
+            ],
+            [
+              -122.845164439288,
+              49.1812635568488
+            ],
+            [
+              -122.845175640087,
+              49.1815574891219
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "OBJECTID": 11661,
+        "FACILITY_TYPE": null,
+        "BUILDING_HEIGHT": 68.2,
+        "STATUS": "In Service",
+        "source_dataset": "Building Footprints",
+        "source_url": "https://services5.arcgis.com/YRpe0VKTJytZSSIB/arcgis/rest/services/Building%20Footprnts/FeatureServer/0",
+        "retrieved_at": "2026-10-06T20:03:04.251193+00:00",
+        "licence": "Contains information licensed under the Open Government License – City of Surrey.",
+        "licence_url": "https://opendata-surrey.hub.arcgis.com/pages/55089a19491a4fe59a41e059fd8af708",
+        "source_sha256": "8e1b16910ddb0a38b1cd9784aee5a4d3784f42f9a7a61fde6c6d3b18041dbc90"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "11662",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.845116943642,
+              49.1809510400958
+            ],
+            [
+              -122.844567625689,
+              49.180947654764
+            ],
+            [
+              -122.844576483084,
+              49.18069876297
+            ],
+            [
+              -122.845170261846,
+              49.1806916176636
+            ],
+            [
+              -122.845181579568,
+              49.1809484794338
+            ],
+            [
+              -122.845116943642,
+              49.1809510400958
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "OBJECTID": 11662,
+        "FACILITY_TYPE": null,
+        "BUILDING_HEIGHT": 124.48,
+        "STATUS": "In Service",
+        "source_dataset": "Building Footprints",
+        "source_url": "https://services5.arcgis.com/YRpe0VKTJytZSSIB/arcgis/rest/services/Building%20Footprnts/FeatureServer/0",
+        "retrieved_at": "2026-10-06T20:03:04.251193+00:00",
+        "licence": "Contains information licensed under the Open Government License – City of Surrey.",
+        "licence_url": "https://opendata-surrey.hub.arcgis.com/pages/55089a19491a4fe59a41e059fd8af708",
+        "source_sha256": "8e1b16910ddb0a38b1cd9784aee5a4d3784f42f9a7a61fde6c6d3b18041dbc90"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "12361",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.855624747058,
+              49.1907929121143
+            ],
+            [
+              -122.855616670009,
+              49.1908741027904
+            ],
+            [
+              -122.855491199039,
+              49.1908780567291
+            ],
+            [
+              -122.855492649607,
+              49.1909181461969
+            ],
+            [
+              -122.855324843276,
+              49.1909199915458
+            ],
+            [
+              -122.855327749896,
+              49.1909991405273
+            ],
+            [
+              -122.855012524591,
+              49.1910018288317
+            ],
+            [
+              -122.855013098301,
+              49.1908055084463
+            ],
+            [
+              -122.85532998859,
+              49.190768902665
+            ],
+            [
+              -122.855624747058,
+              49.1907929121143
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "OBJECTID": 12361,
+        "FACILITY_TYPE": "Municipal",
+        "BUILDING_HEIGHT": 8.7,
+        "STATUS": "In Service",
+        "source_dataset": "Building Footprints",
+        "source_url": "https://services5.arcgis.com/YRpe0VKTJytZSSIB/arcgis/rest/services/Building%20Footprnts/FeatureServer/0",
+        "retrieved_at": "2026-10-06T20:03:04.251193+00:00",
+        "licence": "Contains information licensed under the Open Government License – City of Surrey.",
+        "licence_url": "https://opendata-surrey.hub.arcgis.com/pages/55089a19491a4fe59a41e059fd8af708",
+        "source_sha256": "8e1b16910ddb0a38b1cd9784aee5a4d3784f42f9a7a61fde6c6d3b18041dbc90"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "12362",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.854057629591,
+              49.1903926628827
+            ],
+            [
+              -122.853504236076,
+              49.1903618576223
+            ],
+            [
+              -122.853412442444,
+              49.1903376570744
+            ],
+            [
+              -122.853082025753,
+              49.1902378892827
+            ],
+            [
+              -122.853010915999,
+              49.1902091990725
+            ],
+            [
+              -122.853013559896,
+              49.1900917909788
+            ],
+            [
+              -122.853387851845,
+              49.1901103302338
+            ],
+            [
+              -122.853535719635,
+              49.1901131426832
+            ],
+            [
+              -122.853927888754,
+              49.1901136393487
+            ],
+            [
+              -122.853935416005,
+              49.1901520373106
+            ],
+            [
+              -122.854067827015,
+              49.1901555428587
+            ],
+            [
+              -122.854057629591,
+              49.1903926628827
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "OBJECTID": 12362,
+        "FACILITY_TYPE": null,
+        "BUILDING_HEIGHT": 114.53,
+        "STATUS": "In Service",
+        "source_dataset": "Building Footprints",
+        "source_url": "https://services5.arcgis.com/YRpe0VKTJytZSSIB/arcgis/rest/services/Building%20Footprnts/FeatureServer/0",
+        "retrieved_at": "2026-10-06T20:03:04.251193+00:00",
+        "licence": "Contains information licensed under the Open Government License – City of Surrey.",
+        "licence_url": "https://opendata-surrey.hub.arcgis.com/pages/55089a19491a4fe59a41e059fd8af708",
+        "source_sha256": "8e1b16910ddb0a38b1cd9784aee5a4d3784f42f9a7a61fde6c6d3b18041dbc90"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "12588",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.842999965436,
+              49.1857490294618
+            ],
+            [
+              -122.8429983687,
+              49.1858455552865
+            ],
+            [
+              -122.842884196658,
+              49.1858447424634
+            ],
+            [
+              -122.842885761679,
+              49.1857500687357
+            ],
+            [
+              -122.842891139602,
+              49.1857501129325
+            ],
+            [
+              -122.842891616474,
+              49.1857217234173
+            ],
+            [
+              -122.842987192561,
+              49.1857224030092
+            ],
+            [
+              -122.842986750459,
+              49.1857489287395
+            ],
+            [
+              -122.842999965436,
+              49.1857490294618
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "OBJECTID": 12588,
+        "FACILITY_TYPE": null,
+        "BUILDING_HEIGHT": 4.6,
+        "STATUS": "In Service",
+        "source_dataset": "Building Footprints",
+        "source_url": "https://services5.arcgis.com/YRpe0VKTJytZSSIB/arcgis/rest/services/Building%20Footprnts/FeatureServer/0",
+        "retrieved_at": "2026-10-06T20:03:04.251193+00:00",
+        "licence": "Contains information licensed under the Open Government License – City of Surrey.",
+        "licence_url": "https://opendata-surrey.hub.arcgis.com/pages/55089a19491a4fe59a41e059fd8af708",
+        "source_sha256": "8e1b16910ddb0a38b1cd9784aee5a4d3784f42f9a7a61fde6c6d3b18041dbc90"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "12589",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.842878019937,
+              49.1856683347224
+            ],
+            [
+              -122.842876711361,
+              49.1855628276032
+            ],
+            [
+              -122.842998294478,
+              49.1855632277285
+            ],
+            [
+              -122.843000032681,
+              49.1856679186541
+            ],
+            [
+              -122.842878019937,
+              49.1856683347224
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "OBJECTID": 12589,
+        "FACILITY_TYPE": null,
+        "BUILDING_HEIGHT": 5.06,
+        "STATUS": "In Service",
+        "source_dataset": "Building Footprints",
+        "source_url": "https://services5.arcgis.com/YRpe0VKTJytZSSIB/arcgis/rest/services/Building%20Footprnts/FeatureServer/0",
+        "retrieved_at": "2026-10-06T20:03:04.251193+00:00",
+        "licence": "Contains information licensed under the Open Government License – City of Surrey.",
+        "licence_url": "https://opendata-surrey.hub.arcgis.com/pages/55089a19491a4fe59a41e059fd8af708",
+        "source_sha256": "8e1b16910ddb0a38b1cd9784aee5a4d3784f42f9a7a61fde6c6d3b18041dbc90"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "12590",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.842996831114,
+              49.1855187087445
+            ],
+            [
+              -122.842878335026,
+              49.1855185457966
+            ],
+            [
+              -122.84287849481,
+              49.1854685148809
+            ],
+            [
+              -122.842851392061,
+              49.1854684771059
+            ],
+            [
+              -122.842851518404,
+              49.1854290147591
+            ],
+            [
+              -122.84287757819,
+              49.1854290511152
+            ],
+            [
+              -122.842877672754,
+              49.1853996185194
+            ],
+            [
+              -122.842997211498,
+              49.1853997828856
+            ],
+            [
+              -122.842996831114,
+              49.1855187087445
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "OBJECTID": 12590,
+        "FACILITY_TYPE": null,
+        "BUILDING_HEIGHT": 4.77,
+        "STATUS": "In Service",
+        "source_dataset": "Building Footprints",
+        "source_url": "https://services5.arcgis.com/YRpe0VKTJytZSSIB/arcgis/rest/services/Building%20Footprnts/FeatureServer/0",
+        "retrieved_at": "2026-10-06T20:03:04.251193+00:00",
+        "licence": "Contains information licensed under the Open Government License – City of Surrey.",
+        "licence_url": "https://opendata-surrey.hub.arcgis.com/pages/55089a19491a4fe59a41e059fd8af708",
+        "source_sha256": "8e1b16910ddb0a38b1cd9784aee5a4d3784f42f9a7a61fde6c6d3b18041dbc90"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "12641",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.857106659833,
+              49.1842557233747
+            ],
+            [
+              -122.857038997414,
+              49.1842543721955
+            ],
+            [
+              -122.857036984957,
+              49.1842822498375
+            ],
+            [
+              -122.856816588225,
+              49.1842832442453
+            ],
+            [
+              -122.856816624791,
+              49.1842705707668
+            ],
+            [
+              -122.856791495524,
+              49.1842692730664
+            ],
+            [
+              -122.856787787128,
+              49.1842147756436
+            ],
+            [
+              -122.856818719183,
+              49.1842148139964
+            ],
+            [
+              -122.856818799625,
+              49.1841869330631
+            ],
+            [
+              -122.857106853233,
+              49.1841885572658
+            ],
+            [
+              -122.857106659833,
+              49.1842557233747
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "OBJECTID": 12641,
+        "FACILITY_TYPE": null,
+        "BUILDING_HEIGHT": 10.58,
+        "STATUS": "In Service",
+        "source_dataset": "Building Footprints",
+        "source_url": "https://services5.arcgis.com/YRpe0VKTJytZSSIB/arcgis/rest/services/Building%20Footprnts/FeatureServer/0",
+        "retrieved_at": "2026-10-06T20:03:04.251193+00:00",
+        "licence": "Contains information licensed under the Open Government License – City of Surrey.",
+        "licence_url": "https://opendata-surrey.hub.arcgis.com/pages/55089a19491a4fe59a41e059fd8af708",
+        "source_sha256": "8e1b16910ddb0a38b1cd9784aee5a4d3784f42f9a7a61fde6c6d3b18041dbc90"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "12642",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.857108909435,
+              49.1841454721671
+            ],
+            [
+              -122.857048975269,
+              49.18414666544
+            ],
+            [
+              -122.85704503524,
+              49.1841720067115
+            ],
+            [
+              -122.856801443291,
+              49.1841717049343
+            ],
+            [
+              -122.856803484219,
+              49.1841349561342
+            ],
+            [
+              -122.856793816681,
+              49.184134944147
+            ],
+            [
+              -122.856793897135,
+              49.1841070641129
+            ],
+            [
+              -122.856820967138,
+              49.1841058302337
+            ],
+            [
+              -122.856824905905,
+              49.1840804889679
+            ],
+            [
+              -122.857111025389,
+              49.1840821107627
+            ],
+            [
+              -122.857108909435,
+              49.1841454721671
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "OBJECTID": 12642,
+        "FACILITY_TYPE": null,
+        "BUILDING_HEIGHT": 9.67,
+        "STATUS": "In Service",
+        "source_dataset": "Building Footprints",
+        "source_url": "https://services5.arcgis.com/YRpe0VKTJytZSSIB/arcgis/rest/services/Building%20Footprnts/FeatureServer/0",
+        "retrieved_at": "2026-10-06T20:03:04.251193+00:00",
+        "licence": "Contains information licensed under the Open Government License – City of Surrey.",
+        "licence_url": "https://opendata-surrey.hub.arcgis.com/pages/55089a19491a4fe59a41e059fd8af708",
+        "source_sha256": "8e1b16910ddb0a38b1cd9784aee5a4d3784f42f9a7a61fde6c6d3b18041dbc90"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "14123",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.847038033923,
+              49.1837644244099
+            ],
+            [
+              -122.847219758867,
+              49.1837646667532
+            ],
+            [
+              -122.847191658028,
+              49.1838305923574
+            ],
+            [
+              -122.847035017364,
+              49.1838032712608
+            ],
+            [
+              -122.847038033923,
+              49.1837644244099
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "OBJECTID": 14123,
+        "FACILITY_TYPE": "Washroom",
+        "BUILDING_HEIGHT": 4.29,
+        "STATUS": "In Service",
+        "source_dataset": "Building Footprints",
+        "source_url": "https://services5.arcgis.com/YRpe0VKTJytZSSIB/arcgis/rest/services/Building%20Footprnts/FeatureServer/0",
+        "retrieved_at": "2026-10-06T20:03:04.251193+00:00",
+        "licence": "Contains information licensed under the Open Government License – City of Surrey.",
+        "licence_url": "https://opendata-surrey.hub.arcgis.com/pages/55089a19491a4fe59a41e059fd8af708",
+        "source_sha256": "8e1b16910ddb0a38b1cd9784aee5a4d3784f42f9a7a61fde6c6d3b18041dbc90"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "14536",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.849185759368,
+              49.1908152271003
+            ],
+            [
+              -122.849033639892,
+              49.1902880931336
+            ],
+            [
+              -122.84960518446,
+              49.1902916948203
+            ],
+            [
+              -122.849590642192,
+              49.1903926492862
+            ],
+            [
+              -122.84959833874,
+              49.1905479581652
+            ],
+            [
+              -122.849625218875,
+              49.1906640211377
+            ],
+            [
+              -122.849708926366,
+              49.1908997553746
+            ],
+            [
+              -122.849787498198,
+              49.191033736773
+            ],
+            [
+              -122.849185759368,
+              49.1908152271003
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "OBJECTID": 14536,
+        "FACILITY_TYPE": "Library",
+        "BUILDING_HEIGHT": 20.49,
+        "STATUS": "In Service",
+        "source_dataset": "Building Footprints",
+        "source_url": "https://services5.arcgis.com/YRpe0VKTJytZSSIB/arcgis/rest/services/Building%20Footprnts/FeatureServer/0",
+        "retrieved_at": "2026-10-06T20:03:04.251193+00:00",
+        "licence": "Contains information licensed under the Open Government License – City of Surrey.",
+        "licence_url": "https://opendata-surrey.hub.arcgis.com/pages/55089a19491a4fe59a41e059fd8af708",
+        "source_sha256": "8e1b16910ddb0a38b1cd9784aee5a4d3784f42f9a7a61fde6c6d3b18041dbc90"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "16078",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.842456049359,
+              49.1870510356296
+            ],
+            [
+              -122.842453982389,
+              49.1869218688813
+            ],
+            [
+              -122.842541400809,
+              49.1869212684717
+            ],
+            [
+              -122.842541538686,
+              49.1869297152737
+            ],
+            [
+              -122.842597256801,
+              49.1869293333624
+            ],
+            [
+              -122.842597129468,
+              49.1869214532806
+            ],
+            [
+              -122.842751918767,
+              49.1869203885998
+            ],
+            [
+              -122.842751542158,
+              49.186896756458
+            ],
+            [
+              -122.842740055462,
+              49.1868968316706
+            ],
+            [
+              -122.84273870698,
+              49.186812227864
+            ],
+            [
+              -122.842754832266,
+              49.1868121148902
+            ],
+            [
+              -122.842753449489,
+              49.1867253341662
+            ],
+            [
+              -122.842740768884,
+              49.186725415849
+            ],
+            [
+              -122.842739408621,
+              49.1866406330169
+            ],
+            [
+              -122.842753283183,
+              49.1866405349692
+            ],
+            [
+              -122.842753503415,
+              49.186622571596
+            ],
+            [
+              -122.842601901668,
+              49.1866236127374
+            ],
+            [
+              -122.842601776161,
+              49.1866155896319
+            ],
+            [
+              -122.842512010185,
+              49.1866162030774
+            ],
+            [
+              -122.842512147913,
+              49.1866246948563
+            ],
+            [
+              -122.842426224535,
+              49.1866252783931
+            ],
+            [
+              -122.84242385467,
+              49.1865085508628
+            ],
+            [
+              -122.842486174715,
+              49.1865081240407
+            ],
+            [
+              -122.842485065259,
+              49.186438714563
+            ],
+            [
+              -122.842572211109,
+              49.1864381137586
+            ],
+            [
+              -122.842572346619,
+              49.1864468753946
+            ],
+            [
+              -122.842704214723,
+              49.1864459774291
+            ],
+            [
+              -122.842704077729,
+              49.1864372436768
+            ],
+            [
+              -122.842865933124,
+              49.1864361344952
+            ],
+            [
+              -122.842866055532,
+              49.1864447162064
+            ],
+            [
+              -122.843033357818,
+              49.1864435701237
+            ],
+            [
+              -122.843034239765,
+              49.1864988116424
+            ],
+            [
+              -122.843020007068,
+              49.186498909237
+            ],
+            [
+              -122.843021263766,
+              49.1865779717969
+            ],
+            [
+              -122.843033381681,
+              49.1865778893186
+            ],
+            [
+              -122.843034259744,
+              49.1866334915434
+            ],
+            [
+              -122.84302399448,
+              49.1866335675446
+            ],
+            [
+              -122.843024831287,
+              49.1866857236022
+            ],
+            [
+              -122.843011876199,
+              49.186685813937
+            ],
+            [
+              -122.843012404477,
+              49.1867183687521
+            ],
+            [
+              -122.843024095631,
+              49.1867182865942
+            ],
+            [
+              -122.843025693397,
+              49.1868188124701
+            ],
+            [
+              -122.843010365466,
+              49.1868189157712
+            ],
+            [
+              -122.8430108672,
+              49.1868507518228
+            ],
+            [
+              -122.843023287094,
+              49.1868506697559
+            ],
+            [
+              -122.843024143452,
+              49.1869044548922
+            ],
+            [
+              -122.843031513071,
+              49.1869044010418
+            ],
+            [
+              -122.843032380601,
+              49.1869589957723
+            ],
+            [
+              -122.843019111177,
+              49.1869590856807
+            ],
+            [
+              -122.843020366909,
+              49.1870380222984
+            ],
+            [
+              -122.843031964822,
+              49.1870379391134
+            ],
+            [
+              -122.843032823532,
+              49.1870914184098
+            ],
+            [
+              -122.842867864438,
+              49.1870925505892
+            ],
+            [
+              -122.842867965528,
+              49.1870991973752
+            ],
+            [
+              -122.842704340345,
+              49.1871003221406
+            ],
+            [
+              -122.842704214686,
+              49.1870923413137
+            ],
+            [
+              -122.842576654079,
+              49.1870932199642
+            ],
+            [
+              -122.842576790961,
+              49.1871015498253
+            ],
+            [
+              -122.842490290351,
+              49.187102140719
+            ],
+            [
+              -122.8424894666,
+              49.1870508023544
+            ],
+            [
+              -122.842456049359,
+              49.1870510356296
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "OBJECTID": 16078,
+        "FACILITY_TYPE": null,
+        "BUILDING_HEIGHT": 12.98,
+        "STATUS": "In Service",
+        "source_dataset": "Building Footprints",
+        "source_url": "https://services5.arcgis.com/YRpe0VKTJytZSSIB/arcgis/rest/services/Building%20Footprnts/FeatureServer/0",
+        "retrieved_at": "2026-10-06T20:03:04.251193+00:00",
+        "licence": "Contains information licensed under the Open Government License – City of Surrey.",
+        "licence_url": "https://opendata-surrey.hub.arcgis.com/pages/55089a19491a4fe59a41e059fd8af708",
+        "source_sha256": "8e1b16910ddb0a38b1cd9784aee5a4d3784f42f9a7a61fde6c6d3b18041dbc90"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "16699",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.854980644827,
+              49.180456700848
+            ],
+            [
+              -122.854923093058,
+              49.1804677369089
+            ],
+            [
+              -122.854897344418,
+              49.1804100354454
+            ],
+            [
+              -122.854954896125,
+              49.1803989993972
+            ],
+            [
+              -122.854980644827,
+              49.180456700848
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "OBJECTID": 16699,
+        "FACILITY_TYPE": "Washroom",
+        "BUILDING_HEIGHT": 4.41,
+        "STATUS": "In Service",
+        "source_dataset": "Building Footprints",
+        "source_url": "https://services5.arcgis.com/YRpe0VKTJytZSSIB/arcgis/rest/services/Building%20Footprnts/FeatureServer/0",
+        "retrieved_at": "2026-10-06T20:03:04.251193+00:00",
+        "licence": "Contains information licensed under the Open Government License – City of Surrey.",
+        "licence_url": "https://opendata-surrey.hub.arcgis.com/pages/55089a19491a4fe59a41e059fd8af708",
+        "source_sha256": "8e1b16910ddb0a38b1cd9784aee5a4d3784f42f9a7a61fde6c6d3b18041dbc90"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "16762",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.845818170253,
+              49.1895800619528
+            ],
+            [
+              -122.845822846553,
+              49.1894058881223
+            ],
+            [
+              -122.846080646892,
+              49.1894078628353
+            ],
+            [
+              -122.84608020713,
+              49.1894124777505
+            ],
+            [
+              -122.846228383236,
+              49.1894137554701
+            ],
+            [
+              -122.846222892839,
+              49.1895800582228
+            ],
+            [
+              -122.846075019822,
+              49.1895786891479
+            ],
+            [
+              -122.846074956779,
+              49.1895817573691
+            ],
+            [
+              -122.845818170253,
+              49.1895800619528
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "OBJECTID": 16762,
+        "FACILITY_TYPE": null,
+        "BUILDING_HEIGHT": 6.81,
+        "STATUS": "In Service",
+        "source_dataset": "Building Footprints",
+        "source_url": "https://services5.arcgis.com/YRpe0VKTJytZSSIB/arcgis/rest/services/Building%20Footprnts/FeatureServer/0",
+        "retrieved_at": "2026-10-06T20:03:04.251193+00:00",
+        "licence": "Contains information licensed under the Open Government License – City of Surrey.",
+        "licence_url": "https://opendata-surrey.hub.arcgis.com/pages/55089a19491a4fe59a41e059fd8af708",
+        "source_sha256": "8e1b16910ddb0a38b1cd9784aee5a4d3784f42f9a7a61fde6c6d3b18041dbc90"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "17095",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.849926460871,
+              49.1812454648468
+            ],
+            [
+              -122.850126625849,
+              49.181247885461
+            ],
+            [
+              -122.850124242277,
+              49.1813328883064
+            ],
+            [
+              -122.850053275578,
+              49.1813320306842
+            ],
+            [
+              -122.850052968528,
+              49.1813428255898
+            ],
+            [
+              -122.850008099761,
+              49.181342290572
+            ],
+            [
+              -122.850008392037,
+              49.1813318473649
+            ],
+            [
+              -122.849924060744,
+              49.181330837375
+            ],
+            [
+              -122.849926460871,
+              49.1812454648468
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "OBJECTID": 17095,
+        "FACILITY_TYPE": null,
+        "BUILDING_HEIGHT": 6.12,
+        "STATUS": "In Service",
+        "source_dataset": "Building Footprints",
+        "source_url": "https://services5.arcgis.com/YRpe0VKTJytZSSIB/arcgis/rest/services/Building%20Footprnts/FeatureServer/0",
+        "retrieved_at": "2026-10-06T20:03:04.251193+00:00",
+        "licence": "Contains information licensed under the Open Government License – City of Surrey.",
+        "licence_url": "https://opendata-surrey.hub.arcgis.com/pages/55089a19491a4fe59a41e059fd8af708",
+        "source_sha256": "8e1b16910ddb0a38b1cd9784aee5a4d3784f42f9a7a61fde6c6d3b18041dbc90"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "17096",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.850369009536,
+              49.181310568928
+            ],
+            [
+              -122.850165737503,
+              49.1813100229294
+            ],
+            [
+              -122.850166259298,
+              49.1812244518607
+            ],
+            [
+              -122.850172117086,
+              49.1812244675562
+            ],
+            [
+              -122.850172170843,
+              49.1812157511438
+            ],
+            [
+              -122.850231928777,
+              49.1812159105123
+            ],
+            [
+              -122.850231875438,
+              49.1812244919951
+            ],
+            [
+              -122.850300717126,
+              49.1812246801987
+            ],
+            [
+              -122.850300852667,
+              49.1812024897762
+            ],
+            [
+              -122.850369666906,
+              49.1812026698073
+            ],
+            [
+              -122.850369009536,
+              49.181310568928
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "OBJECTID": 17096,
+        "FACILITY_TYPE": null,
+        "BUILDING_HEIGHT": 6.64,
+        "STATUS": "In Service",
+        "source_dataset": "Building Footprints",
+        "source_url": "https://services5.arcgis.com/YRpe0VKTJytZSSIB/arcgis/rest/services/Building%20Footprnts/FeatureServer/0",
+        "retrieved_at": "2026-10-06T20:03:04.251193+00:00",
+        "licence": "Contains information licensed under the Open Government License – City of Surrey.",
+        "licence_url": "https://opendata-surrey.hub.arcgis.com/pages/55089a19491a4fe59a41e059fd8af708",
+        "source_sha256": "8e1b16910ddb0a38b1cd9784aee5a4d3784f42f9a7a61fde6c6d3b18041dbc90"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "17301",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.847892462913,
+              49.1826625063033
+            ],
+            [
+              -122.848060366741,
+              49.1826619195409
+            ],
+            [
+              -122.848060992857,
+              49.1827397830878
+            ],
+            [
+              -122.847969367294,
+              49.1827400942842
+            ],
+            [
+              -122.84796958783,
+              49.182767098571
+            ],
+            [
+              -122.847893305168,
+              49.1827673660365
+            ],
+            [
+              -122.847892462913,
+              49.1826625063033
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "OBJECTID": 17301,
+        "FACILITY_TYPE": null,
+        "BUILDING_HEIGHT": 6.35,
+        "STATUS": "In Service",
+        "source_dataset": "Building Footprints",
+        "source_url": "https://services5.arcgis.com/YRpe0VKTJytZSSIB/arcgis/rest/services/Building%20Footprnts/FeatureServer/0",
+        "retrieved_at": "2026-10-06T20:03:04.251193+00:00",
+        "licence": "Contains information licensed under the Open Government License – City of Surrey.",
+        "licence_url": "https://opendata-surrey.hub.arcgis.com/pages/55089a19491a4fe59a41e059fd8af708",
+        "source_sha256": "8e1b16910ddb0a38b1cd9784aee5a4d3784f42f9a7a61fde6c6d3b18041dbc90"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "17302",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.848125915478,
+              49.1828276467623
+            ],
+            [
+              -122.848126176223,
+              49.1829253913155
+            ],
+            [
+              -122.848075266433,
+              49.1829254493909
+            ],
+            [
+              -122.848075131169,
+              49.1828714673079
+            ],
+            [
+              -122.848049154854,
+              49.1828714970004
+            ],
+            [
+              -122.848049107682,
+              49.1828510496421
+            ],
+            [
+              -122.848071023557,
+              49.1828510254026
+            ],
+            [
+              -122.848070957713,
+              49.1828277094073
+            ],
+            [
+              -122.848125915478,
+              49.1828276467623
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "OBJECTID": 17302,
+        "FACILITY_TYPE": null,
+        "BUILDING_HEIGHT": 5.48,
+        "STATUS": "In Service",
+        "source_dataset": "Building Footprints",
+        "source_url": "https://services5.arcgis.com/YRpe0VKTJytZSSIB/arcgis/rest/services/Building%20Footprnts/FeatureServer/0",
+        "retrieved_at": "2026-10-06T20:03:04.251193+00:00",
+        "licence": "Contains information licensed under the Open Government License – City of Surrey.",
+        "licence_url": "https://opendata-surrey.hub.arcgis.com/pages/55089a19491a4fe59a41e059fd8af708",
+        "source_sha256": "8e1b16910ddb0a38b1cd9784aee5a4d3784f42f9a7a61fde6c6d3b18041dbc90"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "17320",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.855591252836,
+              49.1857105073312
+            ],
+            [
+              -122.855553473717,
+              49.1857103692337
+            ],
+            [
+              -122.85555388843,
+              49.1856626585208
+            ],
+            [
+              -122.855591679863,
+              49.1856627966337
+            ],
+            [
+              -122.855591252836,
+              49.1857105073312
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "OBJECTID": 17320,
+        "FACILITY_TYPE": null,
+        "BUILDING_HEIGHT": 3.87,
+        "STATUS": "In Service",
+        "source_dataset": "Building Footprints",
+        "source_url": "https://services5.arcgis.com/YRpe0VKTJytZSSIB/arcgis/rest/services/Building%20Footprnts/FeatureServer/0",
+        "retrieved_at": "2026-10-06T20:03:04.251193+00:00",
+        "licence": "Contains information licensed under the Open Government License – City of Surrey.",
+        "licence_url": "https://opendata-surrey.hub.arcgis.com/pages/55089a19491a4fe59a41e059fd8af708",
+        "source_sha256": "8e1b16910ddb0a38b1cd9784aee5a4d3784f42f9a7a61fde6c6d3b18041dbc90"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "18234",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.853006569785,
+              49.1830993881558
+            ],
+            [
+              -122.853007394184,
+              49.1831541617961
+            ],
+            [
+              -122.853042414239,
+              49.1831539365035
+            ],
+            [
+              -122.85304356987,
+              49.1832312537716
+            ],
+            [
+              -122.852877390386,
+              49.1832323258291
+            ],
+            [
+              -122.852876381787,
+              49.1831652103552
+            ],
+            [
+              -122.852831661233,
+              49.1831654942997
+            ],
+            [
+              -122.852830688885,
+              49.1831005206599
+            ],
+            [
+              -122.853006569785,
+              49.1830993881558
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "OBJECTID": 18234,
+        "FACILITY_TYPE": null,
+        "BUILDING_HEIGHT": 6.53,
+        "STATUS": "In Service",
+        "source_dataset": "Building Footprints",
+        "source_url": "https://services5.arcgis.com/YRpe0VKTJytZSSIB/arcgis/rest/services/Building%20Footprnts/FeatureServer/0",
+        "retrieved_at": "2026-10-06T20:03:04.251193+00:00",
+        "licence": "Contains information licensed under the Open Government License – City of Surrey.",
+        "licence_url": "https://opendata-surrey.hub.arcgis.com/pages/55089a19491a4fe59a41e059fd8af708",
+        "source_sha256": "8e1b16910ddb0a38b1cd9784aee5a4d3784f42f9a7a61fde6c6d3b18041dbc90"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "18292",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.853049853603,
+              49.1832677738287
+            ],
+            [
+              -122.853048355575,
+              49.1833561339889
+            ],
+            [
+              -122.85300334712,
+              49.1833558059509
+            ],
+            [
+              -122.853002467017,
+              49.1834078608284
+            ],
+            [
+              -122.852890150255,
+              49.1834070314711
+            ],
+            [
+              -122.85289139941,
+              49.1833337489757
+            ],
+            [
+              -122.852828866511,
+              49.1833332906021
+            ],
+            [
+              -122.8528301657,
+              49.1832570478056
+            ],
+            [
+              -122.852946692074,
+              49.1832578996727
+            ],
+            [
+              -122.852946524681,
+              49.1832680812782
+            ],
+            [
+              -122.852993922057,
+              49.18326843037
+            ],
+            [
+              -122.852994153991,
+              49.1832545238786
+            ],
+            [
+              -122.853027033421,
+              49.1832547645227
+            ],
+            [
+              -122.853026816989,
+              49.1832676095844
+            ],
+            [
+              -122.853049853603,
+              49.1832677738287
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "OBJECTID": 18292,
+        "FACILITY_TYPE": null,
+        "BUILDING_HEIGHT": 6.62,
+        "STATUS": "In Service",
+        "source_dataset": "Building Footprints",
+        "source_url": "https://services5.arcgis.com/YRpe0VKTJytZSSIB/arcgis/rest/services/Building%20Footprnts/FeatureServer/0",
+        "retrieved_at": "2026-10-06T20:03:04.251193+00:00",
+        "licence": "Contains information licensed under the Open Government License – City of Surrey.",
+        "licence_url": "https://opendata-surrey.hub.arcgis.com/pages/55089a19491a4fe59a41e059fd8af708",
+        "source_sha256": "8e1b16910ddb0a38b1cd9784aee5a4d3784f42f9a7a61fde6c6d3b18041dbc90"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "18293",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.854087194145,
+              49.1832631125903
+            ],
+            [
+              -122.853886493463,
+              49.1832617767068
+            ],
+            [
+              -122.853888004657,
+              49.18316424221
+            ],
+            [
+              -122.853945583824,
+              49.1831646208834
+            ],
+            [
+              -122.853945377682,
+              49.1831777807967
+            ],
+            [
+              -122.854088498866,
+              49.1831787290088
+            ],
+            [
+              -122.854087194145,
+              49.1832631125903
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "OBJECTID": 18293,
+        "FACILITY_TYPE": null,
+        "BUILDING_HEIGHT": 6.38,
+        "STATUS": "In Service",
+        "source_dataset": "Building Footprints",
+        "source_url": "https://services5.arcgis.com/YRpe0VKTJytZSSIB/arcgis/rest/services/Building%20Footprnts/FeatureServer/0",
+        "retrieved_at": "2026-10-06T20:03:04.251193+00:00",
+        "licence": "Contains information licensed under the Open Government License – City of Surrey.",
+        "licence_url": "https://opendata-surrey.hub.arcgis.com/pages/55089a19491a4fe59a41e059fd8af708",
+        "source_sha256": "8e1b16910ddb0a38b1cd9784aee5a4d3784f42f9a7a61fde6c6d3b18041dbc90"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "18294",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.85451019683,
+              49.1831189616949
+            ],
+            [
+              -122.854740614482,
+              49.1831206046352
+            ],
+            [
+              -122.854740714801,
+              49.1831660302998
+            ],
+            [
+              -122.854711459655,
+              49.1831657335348
+            ],
+            [
+              -122.854708995734,
+              49.1832658305135
+            ],
+            [
+              -122.854526258949,
+              49.1832649690059
+            ],
+            [
+              -122.854527113878,
+              49.1832307869137
+            ],
+            [
+              -122.854509702125,
+              49.1832306030642
+            ],
+            [
+              -122.854509857781,
+              49.1832243155217
+            ],
+            [
+              -122.854451471012,
+              49.1832236923384
+            ],
+            [
+              -122.854452903808,
+              49.1831660790286
+            ],
+            [
+              -122.85450901269,
+              49.1831666723556
+            ],
+            [
+              -122.85451019683,
+              49.1831189616949
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "OBJECTID": 18294,
+        "FACILITY_TYPE": null,
+        "BUILDING_HEIGHT": 7.76,
+        "STATUS": "In Service",
+        "source_dataset": "Building Footprints",
+        "source_url": "https://services5.arcgis.com/YRpe0VKTJytZSSIB/arcgis/rest/services/Building%20Footprnts/FeatureServer/0",
+        "retrieved_at": "2026-10-06T20:03:04.251193+00:00",
+        "licence": "Contains information licensed under the Open Government License – City of Surrey.",
+        "licence_url": "https://opendata-surrey.hub.arcgis.com/pages/55089a19491a4fe59a41e059fd8af708",
+        "source_sha256": "8e1b16910ddb0a38b1cd9784aee5a4d3784f42f9a7a61fde6c6d3b18041dbc90"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "18295",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.854852700082,
+              49.1832176190113
+            ],
+            [
+              -122.854856378862,
+              49.1831102355358
+            ],
+            [
+              -122.854893166812,
+              49.1831107774067
+            ],
+            [
+              -122.854893526814,
+              49.1831002892993
+            ],
+            [
+              -122.85490080207,
+              49.1831003973887
+            ],
+            [
+              -122.85490180411,
+              49.1830711916966
+            ],
+            [
+              -122.8550075025,
+              49.1830727466072
+            ],
+            [
+              -122.855006003976,
+              49.1831164431605
+            ],
+            [
+              -122.855052863684,
+              49.1831171325549
+            ],
+            [
+              -122.855049634197,
+              49.1832113105503
+            ],
+            [
+              -122.855011158378,
+              49.1832107495191
+            ],
+            [
+              -122.855008905834,
+              49.1832762777
+            ],
+            [
+              -122.854887237644,
+              49.183274476943
+            ],
+            [
+              -122.854889172501,
+              49.1832181595874
+            ],
+            [
+              -122.854852700082,
+              49.1832176190113
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "OBJECTID": 18295,
+        "FACILITY_TYPE": null,
+        "BUILDING_HEIGHT": 8,
+        "STATUS": "In Service",
+        "source_dataset": "Building Footprints",
+        "source_url": "https://services5.arcgis.com/YRpe0VKTJytZSSIB/arcgis/rest/services/Building%20Footprnts/FeatureServer/0",
+        "retrieved_at": "2026-10-06T20:03:04.251193+00:00",
+        "licence": "Contains information licensed under the Open Government License – City of Surrey.",
+        "licence_url": "https://opendata-surrey.hub.arcgis.com/pages/55089a19491a4fe59a41e059fd8af708",
+        "source_sha256": "8e1b16910ddb0a38b1cd9784aee5a4d3784f42f9a7a61fde6c6d3b18041dbc90"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "18296",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.855029845303,
+              49.1824751659889
+            ],
+            [
+              -122.855029404309,
+              49.1826115715974
+            ],
+            [
+              -122.854899922351,
+              49.1826113892001
+            ],
+            [
+              -122.854900211752,
+              49.1825227306409
+            ],
+            [
+              -122.854853626604,
+              49.1825226631071
+            ],
+            [
+              -122.854853771603,
+              49.1824777765664
+            ],
+            [
+              -122.854902402674,
+              49.1824778466707
+            ],
+            [
+              -122.854902411037,
+              49.1824749861646
+            ],
+            [
+              -122.855029845303,
+              49.1824751659889
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "OBJECTID": 18296,
+        "FACILITY_TYPE": null,
+        "BUILDING_HEIGHT": 6.13,
+        "STATUS": "In Service",
+        "source_dataset": "Building Footprints",
+        "source_url": "https://services5.arcgis.com/YRpe0VKTJytZSSIB/arcgis/rest/services/Building%20Footprnts/FeatureServer/0",
+        "retrieved_at": "2026-10-06T20:03:04.251193+00:00",
+        "licence": "Contains information licensed under the Open Government License – City of Surrey.",
+        "licence_url": "https://opendata-surrey.hub.arcgis.com/pages/55089a19491a4fe59a41e059fd8af708",
+        "source_sha256": "8e1b16910ddb0a38b1cd9784aee5a4d3784f42f9a7a61fde6c6d3b18041dbc90"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "18570",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.85530896518,
+              49.1889609161123
+            ],
+            [
+              -122.855308878305,
+              49.1889761181029
+            ],
+            [
+              -122.855291805838,
+              49.1889760787224
+            ],
+            [
+              -122.855291785529,
+              49.1889783365235
+            ],
+            [
+              -122.855179937643,
+              49.1889780425086
+            ],
+            [
+              -122.855180043525,
+              49.18896057372
+            ],
+            [
+              -122.85530896518,
+              49.1889609161123
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "OBJECTID": 18570,
+        "FACILITY_TYPE": null,
+        "BUILDING_HEIGHT": 9.95,
+        "STATUS": "In Service",
+        "source_dataset": "Building Footprints",
+        "source_url": "https://services5.arcgis.com/YRpe0VKTJytZSSIB/arcgis/rest/services/Building%20Footprnts/FeatureServer/0",
+        "retrieved_at": "2026-10-06T20:03:04.251193+00:00",
+        "licence": "Contains information licensed under the Open Government License – City of Surrey.",
+        "licence_url": "https://opendata-surrey.hub.arcgis.com/pages/55089a19491a4fe59a41e059fd8af708",
+        "source_sha256": "8e1b16910ddb0a38b1cd9784aee5a4d3784f42f9a7a61fde6c6d3b18041dbc90"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "18623",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.857122834964,
+              49.1829854053167
+            ],
+            [
+              -122.857059632608,
+              49.1829854971209
+            ],
+            [
+              -122.857059950363,
+              49.1829747480895
+            ],
+            [
+              -122.857001689524,
+              49.1829743251481
+            ],
+            [
+              -122.857002153658,
+              49.1829465922073
+            ],
+            [
+              -122.856990186711,
+              49.1829465063262
+            ],
+            [
+              -122.856990668509,
+              49.1829178837685
+            ],
+            [
+              -122.857002757574,
+              49.1829179707003
+            ],
+            [
+              -122.857003556769,
+              49.1828701524916
+            ],
+            [
+              -122.857020021755,
+              49.1828702718256
+            ],
+            [
+              -122.857021397773,
+              49.1827889368141
+            ],
+            [
+              -122.857140556394,
+              49.1827897949051
+            ],
+            [
+              -122.857139127957,
+              49.1828755834433
+            ],
+            [
+              -122.857124829656,
+              49.1828754838978
+            ],
+            [
+              -122.857122834964,
+              49.1829854053167
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "OBJECTID": 18623,
+        "FACILITY_TYPE": null,
+        "BUILDING_HEIGHT": 8.34,
+        "STATUS": "In Service",
+        "source_dataset": "Building Footprints",
+        "source_url": "https://services5.arcgis.com/YRpe0VKTJytZSSIB/arcgis/rest/services/Building%20Footprnts/FeatureServer/0",
+        "retrieved_at": "2026-10-06T20:03:04.251193+00:00",
+        "licence": "Contains information licensed under the Open Government License – City of Surrey.",
+        "licence_url": "https://opendata-surrey.hub.arcgis.com/pages/55089a19491a4fe59a41e059fd8af708",
+        "source_sha256": "8e1b16910ddb0a38b1cd9784aee5a4d3784f42f9a7a61fde6c6d3b18041dbc90"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "18624",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.856954768841,
+              49.1834423392478
+            ],
+            [
+              -122.8568264822,
+              49.1834408948482
+            ],
+            [
+              -122.856829490348,
+              49.1833314253656
+            ],
+            [
+              -122.856816440802,
+              49.1833312742575
+            ],
+            [
+              -122.856817614267,
+              49.1832864960408
+            ],
+            [
+              -122.856958948667,
+              49.1832880933407
+            ],
+            [
+              -122.856954768841,
+              49.1834423392478
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "OBJECTID": 18624,
+        "FACILITY_TYPE": null,
+        "BUILDING_HEIGHT": 6.1,
+        "STATUS": "In Service",
+        "source_dataset": "Building Footprints",
+        "source_url": "https://services5.arcgis.com/YRpe0VKTJytZSSIB/arcgis/rest/services/Building%20Footprnts/FeatureServer/0",
+        "retrieved_at": "2026-10-06T20:03:04.251193+00:00",
+        "licence": "Contains information licensed under the Open Government License – City of Surrey.",
+        "licence_url": "https://opendata-surrey.hub.arcgis.com/pages/55089a19491a4fe59a41e059fd8af708",
+        "source_sha256": "8e1b16910ddb0a38b1cd9784aee5a4d3784f42f9a7a61fde6c6d3b18041dbc90"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "18625",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.856821535808,
+              49.1836081308567
+            ],
+            [
+              -122.85682106811,
+              49.183486287585
+            ],
+            [
+              -122.856957180091,
+              49.1834860613549
+            ],
+            [
+              -122.856957429652,
+              49.1835518256479
+            ],
+            [
+              -122.857007283511,
+              49.183551744359
+            ],
+            [
+              -122.857007504788,
+              49.1836078215416
+            ],
+            [
+              -122.856821535808,
+              49.1836081308567
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "OBJECTID": 18625,
+        "FACILITY_TYPE": null,
+        "BUILDING_HEIGHT": 6.82,
+        "STATUS": "In Service",
+        "source_dataset": "Building Footprints",
+        "source_url": "https://services5.arcgis.com/YRpe0VKTJytZSSIB/arcgis/rest/services/Building%20Footprnts/FeatureServer/0",
+        "retrieved_at": "2026-10-06T20:03:04.251193+00:00",
+        "licence": "Contains information licensed under the Open Government License – City of Surrey.",
+        "licence_url": "https://opendata-surrey.hub.arcgis.com/pages/55089a19491a4fe59a41e059fd8af708",
+        "source_sha256": "8e1b16910ddb0a38b1cd9784aee5a4d3784f42f9a7a61fde6c6d3b18041dbc90"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "18626",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.856817340982,
+              49.1837726494023
+            ],
+            [
+              -122.856817694459,
+              49.1836506110538
+            ],
+            [
+              -122.856945752066,
+              49.1836507697462
+            ],
+            [
+              -122.856945777866,
+              49.1836418194215
+            ],
+            [
+              -122.857011591945,
+              49.1836419009248
+            ],
+            [
+              -122.857011438975,
+              49.1836945153394
+            ],
+            [
+              -122.856947696917,
+              49.1836944355031
+            ],
+            [
+              -122.856947468247,
+              49.1837728115581
+            ],
+            [
+              -122.856817340982,
+              49.1837726494023
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "OBJECTID": 18626,
+        "FACILITY_TYPE": null,
+        "BUILDING_HEIGHT": 5.58,
+        "STATUS": "In Service",
+        "source_dataset": "Building Footprints",
+        "source_url": "https://services5.arcgis.com/YRpe0VKTJytZSSIB/arcgis/rest/services/Building%20Footprnts/FeatureServer/0",
+        "retrieved_at": "2026-10-06T20:03:04.251193+00:00",
+        "licence": "Contains information licensed under the Open Government License – City of Surrey.",
+        "licence_url": "https://opendata-surrey.hub.arcgis.com/pages/55089a19491a4fe59a41e059fd8af708",
+        "source_sha256": "8e1b16910ddb0a38b1cd9784aee5a4d3784f42f9a7a61fde6c6d3b18041dbc90"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "19101",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.855835995785,
+              49.1820384413925
+            ],
+            [
+              -122.855708177661,
+              49.1820375792317
+            ],
+            [
+              -122.855710216783,
+              49.1819082468379
+            ],
+            [
+              -122.855838022227,
+              49.1819091080812
+            ],
+            [
+              -122.855835995785,
+              49.1820384413925
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "OBJECTID": 19101,
+        "FACILITY_TYPE": null,
+        "BUILDING_HEIGHT": 6.16,
+        "STATUS": "In Service",
+        "source_dataset": "Building Footprints",
+        "source_url": "https://services5.arcgis.com/YRpe0VKTJytZSSIB/arcgis/rest/services/Building%20Footprnts/FeatureServer/0",
+        "retrieved_at": "2026-10-06T20:03:04.251193+00:00",
+        "licence": "Contains information licensed under the Open Government License – City of Surrey.",
+        "licence_url": "https://opendata-surrey.hub.arcgis.com/pages/55089a19491a4fe59a41e059fd8af708",
+        "source_sha256": "8e1b16910ddb0a38b1cd9784aee5a4d3784f42f9a7a61fde6c6d3b18041dbc90"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "19102",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.849063449299,
+              49.1819428055986
+            ],
+            [
+              -122.849153808063,
+              49.1819429956189
+            ],
+            [
+              -122.849153342714,
+              49.18198323295
+            ],
+            [
+              -122.849111461346,
+              49.1819833743372
+            ],
+            [
+              -122.84911161476,
+              49.1819915881793
+            ],
+            [
+              -122.849062572521,
+              49.181991515099
+            ],
+            [
+              -122.849063449299,
+              49.1819428055986
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "OBJECTID": 19102,
+        "FACILITY_TYPE": null,
+        "BUILDING_HEIGHT": 3.45,
+        "STATUS": "In Service",
+        "source_dataset": "Building Footprints",
+        "source_url": "https://services5.arcgis.com/YRpe0VKTJytZSSIB/arcgis/rest/services/Building%20Footprnts/FeatureServer/0",
+        "retrieved_at": "2026-10-06T20:03:04.251193+00:00",
+        "licence": "Contains information licensed under the Open Government License – City of Surrey.",
+        "licence_url": "https://opendata-surrey.hub.arcgis.com/pages/55089a19491a4fe59a41e059fd8af708",
+        "source_sha256": "8e1b16910ddb0a38b1cd9784aee5a4d3784f42f9a7a61fde6c6d3b18041dbc90"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "19120",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.849413797116,
+              49.182204015258
+            ],
+            [
+              -122.849503868324,
+              49.1822037098858
+            ],
+            [
+              -122.849503120426,
+              49.1821878870146
+            ],
+            [
+              -122.849569562149,
+              49.1821880545354
+            ],
+            [
+              -122.849569225824,
+              49.1822034909935
+            ],
+            [
+              -122.849587668459,
+              49.182203433157
+            ],
+            [
+              -122.849588333175,
+              49.1822874603555
+            ],
+            [
+              -122.849518240002,
+              49.1822877018732
+            ],
+            [
+              -122.849518417412,
+              49.1823101994394
+            ],
+            [
+              -122.849414625154,
+              49.1823105481013
+            ],
+            [
+              -122.849413797116,
+              49.182204015258
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "OBJECTID": 19120,
+        "FACILITY_TYPE": null,
+        "BUILDING_HEIGHT": 5.54,
+        "STATUS": "In Service",
+        "source_dataset": "Building Footprints",
+        "source_url": "https://services5.arcgis.com/YRpe0VKTJytZSSIB/arcgis/rest/services/Building%20Footprnts/FeatureServer/0",
+        "retrieved_at": "2026-10-06T20:03:04.251193+00:00",
+        "licence": "Contains information licensed under the Open Government License – City of Surrey.",
+        "licence_url": "https://opendata-surrey.hub.arcgis.com/pages/55089a19491a4fe59a41e059fd8af708",
+        "source_sha256": "8e1b16910ddb0a38b1cd9784aee5a4d3784f42f9a7a61fde6c6d3b18041dbc90"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "19121",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.8496649012,
+              49.1820627306216
+            ],
+            [
+              -122.849717868485,
+              49.1820626466376
+            ],
+            [
+              -122.849718016171,
+              49.1821040532619
+            ],
+            [
+              -122.849665050219,
+              49.1821041354486
+            ],
+            [
+              -122.8496649012,
+              49.1820627306216
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "OBJECTID": 19121,
+        "FACILITY_TYPE": null,
+        "BUILDING_HEIGHT": 3.42,
+        "STATUS": "In Service",
+        "source_dataset": "Building Footprints",
+        "source_url": "https://services5.arcgis.com/YRpe0VKTJytZSSIB/arcgis/rest/services/Building%20Footprnts/FeatureServer/0",
+        "retrieved_at": "2026-10-06T20:03:04.251193+00:00",
+        "licence": "Contains information licensed under the Open Government License – City of Surrey.",
+        "licence_url": "https://opendata-surrey.hub.arcgis.com/pages/55089a19491a4fe59a41e059fd8af708",
+        "source_sha256": "8e1b16910ddb0a38b1cd9784aee5a4d3784f42f9a7a61fde6c6d3b18041dbc90"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "19122",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.850962300148,
+              49.1822993136965
+            ],
+            [
+              -122.850960230928,
+              49.1821617525504
+            ],
+            [
+              -122.851118366955,
+              49.1821607349515
+            ],
+            [
+              -122.851119141304,
+              49.1822401845558
+            ],
+            [
+              -122.851101949385,
+              49.1822400274618
+            ],
+            [
+              -122.851102005326,
+              49.1822986771236
+            ],
+            [
+              -122.850962300148,
+              49.1822993136965
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "OBJECTID": 19122,
+        "FACILITY_TYPE": null,
+        "BUILDING_HEIGHT": 7.09,
+        "STATUS": "In Service",
+        "source_dataset": "Building Footprints",
+        "source_url": "https://services5.arcgis.com/YRpe0VKTJytZSSIB/arcgis/rest/services/Building%20Footprnts/FeatureServer/0",
+        "retrieved_at": "2026-10-06T20:03:04.251193+00:00",
+        "licence": "Contains information licensed under the Open Government License – City of Surrey.",
+        "licence_url": "https://opendata-surrey.hub.arcgis.com/pages/55089a19491a4fe59a41e059fd8af708",
+        "source_sha256": "8e1b16910ddb0a38b1cd9784aee5a4d3784f42f9a7a61fde6c6d3b18041dbc90"
+      }
+    }
+  ],
+  "demonstration_subset": "First 90 ordered OBJECTID records within the bbox; bounded demonstration subset, not complete inventory"
+}

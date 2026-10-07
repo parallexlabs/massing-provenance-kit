@@ -1,0 +1,22 @@
+{
+  "type": "FeatureCollection",
+  "test_only": true,
+  "description": "Synthetic application sites, never building footprints or real projects.",
+  "features": [
+    {
+      "type": "Feature", "id": "site-b1-b2",
+      "properties": {"id": "site-b1-b2", "test_only": true, "storeys": 7, "evidence_reference": "test-only://application/site-b1-b2", "source_text": "SYNTHETIC TEST ONLY: seven storeys.", "source_dataset": "synthetic-test-sites", "source_url": "test-only://sites", "retrieved_at": "not-applicable-synthetic", "licence": "Apache-2.0 (synthetic fixture only)"},
+      "geometry": {"type": "Polygon", "coordinates": [[[-122.8501,49.1899],[-122.8491,49.1899],[-122.8491,49.1903],[-122.8501,49.1903],[-122.8501,49.1899]]]}
+    },
+    {
+      "type": "Feature", "id": "site-near-b3",
+      "properties": {"id": "site-near-b3", "test_only": true, "storeys": 5, "evidence_reference": "test-only://application/site-near-b3", "source_text": "SYNTHETIC TEST ONLY: five storeys.", "source_dataset": "synthetic-test-sites", "source_url": "test-only://sites", "retrieved_at": "not-applicable-synthetic", "licence": "Apache-2.0 (synthetic fixture only)"},
+      "geometry": {"type": "Point", "coordinates": [-122.8501,49.1910]}
+    },
+    {
+      "type": "Feature", "id": "site-unmatched",
+      "properties": {"id": "site-unmatched", "test_only": true, "storeys": 3, "evidence_reference": "test-only://application/site-unmatched", "source_text": "SYNTHETIC TEST ONLY: three storeys.", "source_dataset": "synthetic-test-sites", "source_url": "test-only://sites", "retrieved_at": "not-applicable-synthetic", "licence": "Apache-2.0 (synthetic fixture only)"},
+      "geometry": {"type": "Point", "coordinates": [-122.8400,49.2000]}
+    }
+  ]
+}

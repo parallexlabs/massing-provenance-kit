@@ -1,0 +1,12 @@
+name,location,height,building_count,floor_area,status,source_pdf
+SYNTHETIC Test Building 01,SYNTHETIC Site 01 Test Precinct,24,1,1200,SYNTHETIC In Service,test-only://synthetic/building-01.pdf
+SYNTHETIC Test Building 02,SYNTHETIC Site 02 Test Precinct,10 storeys,1,,SYNTHETIC In Service,test-only://synthetic/building-02.pdf
+SYNTHETIC Test Building 03,"SYNTHETIC Site 03, Test Precinct",18.5 m,1,850.5,SYNTHETIC Proposed,test-only://synthetic/building-03.pdf
+SYNTHETIC Test Building 04,SYNTHETIC Site 04 Test Precinct,6 storeys,1,unknown,"SYNTHETIC Under Construction
+second status line",test-only://synthetic/building-04.pdf
+SYNTHETIC Test Building 05,SYNTHETIC Site 05 Test Precinct,12 metres,1,2400 m2,"  SYNTHETIC Proposed  ",test-only://synthetic/building-05.pdf
+SYNTHETIC Test Building 06,SYNTHETIC Site 06 Test Precinct,3 stories,1,0,SYNTHETIC In Service,test-only://synthetic/building-06.pdf
+SYNTHETIC Test Building 07,SYNTHETIC Site 07 Test Precinct,30 meters,1,5000,SYNTHETIC In Service,test-only://synthetic/building-07.pdf
+SYNTHETIC Test Building 08,SYNTHETIC Site 08 Test Precinct,1 storey,1,,SYNTHETIC Demolition Pending,test-only://synthetic/building-08.pdf
+SYNTHETIC Test Building 09,SYNTHETIC Site 09 Test Precinct,45 m,1,7600.25,SYNTHETIC In Service,test-only://synthetic/building-09.pdf
+SYNTHETIC Test Building 10,SYNTHETIC Site 10 Test Precinct,15 storeys,1,3100,SYNTHETIC Proposed,test-only://synthetic/building-10.pdf

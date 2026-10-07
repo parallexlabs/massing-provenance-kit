@@ -1,0 +1,66 @@
+{
+  "type": "FeatureCollection",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "EPSG:4326"
+    }
+  },
+  "properties": {
+    "exceededTransferLimit": true
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "18570",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.85530896518,
+              49.1889609161123
+            ],
+            [
+              -122.855308878305,
+              49.1889761181029
+            ],
+            [
+              -122.855291805838,
+              49.1889760787224
+            ],
+            [
+              -122.855291785529,
+              49.1889783365235
+            ],
+            [
+              -122.855179937643,
+              49.1889780425086
+            ],
+            [
+              -122.855180043525,
+              49.18896057372
+            ],
+            [
+              -122.85530896518,
+              49.1889609161123
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "OBJECTID": 18570,
+        "FACILITY_TYPE": null,
+        "BUILDING_HEIGHT": 9.95,
+        "STATUS": "In Service",
+        "source_dataset": "Building Footprints",
+        "source_url": "https://services5.arcgis.com/YRpe0VKTJytZSSIB/arcgis/rest/services/Building%20Footprnts/FeatureServer/0",
+        "retrieved_at": "2026-10-06T20:03:04.251193+00:00",
+        "licence": "Contains information licensed under the Open Government License – City of Surrey.",
+        "licence_url": "https://opendata-surrey.hub.arcgis.com/pages/55089a19491a4fe59a41e059fd8af708",
+        "source_sha256": "8e1b16910ddb0a38b1cd9784aee5a4d3784f42f9a7a61fde6c6d3b18041dbc90"
+      }
+    }
+  ],
+  "demonstration_subset": "Public geometry regression sample: footprint18570 from original bounded snapshot; not synthetic"
+}

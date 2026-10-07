@@ -1,0 +1,33 @@
+# Approved label wording: exactly one rule per height evidence source plus the
+# test-only override variant. Wording is exact. The loader rejects missing or
+# extra rules, unknown placeholders, conversions and wrong style flags.
+# Placeholders (str.format): height_m, min_height_m, confidence for all rules;
+# reference, height_prev_m, height_prev_source for overrides; storeys for
+# osm_levels and application_storeys; reference for application_storeys;
+# use_class for typology_default.
+# style_flag: evidence | estimated | uncertain | test_only. A consuming map
+# draws "uncertain" with a dashed outline. Confidence is a declared evidence
+# score, not a statistical probability.
+version: 1
+rules:
+  city_supplied:
+    style_flag: evidence
+    template: "{height_m:.1f} m - reviewed City-supplied height ({reference}); replaces {height_prev_source} estimate of {height_prev_m:.1f} m"
+  city_supplied_test_only:
+    style_flag: test_only
+    template: "{height_m:.1f} m - TEST-ONLY override, not City evidence ({reference}); underlying {height_prev_source} estimate {height_prev_m:.1f} m"
+  osm_height:
+    style_flag: evidence
+    template: "{height_m:.1f} m - OpenStreetMap height tag (not surveyed)"
+  osm_levels:
+    style_flag: estimated
+    template: "{height_m:.1f} m - estimated from {storeys} OpenStreetMap levels x 3.1 m + 1.5 m"
+  application_storeys:
+    style_flag: estimated
+    template: "{height_m:.1f} m - estimated from {storeys} storeys in public application {reference}"
+  typology_default:
+    style_flag: uncertain
+    template: "{height_m:.1f} m - uncertain typology default for {use_class}; no height evidence"
+  unknown:
+    style_flag: uncertain
+    template: "{height_m:.1f} m placeholder - height unknown, no usable evidence"

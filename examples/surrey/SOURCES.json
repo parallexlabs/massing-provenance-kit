@@ -1,0 +1,66 @@
+[
+  {
+    "name": "footprints",
+    "url": "https://services5.arcgis.com/YRpe0VKTJytZSSIB/arcgis/rest/services/Building%20Footprnts/FeatureServer/0/query?where=1%3D1&geometry=-122.857%2C49.178%2C-122.843%2C49.191&geometryType=esriGeometryEnvelope&inSR=4326&spatialRel=esriSpatialRelIntersects&outFields=OBJECTID%2CFACILITY_TYPE%2CBUILDING_HEIGHT%2CSTATUS&outSR=4326&f=geojson&resultRecordCount=90&orderByFields=OBJECTID+ASC",
+    "params": {
+      "where": "1=1",
+      "geometry": "-122.857,49.178,-122.843,49.191",
+      "geometryType": "esriGeometryEnvelope",
+      "inSR": 4326,
+      "spatialRel": "esriSpatialRelIntersects",
+      "outFields": "OBJECTID,FACILITY_TYPE,BUILDING_HEIGHT,STATUS",
+      "outSR": 4326,
+      "f": "geojson",
+      "resultRecordCount": 90,
+      "orderByFields": "OBJECTID ASC"
+    },
+    "retrieved_at": "2026-10-06T20:03:04.251193+00:00",
+    "sha256": "8e1b16910ddb0a38b1cd9784aee5a4d3784f42f9a7a61fde6c6d3b18041dbc90",
+    "count": 90,
+    "exceededTransferLimit": true,
+    "error": null,
+    "total_bbox_count": 692,
+    "selection": "First 90 ordered OBJECTID records within the bbox; bounded demonstration subset, not complete inventory",
+    "snapshot_file": "examples/surrey/footprints.geojson",
+    "snapshot_sha256": "d490827f555c021795d4640a309dfb7be3420ab027b81219ba00df2db7abfac7",
+    "exceededTransferLimit_location": "GeoJSON FeatureCollection properties.exceededTransferLimit"
+  },
+  {
+    "name": "sites",
+    "url": "https://services5.arcgis.com/YRpe0VKTJytZSSIB/arcgis/rest/services/Development%20Applications/FeatureServer/0/query?where=1%3D1&geometry=-122.857%2C49.178%2C-122.843%2C49.191&geometryType=esriGeometryEnvelope&inSR=4326&spatialRel=esriSpatialRelIntersects&outFields=OBJECTID%2CPROJECT_NO%2CDESCRIPTION%2CSTATUS%2CWEBLINK&outSR=4326&f=geojson&resultRecordCount=200&orderByFields=OBJECTID+ASC",
+    "params": {
+      "where": "1=1",
+      "geometry": "-122.857,49.178,-122.843,49.191",
+      "geometryType": "esriGeometryEnvelope",
+      "inSR": 4326,
+      "spatialRel": "esriSpatialRelIntersects",
+      "outFields": "OBJECTID,PROJECT_NO,DESCRIPTION,STATUS,WEBLINK",
+      "outSR": 4326,
+      "f": "geojson",
+      "resultRecordCount": 200,
+      "orderByFields": "OBJECTID ASC"
+    },
+    "retrieved_at": "2026-10-06T20:03:04.899858+00:00",
+    "sha256": "7dd44fc28b8f521f582d52527a18a64baed338509036006dc0ca9c8144ef862b",
+    "count": 200,
+    "exceededTransferLimit": true,
+    "error": null,
+    "total_bbox_count": 335,
+    "selection": "First 200 ordered OBJECTID records within the bbox; bounded demonstration subset, not complete inventory",
+    "snapshot_file": "examples/surrey/sites.geojson",
+    "snapshot_sha256": "b4f1f23dd1e666c84f8ca96c257831ff1ec372a825172b9d63594f58fa851b49",
+    "exceededTransferLimit_location": "GeoJSON FeatureCollection properties.exceededTransferLimit"
+  },
+  {
+    "name": "osm",
+    "url": "https://overpass-api.de/api/interpreter",
+    "query": "[out:json][timeout:25];way[\"building\"][~\"^(height|building:levels)$\"~\".\"](49.178,-122.857,49.191,-122.843);out tags center geom;",
+    "retrieved_at": "2026-10-06T20:04:12.119610+00:00",
+    "sha256": "bb736968aa91647e94e742be5e3671d3afa98549849a236c4389535fb8e7d8d5",
+    "count": 89,
+    "licence": "© OpenStreetMap contributors, ODbL",
+    "error": null,
+    "snapshot_file": "examples/surrey/osm.json",
+    "snapshot_sha256": "9fadc0646b44ad59640019270f6b68fbe96d6c717ebfdd961f1b4135f5b517d6"
+  }
+]

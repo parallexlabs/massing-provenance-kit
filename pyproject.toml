@@ -1,0 +1,101 @@
+[build-system]
+requires = ["setuptools>=77,<81"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "massing-provenance-kit"
+dynamic = ["version"]
+description = "csv2massing: City CSV rows bound to explicit public footprints and provenance, converted into schematic GeoJSON and glTF massing with validation reports."
+readme = "README.md"
+license = "Apache-2.0"
+requires-python = ">=3.11"
+authors = [{ name = "ParalleX Labs Inc." }]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Topic :: Scientific/Engineering :: GIS",
+    "Typing :: Typed",
+]
+dependencies = [
+    "shapely==2.1.1",
+    "pyproj==3.7.1",
+    "mapbox_earcut==1.0.3",
+    "typer==0.16.0",
+    "numpy==2.2.6",
+    "PyYAML==6.0.2",
+    "httpx==0.28.1",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest==8.3.5",
+    "pytest-cov==6.1.1",
+    "pytest-socket==0.7.0",
+    "respx==0.22.0",
+    "ruff==0.11.8",
+    "mypy==1.15.0",
+    "types-PyYAML==6.0.12.20241230",
+    "setuptools==80.10.2",
+    "wheel==0.48.0",
+]
+
+[project.scripts]
+csv2massing = "massing.cli:app"
+
+[tool.setuptools]
+packages = ["massing", "massing.config"]
+include-package-data = false
+
+[tool.setuptools.package-dir]
+"massing" = "massing"
+"massing.config" = "config"
+
+[tool.setuptools.package-data]
+"massing.config" = ["*.yaml"]
+
+[tool.setuptools.dynamic]
+version = { attr = "massing.__version__" }
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+src = ["massing", "tests"]
+
+[tool.ruff.lint]
+select = ["E", "W", "F", "I", "B", "UP", "C4", "SIM", "PIE", "PGH", "RUF"]
+ignore = ["E501"]
+
+[tool.ruff.lint.isort]
+known-first-party = ["massing"]
+
+[tool.mypy]
+python_version = "3.11"
+strict = true
+files = ["massing"]
+warn_unreachable = true
+
+[[tool.mypy.overrides]]
+module = ["shapely", "shapely.*", "mapbox_earcut"]
+ignore_missing_imports = true
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = [
+    "--strict-markers",
+    "--disable-socket",
+    "--allow-unix-socket",
+    "--cov=massing",
+    "--cov-branch",
+    "--cov-report=term-missing",
+    "--cov-fail-under=80",
+]
+xfail_strict = true
+
+[tool.coverage.run]
+branch = true
+source = ["massing"]
+
+[tool.coverage.report]
+fail_under = 80
+show_missing = true
+exclude_lines = ["pragma: no cover", "if TYPE_CHECKING:", "raise NotImplementedError"]

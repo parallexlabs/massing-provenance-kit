@@ -1,0 +1,115 @@
+{
+  "buildings": [
+    {
+      "height_m": 107.5,
+      "id": "surrey-132062",
+      "model_file": "models/surrey-132062.gltf",
+      "provenance_file": "provenance/surrey-132062.json",
+      "row_number": 3
+    },
+    {
+      "height_m": 86.5,
+      "id": "surrey-2354",
+      "model_file": "models/surrey-2354.gltf",
+      "provenance_file": "provenance/surrey-2354.json",
+      "row_number": 2
+    }
+  ],
+  "fatal": false,
+  "findings": [],
+  "inputs": {
+    "csv": {
+      "name": "buildings.csv",
+      "sha256": "5f876d9149ab820a34ce88a686acb047bab2afec21ddca48d67634b464794fd6"
+    },
+    "footprints": {
+      "name": "footprints.geojson",
+      "sha256": "3f2e015e39129e9af15b6f0fd1064845cbd0c84c815b16f4e71376a118f10b8b"
+    },
+    "provenance": {
+      "name": "provenance-manifest.json",
+      "sha256": "9c5a56b0c4027fb5a53c33334ec97145705515efcb88141383c0f78324c96906"
+    }
+  },
+  "ok": true,
+  "outputs": [
+    {
+      "path": "massing.geojson",
+      "sha256": "86e727137939c5b4449002be9d829bb13b8bfdfbff298e931e7481868b78608e"
+    },
+    {
+      "path": "models/surrey-132062.gltf",
+      "sha256": "f750e46287a721d5a7f98ed9bd1807e399e9a71711579a2bcd8b9abb758c6c20"
+    },
+    {
+      "path": "models/surrey-2354.gltf",
+      "sha256": "d2c233c434c4ba6431c642c67c4826179a35dcff24b3aedea41f604436ce461f"
+    },
+    {
+      "path": "provenance/surrey-132062.json",
+      "sha256": "c3d37229d5ff19e3e2d1917f1c2a3b2a755d4d6f7d1cb646c0aa0f27882dc18a"
+    },
+    {
+      "path": "provenance/surrey-2354.json",
+      "sha256": "af5c87c6f1b492d45322fe798a0af679cc044f6fde04ac5e87cc319d5c83eae7"
+    },
+    {
+      "path": "roundtrip.csv",
+      "sha256": "5f876d9149ab820a34ce88a686acb047bab2afec21ddca48d67634b464794fd6"
+    }
+  ],
+  "reconciliation": {
+    "accepted_rows": 2,
+    "csv_rows": 2,
+    "footprint_features": 2,
+    "models_written": 2,
+    "not_evaluated_rows": 0,
+    "output_buildings": 2,
+    "provenance_files_written": 2,
+    "reconciled": true,
+    "rejected_rows": 0,
+    "unknown_height_buildings": 0,
+    "unknown_height_rows": 0
+  },
+  "roundtrip": {
+    "omitted_rows": [],
+    "preserved": true,
+    "written_rows": [
+      2,
+      3
+    ]
+  },
+  "rows": [
+    {
+      "feature_ids": [
+        "surrey-2354"
+      ],
+      "row_number": 2,
+      "status": "accepted"
+    },
+    {
+      "feature_ids": [
+        "surrey-132062"
+      ],
+      "row_number": 3,
+      "status": "accepted"
+    }
+  ],
+  "tool": {
+    "name": "csv2massing",
+    "version": "0.1.0"
+  },
+  "validation_reconciliation": {
+    "accepted_rows": 2,
+    "csv_rows": 2,
+    "footprint_features": 2,
+    "model_buildings": 2,
+    "not_evaluated_rows": 0,
+    "output_buildings": 2,
+    "reconciled": true,
+    "rejected_rows": 0,
+    "unknown_buildings": 0,
+    "unknown_rows": 0,
+    "unmodelled_features": 0
+  }
+}

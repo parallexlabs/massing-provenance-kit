@@ -1,0 +1,57 @@
+# Typology height defaults: ladder rung "typology_default", confidence 0.3.
+# These are declared placeholder heuristics for massing only. They are NOT
+# measured values, NOT City of Surrey data and NOT survey results.
+# Used only when a footprint has an explicit use class (a class name below or
+# an alias) and no higher-ranked usable evidence exists. A generic value such
+# as OSM building=yes or building=residential is deliberately not mapped, so
+# the footprint falls through to "unknown" (flat 4 m, confidence 0.1).
+# area = projected footprint area in m2 (EPSG:26910, after simplification).
+# Bands are checked in order; first band with area <= max_area_m2 wins; the
+# final band must be max_area_m2: null (unbounded). Heights are in metres.
+# Storey-like values follow n x 3.1 m + 1.5 m where noted.
+version: 1
+classes:
+  accessory:
+    - {max_area_m2: 60, height_m: 3.0}
+    - {max_area_m2: null, height_m: 4.6}      # 1 storey
+  residential_detached:
+    - {max_area_m2: 250, height_m: 7.7}       # 2 storeys
+    - {max_area_m2: null, height_m: 10.8}     # 3 storeys
+  residential_attached:
+    - {max_area_m2: null, height_m: 10.8}     # 3 storeys
+  residential_multi:
+    - {max_area_m2: 1000, height_m: 13.9}     # 4 storeys
+    - {max_area_m2: null, height_m: 20.1}     # 6 storeys
+  commercial:
+    - {max_area_m2: 1000, height_m: 6.0}
+    - {max_area_m2: null, height_m: 8.0}
+  industrial:
+    - {max_area_m2: null, height_m: 9.0}
+  institutional:
+    - {max_area_m2: 2000, height_m: 7.7}      # 2 storeys
+    - {max_area_m2: null, height_m: 10.8}     # 3 storeys
+  mixed_use:
+    - {max_area_m2: null, height_m: 17.0}     # 5 storeys
+aliases:
+  house: residential_detached
+  detached: residential_detached
+  semidetached_house: residential_attached
+  terrace: residential_attached
+  apartments: residential_multi
+  retail: commercial
+  commercial: commercial
+  office: commercial
+  supermarket: commercial
+  industrial: industrial
+  warehouse: industrial
+  school: institutional
+  hospital: institutional
+  church: institutional
+  civic: institutional
+  public: institutional
+  college: institutional
+  university: institutional
+  garage: accessory
+  garages: accessory
+  shed: accessory
+  carport: accessory

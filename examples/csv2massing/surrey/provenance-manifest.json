@@ -1,0 +1,52 @@
+{
+  "surrey-2354": {
+    "location_point": [
+      -122.85386906089809,
+      49.19091425154525
+    ],
+    "source_url": "https://www.surrey.ca/sites/default/files/planning-reports/PLR_7915-0375-00.pdf",
+    "page": 3,
+    "unit": "storeys",
+    "method": "Explicit existing-building storey count transcribed from public planning report; schematic conversion 4.0 + 3.0*(n-1) + 1.5 m roof.",
+    "reviewer": "unreviewed: automated evidence transcription; human sign-off required",
+    "uncertainty": "Schematic prism only. Storeys are not measured metres. Official footprint may include lower attached portions; uniform extrusion does not reproduce setbacks or podium heights. No separate podium/townhouse count. Planning report is historical evidence, not a current certified survey. OSM lists 27 levels plus 2 roof levels; public planning report explicitly states 28 storeys. This discrepancy is retained; report count is selected for the demonstration, not silently reconciled.",
+    "footprint_source_url": "https://services5.arcgis.com/YRpe0VKTJytZSSIB/arcgis/rest/services/Building%20Footprnts/FeatureServer/0",
+    "footprint_method": "Unmodified Surrey official footprint OBJECTID 2354; identity cross-check with PLR_7917-0011-00 master plan PDF page 21 and OSM way 1206021168.",
+    "schematic": true,
+    "detailed": false,
+    "test_only": false,
+    "pdf_sha256": "577c18fac2b86f7f9505af5de999fddbeb4706b5eacb4995d455f06b9ddfc081",
+    "evidence_quote": "28-storey Wave apartment building.",
+    "map_pdf_page": 21,
+    "osm_identity_url": "https://www.openstreetmap.org/way/1206021168",
+    "footprint_geometry_sha256": "91df5a1a27ca5af3d28b7fac4fdbb4a53e677bbd4077b823ba5ceec44bcd6982",
+    "map_source_url": "https://www.surrey.ca/sites/default/files/planning-reports/PLR_7917-0011-00.pdf",
+    "footprint_retrieved_at": "2026-10-06T22:47:39.151366+00:00",
+    "footprint_response_sha256": "eb300ddd633ba65b1a74a3518f91958031849db1fe188ca28c7d5d3a8dd08398"
+  },
+  "surrey-132062": {
+    "location_point": [
+      -122.85325266702802,
+      49.18981556358875
+    ],
+    "source_url": "https://www.surrey.ca/sites/default/files/planning-reports/PLR_7917-0011-00.pdf",
+    "page": 5,
+    "unit": "storeys",
+    "method": "Explicit existing-building storey count transcribed from public planning report; schematic conversion 4.0 + 3.0*(n-1) + 1.5 m roof.",
+    "reviewer": "unreviewed: automated evidence transcription; human sign-off required",
+    "uncertainty": "Schematic prism only. Storeys are not measured metres. Official footprint may include lower attached portions; uniform extrusion does not reproduce setbacks or podium heights. No separate podium/townhouse count. Planning report is historical evidence, not a current certified survey.",
+    "footprint_source_url": "https://services5.arcgis.com/YRpe0VKTJytZSSIB/arcgis/rest/services/Building%20Footprnts/FeatureServer/0",
+    "footprint_method": "Unmodified Surrey official footprint OBJECTID 132062; identity cross-check with PLR_7917-0011-00 master plan PDF page 21 and OSM way 390951278.",
+    "schematic": true,
+    "detailed": false,
+    "test_only": false,
+    "pdf_sha256": "76590343d79f5896f410564e66b303ff4003a22201e5fb823e64855c18a590d3",
+    "evidence_quote": "35-storey apartment tower",
+    "map_pdf_page": 21,
+    "osm_identity_url": "https://www.openstreetmap.org/way/390951278",
+    "footprint_geometry_sha256": "15a5426815a18c3b1dd6b0f174d7c9cf5696c33ba26df03e14ac24b4ee70115d",
+    "map_source_url": "https://www.surrey.ca/sites/default/files/planning-reports/PLR_7917-0011-00.pdf",
+    "footprint_retrieved_at": "2026-10-06T22:47:39.151366+00:00",
+    "footprint_response_sha256": "eb300ddd633ba65b1a74a3518f91958031849db1fe188ca28c7d5d3a8dd08398"
+  }
+}

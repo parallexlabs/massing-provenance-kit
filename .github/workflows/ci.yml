@@ -1,0 +1,216 @@
+name: Offline verification
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: offline-verification-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+defaults:
+  run:
+    shell: bash
+
+env:
+  PYTHONHASHSEED: "0"
+  PYTHONNOUSERSITE: "1"
+  PYTHONDONTWRITEBYTECODE: "1"
+  PROJ_NETWORK: "OFF"
+  TZ: UTC
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - name: Check out source
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+          cache-dependency-path: requirements.lock
+
+      - name: Install locked dependencies and local package
+        run: |
+          set -euo pipefail
+          test -s requirements.lock
+          python -m pip install -r requirements.lock
+          python -m pip install --no-deps --no-build-isolation -e .
+          python -m pip check
+
+      - name: Ruff
+        run: ruff check .
+
+      - name: Strict mypy
+        run: mypy --strict massing
+
+      - name: Offline tests with branch coverage gate
+        run: |
+          pytest --disable-socket --allow-unix-socket --cov=massing --cov-branch \
+            --cov-report=term-missing --cov-fail-under=80
+
+      - name: Build wheel without resolving dependencies
+        run: |
+          set -euo pipefail
+          mkdir -p "$RUNNER_TEMP/csv2massing-dist"
+          python -m pip wheel --no-deps --no-build-isolation \
+            --wheel-dir "$RUNNER_TEMP/csv2massing-dist" .
+
+      - name: Install wheel into a separate environment
+        run: |
+          set -euo pipefail
+          python -m venv "$RUNNER_TEMP/csv2massing-wheel"
+          "$RUNNER_TEMP/csv2massing-wheel/bin/python" -m pip install \
+            -r "$GITHUB_WORKSPACE/requirements.lock"
+          shopt -s nullglob
+          wheels=("$RUNNER_TEMP/csv2massing-dist/"*.whl)
+          test "${#wheels[@]}" -eq 1
+          "$RUNNER_TEMP/csv2massing-wheel/bin/python" -m pip install \
+            --no-deps "${wheels[0]}"
+          "$RUNNER_TEMP/csv2massing-wheel/bin/python" -m pip check
+
+      - name: Installed CLI offline smoke, bad row and deterministic artifacts
+        run: |
+          set -euo pipefail
+          cd "$RUNNER_TEMP"
+          "$RUNNER_TEMP/csv2massing-wheel/bin/python" - <<'PY'
+          import csv
+          import json
+          import os
+          import subprocess
+          import sys
+          import tempfile
+          from pathlib import Path
+
+          root = Path(os.environ["GITHUB_WORKSPACE"])
+          example = root / "examples/csv2massing/synthetic"
+          executable = Path(sys.executable).parent / "csv2massing"
+          assert executable.is_file(), "Installed wheel lacks csv2massing"
+
+          guard = """
+          import runpy
+          import sys
+
+          def offline(event, args):
+              if event in {"socket.__new__", "socket.connect", "socket.getaddrinfo"}:
+                  raise RuntimeError("Network is forbidden in installed CLI smoke")
+
+          sys.addaudithook(offline)
+          sys.argv = sys.argv[1:]
+          runpy.run_path(sys.argv[0], run_name="__main__")
+          """
+
+          def invoke(arguments, cwd, expected=0):
+              result = subprocess.run(
+                  [sys.executable, "-c", guard, str(executable), *arguments],
+                  cwd=cwd, text=True, capture_output=True, check=False,
+              )
+              assert result.returncode == expected, (
+                  result.returncode, result.stdout + result.stderr)
+              return result
+
+          def cells(path):
+              with path.open(encoding="utf-8", newline="") as stream:
+                  return list(csv.reader(stream))
+
+          def convert(csv_name, destination, cwd, expected):
+              return invoke([
+                  str(example / csv_name),
+                  "--footprints", str(example / "footprints.geojson"),
+                  "--provenance", str(example / "provenance-manifest.json"),
+                  "--out", str(destination),
+              ], cwd, expected)
+
+          def counts(directory):
+              collection = json.loads((directory / "massing.geojson").read_text())
+              models = sorted((directory / "models").glob("*.gltf"))
+              records = sorted((directory / "provenance").glob("*.json"))
+              return collection["features"], models, records
+
+          header = ["name", "location", "height", "building_count",
+                    "floor_area", "status", "source_pdf"]
+          original = cells(example / "buildings.csv")
+          assert original[0] == header and len(original) == 11
+          bad_original = cells(example / "bad.csv")
+          assert bad_original[0] == header and len(bad_original) == 11
+
+          with tempfile.TemporaryDirectory(prefix="csv2massing-smoke-") as temporary:
+              outside = Path(temporary)
+              help_text = invoke(["--help"], outside)
+              assert "--footprints" in help_text.stdout + help_text.stderr
+              outputs = []
+              for name in ("first", "second"):
+                  destination = outside / name
+                  convert("buildings.csv", destination, outside, 0)
+                  outputs.append(destination)
+
+              first = outputs[0]
+              for filename in ("massing.geojson", "roundtrip.csv",
+                               "validation.json", "validation.md"):
+                  assert (first / filename).is_file(), filename
+              features, models, records = counts(first)
+              ids = {feature["id"] for feature in features}
+              assert len(features) == len(ids) == len(models) == len(records) == 10
+              assert {p.stem for p in models} == ids == {p.stem for p in records}
+              assert cells(first / "roundtrip.csv") == original
+              assert json.loads((first / "validation.json").read_text())["ok"] is True
+
+              heights = set()
+              for feature in features:
+                  props = feature["properties"]
+                  assert props["schematic"] is True and props["detailed"] is False
+                  assert props["height_m"] is not None and props["base_height_m"] == 0
+                  assert props["extrusion_height_m"] == props["height_m"]
+                  heights.add(props["height_m"])
+                  for key in ("model_file", "provenance_file"):
+                      pointer = Path(props[key])
+                      assert not pointer.is_absolute() and ".." not in pointer.parts
+                      assert (first / pointer).is_file()
+                  evidence = json.loads((first / props["provenance_file"]).read_text())
+                  assert evidence["test_only"] is True
+                  model = json.loads((first / props["model_file"]).read_text())
+                  assert model["asset"]["version"] == "2.0"
+                  assert all(b["uri"].startswith("data:") for b in model["buffers"])
+              assert 24.0 in heights and 32.5 in heights
+
+              def artifacts(directory):
+                  return {
+                      path.relative_to(directory).as_posix(): path.read_bytes()
+                      for path in directory.rglob("*") if path.is_file()
+                  }
+
+              assert artifacts(outputs[0]) == artifacts(outputs[1])
+
+              bad = outside / "bad"
+              result = convert("bad.csv", bad, outside, 1)
+              assert "unitless_height" in result.stderr, result.stderr
+              assert "has no unit" in result.stderr, result.stderr
+              assert "Traceback" not in result.stdout + result.stderr
+              bad_features, bad_models, bad_records = counts(bad)
+              assert len(bad_features) == len(bad_models) == len(bad_records) == 9
+              report = json.loads((bad / "validation.json").read_text())
+              assert report["ok"] is False
+              assert report["reconciliation"]["accepted_rows"] == 9
+              assert report["reconciliation"]["rejected_rows"] == 1
+              assert any(f["code"] == "unitless_height" and f["row_number"] == 2
+                         for f in report["findings"])
+              assert cells(bad / "roundtrip.csv") == bad_original
+
+              print(json.dumps({
+                  "good": {"features": len(features), "models": len(models),
+                           "provenance_records": len(records), "deterministic": True},
+                  "bad": {"features": len(bad_features), "models": len(bad_models),
+                          "provenance_records": len(bad_records), "exit_code": 1},
+              }, sort_keys=True))
+          PY

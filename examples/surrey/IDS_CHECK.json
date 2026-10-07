@@ -1,0 +1,22 @@
+[
+  {
+    "name": "footprints",
+    "retrieved_at": "2026-10-06T21:48:16.729470+00:00",
+    "url": "https://services5.arcgis.com/YRpe0VKTJytZSSIB/arcgis/rest/services/Building%20Footprnts/FeatureServer/0/query?where=1%3D1&geometry=-122.857%2C49.178%2C-122.843%2C49.191&geometryType=esriGeometryEnvelope&inSR=4326&spatialRel=esriSpatialRelIntersects&f=json&returnIdsOnly=true",
+    "sha256": "f35af2fd00444bc4b4cc0caf67e0e058cc7058fc8155474ce04ada8bf39b21b1",
+    "count": 692,
+    "unique_count": 692,
+    "captured_selection_matches_current_sorted_ids": true,
+    "objectIdFieldName": "OBJECTID"
+  },
+  {
+    "name": "sites",
+    "retrieved_at": "2026-10-06T21:48:17.053047+00:00",
+    "url": "https://services5.arcgis.com/YRpe0VKTJytZSSIB/arcgis/rest/services/Development%20Applications/FeatureServer/0/query?where=1%3D1&geometry=-122.857%2C49.178%2C-122.843%2C49.191&geometryType=esriGeometryEnvelope&inSR=4326&spatialRel=esriSpatialRelIntersects&f=json&returnIdsOnly=true",
+    "sha256": "473f2931cd336d0a1d5c2481967377aec8bdfb855220733cb2172dacabfc2708",
+    "count": 335,
+    "unique_count": 335,
+    "captured_selection_matches_current_sorted_ids": true,
+    "objectIdFieldName": "OBJECTID"
+  }
+]
