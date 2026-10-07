@@ -2,7 +2,7 @@
 
 `csv2massing` converts a seven-column City CSV, explicitly supplied building footprints and a provenance manifest into schematic building prisms. It writes GeoJSON, glTF 2.0, per-building provenance and validation reports. The active contract is [SPEC v2](SPEC.md). The earlier massing-provenance-kit workflow is kept in [the archived specification](docs/SPEC_v1_archived.md).
 
-Copyright 2026 ParalleX Labs Inc., Apache-2.0. No public repository, package release, City approval, human review, ArcGIS Online upload or publication is claimed.
+Copyright 2026 ParalleX Labs Inc., Apache-2.0. No package release, City approval, human review, ArcGIS Online upload or publication of City data is claimed.
 
 ## Status
 

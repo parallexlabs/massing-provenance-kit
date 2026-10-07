@@ -1,10 +1,11 @@
 cff-version: 1.2.0
 message: >-
-  If you use this software, cite this metadata together with the exact local
-  commit identifier. This development checkout is not a published release;
-  no public repository, DOI or release date is asserted.
+  If you use this software, cite this metadata together with the exact
+  commit identifier. This is not a packaged release; no DOI or release date
+  is asserted.
 type: software
 title: "csv2massing: explicit-input schematic building massing with provenance"
+repository-code: "https://github.com/parallexlabs/massing-provenance-kit"
 authors:
   - name: "ParalleX Labs Inc."
 abstract: >-
