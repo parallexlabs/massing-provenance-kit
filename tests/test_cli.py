@@ -3,6 +3,7 @@
 import csv
 import hashlib
 import json
+import re
 import shutil
 from pathlib import Path
 
@@ -14,6 +15,10 @@ from massing.gltf import GltfError
 
 ROOT = Path(__file__).resolve().parents[1]
 EXAMPLE = ROOT / "examples/csv2massing/synthetic"
+
+
+def strip_ansi(text):
+    return re.sub(r"\x1b\[[0-?]*[ -/]*[@-~]", "", text)
 
 
 @pytest.fixture
@@ -70,7 +75,7 @@ def outputs(out, accepted, unknown, rejected, not_evaluated=0, rows=10, building
 def test_canonical_help_good_ten_rows_provenance_and_determinism(inputs, tmp_path, monkeypatch):
     monkeypatch.chdir(tmp_path)
     help_result = CliRunner().invoke(cli.app, ["--help"])
-    assert help_result.exit_code == 0 and "--footprints" in help_result.output
+    assert help_result.exit_code == 0 and "--footprints" in strip_ansi(help_result.output)
     first, second = tmp_path / "first", tmp_path / "second"
     assert invoke(inputs, first).exit_code == invoke(inputs, second).exit_code == 0
     assert artifacts(first) == artifacts(second)
@@ -257,3 +262,4 @@ def test_positive_height_that_collapses_float32_is_rejected_not_replaced(inputs,
     _, features = outputs(out, 9, 0, 1)
     assert all(f["id"] != "synthetic-01" for f in features)
     assert read_cells(out / "roundtrip.csv")[1][2] == cells[1][2]
+
