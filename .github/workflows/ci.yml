@@ -88,6 +88,7 @@ jobs:
           import csv
           import json
           import os
+          import re
           import subprocess
           import sys
           import tempfile
@@ -148,7 +149,9 @@ jobs:
           with tempfile.TemporaryDirectory(prefix="csv2massing-smoke-") as temporary:
               outside = Path(temporary)
               help_text = invoke(["--help"], outside)
-              assert "--footprints" in help_text.stdout + help_text.stderr
+              help_output = re.sub(r"\x1b\[[0-?]*[ -/]*[@-~]", "",
+                                   help_text.stdout + help_text.stderr)
+              assert "--footprints" in help_output, help_output
               outputs = []
               for name in ("first", "second"):
                   destination = outside / name
