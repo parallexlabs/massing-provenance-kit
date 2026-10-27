@@ -1,4 +1,4 @@
-"""Bounded read-only access to the official City of Surrey FeatureServers (SPEC URLs only).
+"""Bounded read-only access to the official City of Surrey FeatureServers (allowlisted URLs only).
 
 Selection: layer metadata (f=json) -> returnIdsOnly within a validated WGS84 bbox ->
 ids sorted ascending -> first ``max_features`` selected (truncation is recorded, never
@@ -224,7 +224,7 @@ def fetch_layer(source: FeatureServerSource, bbox: object, *, client: httpx.Clie
                 max_features: int = MAX_FEATURES, page_size: int = PAGE_SIZE,
                 now: Clock = utc_now) -> LayerSnapshot:
     if source not in OFFICIAL_SOURCES:
-        raise SourceError("unofficial_source", f"{source.url} is not an approved SPEC endpoint")
+        raise SourceError("unofficial_source", f"{source.url} is not an approved endpoint")
     box = validate_bbox(bbox)
     for label, value, limit in (("max_features", max_features, MAX_FEATURES),
                                 ("page_size", page_size, PAGE_SIZE)):

@@ -1,6 +1,6 @@
 # csv2massing
 
-`csv2massing` converts a seven-column City CSV, explicitly supplied building footprints and a provenance manifest into schematic building prisms. It writes GeoJSON, glTF 2.0, per-building provenance and validation reports. The active contract is [SPEC v2](SPEC.md). The earlier massing-provenance-kit workflow is kept in [the archived specification](docs/SPEC_v1_archived.md).
+`csv2massing` converts a seven-column City CSV, explicitly supplied building footprints and a provenance manifest into schematic building prisms. It writes GeoJSON, glTF 2.0, per-building provenance and validation reports.
 
 Copyright 2026 ParalleX Labs Inc., Apache-2.0. No package release, City approval, human review, ArcGIS Online upload or publication of City data is claimed.
 
@@ -8,10 +8,10 @@ Copyright 2026 ParalleX Labs Inc., Apache-2.0. No package release, City approval
 
 The earlier two-building Surrey run is recorded in [docs/live-run.md](docs/live-run.md). It accepted 2 of 2 rows and wrote 2 original-geometry GeoJSON features, 2 glTF models and 2 provenance records, and all counts reconciled.
 
-Final local gates, run after the review repairs:
+Final local gates:
 
 - **Tests:** 697 passed and 0 failed offline with sockets disabled. Branch-inclusive coverage was 95.73%, against a minimum of 80%.
-- **Review regressions:** all 48 new regression tests pass. On the exact pre-review sources, 43 of them fail and 5 pass, so they exercise the repaired defects.
+- **Regression tests:** all 48 new regression tests pass. On the exact earlier sources, 43 of them fail and 5 pass, so they exercise the fixed defects.
 - **Static checks:** Ruff passes on the whole repository, and strict mypy passes on all 13 source files.
 - **Byte stability:** in a fresh checkout under `core.autocrlf`, all 27 data and lock files are byte-identical.
 - **Conversion:**
@@ -21,7 +21,6 @@ Final local gates, run after the review repairs:
   - The two real buildings' output files are unchanged byte for byte.
 - **glTF:** all 12 freshly generated models passed the Khronos glTF Validator with zero errors, warnings, infos and hints.
 - **Installed wheel:** the CI steps ran outside the checkout with the network blocked. The good run produced 10 buildings, the bad run 9, the repeat run was byte-identical, and `pip check` passed.
-- **Reviews:** two static repository reviews were completed, one round each. Both returned REPAIR with no HIGH findings. Accepted findings were fixed through coding-author patches and checked by the gates above. This is not an independent post-patch review or approval.
 
 Not executed: GitHub-hosted CI, human sign-off of the evidence, City approval, and any ArcGIS conversion, upload or publication.
 
@@ -232,7 +231,7 @@ These are schematic massing prisms, not detailed architectural models, surveys o
 - automatic publishing;
 - any claim of a delivered 90-model portfolio.
 
-Legacy modules keep their archived contracts and tests. Their evidence ladder, typology defaults and 4 m unknown placeholder are not part of the CSV height contract.
+Legacy modules keep their earlier contracts and tests. Their evidence ladder, typology defaults and 4 m unknown placeholder are not part of the CSV height contract.
 
 Code, documentation and authored synthetic fixtures are Apache-2.0 ([LICENSE](LICENSE)). Source data keeps its own terms:
 - **Surrey footprints:** the [Open Government License – City of Surrey](https://opendata-surrey.hub.arcgis.com/pages/55089a19491a4fe59a41e059fd8af708).

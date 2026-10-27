@@ -1,4 +1,4 @@
-"""Offline CSV-v2 regressions from supplied interfaces [26]. Results unknown."""
+"""Offline CSV-v2 regressions."""
 
 import csv
 import io

@@ -1,4 +1,4 @@
-"""Offline review regressions for strict JSON, row binding and artifact safety."""
+"""Offline regressions for strict JSON, row binding and artifact safety."""
 
 import csv
 import json

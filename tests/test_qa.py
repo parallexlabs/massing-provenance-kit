@@ -1,4 +1,4 @@
-"""Archived-v1 QA regressions [25]; not CSV-v2 fallback tests. Results unknown."""
+"""Legacy v1 QA regressions; not CSV-v2 fallback tests."""
 
 import math
 from dataclasses import replace

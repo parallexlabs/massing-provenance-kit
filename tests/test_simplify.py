@@ -1,4 +1,4 @@
-"""Offline synthetic geometry, plus the supplied real public 18570 regression."""
+"""Offline synthetic geometry, plus the real public 18570 regression."""
 
 import json
 from pathlib import Path

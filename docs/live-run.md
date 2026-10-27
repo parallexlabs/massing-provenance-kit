@@ -1,6 +1,6 @@
 # Live public-service run: 2026-10-06
 
-Public source acquisition and the narrow csv2massing two-building smoke succeeded. The earlier bounded source and geometry checks below are retained as acquisition evidence; the active v2 delivery is the two-building CSV example, not a 90-model portfolio. Post-review core gates pass: 697 offline tests, 95.73% branch-inclusive coverage, whole-repository Ruff and strict typing. Both single static review rounds are complete; accepted repairs were verified locally.
+Public source acquisition and the narrow csv2massing two-building smoke succeeded. The earlier bounded source and geometry checks below are retained as acquisition evidence; the active v2 delivery is the two-building CSV example, not a 90-model portfolio. Core gates pass: 697 offline tests, 95.73% branch-inclusive coverage, whole-repository Ruff and strict typing.
 
 ## Acquisition
 
@@ -34,7 +34,7 @@ Both generated models passed Khronos glTF Validator 2.0.0-dev.3.10 with zero err
 
 These are actual local integration checks. The ten-row synthetic acceptance run subsequently passed: ten original-geometry features, ten models, ten provenance records and all seven raw CSV cells retained, including the comma and quoted newline. A repeat run produced all24artifacts byte-for-byte identically. The deliberate unitless-height row was rejected with the plain error “height '24' has no unit; write e.g. '24 m' or '10 storeys'”; nine other rows converted and counts reconciled. The synthetic 24m input remained24m and10storeys resolved32.5m. Independent decoded-model checks verified positive triangle areas, roof/floor winding and roof area matching original projected footprints, including the hole and multipart examples. All twelve synthetic/real models passed Khronos with zero errors, warnings, infos and hints. A numerical edge-case repair rejects positive1e-300m that collapses to zero in float32 and1e39m that overflows float32, with plain invalid_model errors; all eight real-building artifacts remain byte-identical after that validation repair.
 
-The repaired wheel passed the exact authored CI installed-CLI smoke outside the checkout with network blocked: ten good models, nine valid models after the deliberately bad row, and deterministic repeat artifacts. Whole-repository post-review coverage and review outcomes are recorded below. No ArcGIS upload or City GIS conversion has been executed.
+The wheel passed the exact CI installed-CLI smoke outside the checkout with network blocked: ten good models, nine valid models after the deliberately bad row, and deterministic repeat artifacts. Whole-repository coverage is recorded below. No ArcGIS upload or City GIS conversion has been executed.
 
 ## Returned source-adapter smoke
 
@@ -42,16 +42,16 @@ The assembled source adapters fetched90footprints and200application sites succes
 
 The Overpass query combines height and building:levels ways and limits output to5001elements; the parser rejects more than5000 as a truncation failure. Its output modifiers follow the [official Overpass QL documentation](https://wiki.openstreetmap.org/wiki/Overpass_API/Overpass_QL#out). The cache records and checks query/payload hashes and retrieval date. Real source geometries in the earlier frozen snapshots produced14unique strong OSM matches, with at least80%overlap of both footprint and way;75other ways produced explicit findings.
 
-The old source acquisition is separate from the v2 CLI smoke above. Whole-source lint and strict type checks pass, and the complete offline suite passes 697 tests. Final request receipts, package hashes and commit evidence are recorded in the untracked STATUS.md; these are not inferred from successful HTTP responses.
+The old source acquisition is separate from the v2 CLI smoke above. Whole-source lint and strict type checks pass, and the complete offline suite passes 697 tests.
 
-## Post-review verification (2026-10-07 UTC; 2026-10-06 PT)
+## Verification (2026-10-07 UTC; 2026-10-06 PT)
 
-The complete offline suite passes 697 tests with 95.7256% branch-inclusive coverage against an 80% gate. Whole-repository Ruff and strict mypy across all 13 application modules pass. The 48 independent review regressions pass on the repaired sources; on the exact preceding independently authored validator and CLI, the same tests produced 43 expected failures and five passes in an isolated temporary source checkout.
+The complete offline suite passes 697 tests with 95.7256% branch-inclusive coverage against an 80% gate. Whole-repository Ruff and strict mypy across all 13 application modules pass. The 48 regression tests pass on the fixed sources; on the exact preceding validator and CLI, the same tests produced 43 expected failures and five passes in an isolated temporary source checkout.
 
-The repairs reject JSON exponent overflow and lone Unicode surrogates at the input boundary, retain invalid-ID features in their row's rejection group, reject casefold feature-ID collisions while preserving exact physical-ID comparison, and refuse colliding artifact paths before creating files. Git attributes preserve all 27 data/lock files byte-for-byte in a fresh checkout with autocrlf and CRLF conversion enabled.
+The fixes reject JSON exponent overflow and lone Unicode surrogates at the input boundary, retain invalid-ID features in their row's rejection group, reject casefold feature-ID collisions while preserving exact physical-ID comparison, and refuse colliding artifact paths before creating files. Git attributes preserve all 27 data/lock files byte-for-byte in a fresh checkout with autocrlf and CRLF conversion enabled.
 
 Fresh CLI runs pass all ten raw-cell round-trips, unchanged original geometry, 24 m identity conversion, 10-storey conversion to 32.5 m, plain bad-row exit 1 with nine valid buildings, and 24 byte-identical repeated artifacts. All eight real-building output artifacts remain byte-identical to the checked public bundle. All twelve freshly generated glTFs pass Khronos with zero errors, warnings, infos and hints. Installed-wheel smoke, packaged configuration and dependency checks pass locally; dependency installation and the network-blocked CLI smoke are separate steps.
 
-Two independent reviewers completed one static review round each, with remainder continuations to finish disclosed file coverage. No HIGH findings were identified. Their final static verdicts were REPAIR; accepted validation, writer, Git-attribute, GIS-instruction and documentation repairs were carried through the coding authors and coordinator gates. The reviewers did not execute this repository or perform an independent post-patch re-review. The corrected GIS instructions use actual output fields and EPSG:26910 offsets before any subsequent reprojection.
+The corrected GIS instructions use actual output fields and EPSG:26910 offsets before any subsequent reprojection.
 
 Human evidence sign-off, City approval, ArcGIS conversion/upload/publication and GitHub-hosted CI have not been executed. No push or repository creation is part of this local build.

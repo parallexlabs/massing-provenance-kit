@@ -1,4 +1,4 @@
-"""Bind parsed CSV rows to explicit footprints and a provenance manifest (SPEC v2.0, pure).
+"""Bind parsed CSV rows to explicit footprints and a provenance manifest (contract v2.0, pure).
 
 No file access, clock or network. Any CSV file-level error, a footprint collection that is not
 a FeatureCollection, a missing/wrong/malformed CRS (only EPSG:4326 name objects whose name is

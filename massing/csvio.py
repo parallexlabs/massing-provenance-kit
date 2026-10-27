@@ -1,4 +1,4 @@
-"""City CSV contract (SPEC v2.0): seven exact columns, UTF-8, RFC 4180 (pure parse/write).
+"""City CSV contract (v2.0): seven exact columns, UTF-8, RFC 4180 (pure parse/write).
 
 Header must be exactly: name,location,height,building_count,floor_area,status,source_pdf.
 Every raw cell is preserved verbatim for round-trip; invalid rows are kept with plain-language
