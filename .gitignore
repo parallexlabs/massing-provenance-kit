@@ -21,7 +21,7 @@ out/
 output/
 .massing-cache/
 
-# Coordinator-only, must stay untracked per SPEC
+# Local notes, never committed
 STATUS.md
 
 # Editors / OS

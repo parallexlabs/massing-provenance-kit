@@ -6,7 +6,7 @@ Original code, documentation and authored synthetic fixtures: copyright 2026 Par
 
 | Material | Attribution and terms |
 | --- | --- |
-| Surrey building footprints | Contains information licensed under the [Open Government License – City of Surrey](https://opendata-surrey.hub.arcgis.com/pages/55089a19491a4fe59a41e059fd8af708). Geometry is used unchanged; source, licence and retrieval records are kept in `examples/csv2massing/surrey/SOURCES.json` and the provenance manifest. Raw `BUILDING_HEIGHT` is not used as height evidence. |
+| Surrey building footprints | Contains information licensed under the [Open Government License - City of Surrey](https://opendata-surrey.hub.arcgis.com/pages/55089a19491a4fe59a41e059fd8af708). Geometry is used unchanged; source, licence and retrieval records are kept in `examples/csv2massing/surrey/SOURCES.json` and the provenance manifest. Raw `BUILDING_HEIGHT` is not used as height evidence. |
 | Surrey planning reports | Cited by URL, one-based page and SHA-256; the PDFs are not redistributed in this repository. Public availability does not by itself grant redistribution rights. |
 | OpenStreetMap | © OpenStreetMap contributors, [ODbL](https://www.openstreetmap.org/copyright). Used only as identity corroboration, kept separate from official geometry and planning-report storey evidence. |
 | Generated outputs from real inputs | Keep the underlying data attribution; the Apache-2.0 code licence does not relicense source geometry or derived data. |

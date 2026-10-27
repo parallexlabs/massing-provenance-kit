@@ -22,11 +22,11 @@ If any command misbehaves, stop and report it. Never substitute invented output.
 
 | Time | Action and narration |
 | --- | --- |
-| 0–10 s | Show the seven CSV headers. "Offline, explicit inputs. `24 m` stays 24 metres. `10 storeys` uses the documented schematic rule, 4 + 3 × 9 + 1.5, which is 32.5 metres. Unknown height stays null; there is no fallback." |
-| 10–25 s | Run the ten-row synthetic sample and print its counts. "Ten test-only footprints, ten models, ten provenance records. Synthetic evidence, not a City project." |
-| 25–40 s | Open the Surrey outputs. "Two historical public planning storey counts, 28 and 35, become schematic heights of 86.5 and 107.5 metres. The PDF page and official footprint ID are in each provenance file. Human review is pending; the reviewer field says unreviewed." |
-| 40–50 s | Run `bad.csv`. "One unitless height, `24`, is rejected with a plain error for row 2. The other nine still convert, and the exit code is non-zero." |
-| 50–60 s | Open the GIS guide. "City GIS imports the GeoJSON or glTF and applies georeferencing. This tool makes no SLPK or I3S, and nothing has been uploaded." |
+| 0 to 10 s | Show the seven CSV headers. "Offline, explicit inputs. `24 m` stays 24 metres. `10 storeys` uses the documented schematic rule, 4 + 3 × 9 + 1.5, which is 32.5 metres. Unknown height stays null; there is no fallback." |
+| 10 to 25 s | Run the ten-row synthetic sample and print its counts. "Ten test-only footprints, ten models, ten provenance records. Synthetic evidence, not a City project." |
+| 25 to 40 s | Open the Surrey outputs. "Two historical public planning storey counts, 28 and 35, become schematic heights of 86.5 and 107.5 metres. The PDF page and official footprint ID are in each provenance file. Human review is pending; the reviewer field says unreviewed." |
+| 40 to 50 s | Run `bad.csv`. "One unitless height, `24`, is rejected with a plain error for row 2. The other nine still convert, and the exit code is non-zero." |
+| 50 to 60 s | Open the GIS guide. "City GIS imports the GeoJSON or glTF and applies georeferencing. This tool makes no SLPK or I3S, and nothing has been uploaded." |
 
 Don't describe the prisms as detailed models, and don't claim City approval, human review or a 90-building portfolio. Neither tower has podium storeys added.
 

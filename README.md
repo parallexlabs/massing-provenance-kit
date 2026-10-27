@@ -22,7 +22,7 @@ Final local gates:
 - **glTF:** all 12 freshly generated models passed the Khronos glTF Validator with zero errors, warnings, infos and hints.
 - **Installed wheel:** the CI steps ran outside the checkout with the network blocked. The good run produced 10 buildings, the bad run 9, the repeat run was byte-identical, and `pip check` passed.
 
-Not executed: GitHub-hosted CI, human sign-off of the evidence, City approval, and any ArcGIS conversion, upload or publication.
+GitHub-hosted CI passed on 2026-10-07 UTC (2026-10-06 PT). Not executed: human sign-off of the evidence, City approval, and any ArcGIS conversion, upload or publication.
 
 ## Install
 
@@ -234,7 +234,7 @@ These are schematic massing prisms, not detailed architectural models, surveys o
 Legacy modules keep their earlier contracts and tests. Their evidence ladder, typology defaults and 4 m unknown placeholder are not part of the CSV height contract.
 
 Code, documentation and authored synthetic fixtures are Apache-2.0 ([LICENSE](LICENSE)). Source data keeps its own terms:
-- **Surrey footprints:** the [Open Government License – City of Surrey](https://opendata-surrey.hub.arcgis.com/pages/55089a19491a4fe59a41e059fd8af708).
+- **Surrey footprints:** the [Open Government License - City of Surrey](https://opendata-surrey.hub.arcgis.com/pages/55089a19491a4fe59a41e059fd8af708).
 - **OSM corroboration:** © OpenStreetMap contributors, [ODbL](https://www.openstreetmap.org/copyright).
 - **Planning PDFs:** referenced by URL and hash, not redistributed.
 
